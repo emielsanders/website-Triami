@@ -11,6 +11,7 @@ Nieuwe website voor Triami Triathlonvereniging Deventer (triami.nl), beheerbaar 
 - Bouwscripts: `tools/build.py` (thema-zip + WXR-import) en `tools/blueprint.py` (Playground-blueprint met alles inline).
 - Demo bekeken in WordPress Playground; geen console-fouten op desktop en mobiel.
 - Favicon (hartslag-SVG) en 301-redirects van oude URL's zitten in `functions.php`.
+- Testronde 4 nov: linkcheck, SEO-basis, axe, mobiel, Lighthouse, UX-review; bevindingen verwerkt. Zie `docs/testrapport-2026-11-04.md` en `docs/ux-review.md`.
 - Nog niet: hosting, staging, plugins, livegang.
 
 ## Keuzes
@@ -19,7 +20,7 @@ Nieuwe website voor Triami Triathlonvereniging Deventer (triami.nl), beheerbaar 
 | Techniek | Block theme, geen pagebuilder | Lichter, geen lock-in, volledig in git; redacteuren werken in de blokeditor |
 | Hosting (voornemen) | Antagonist Plus + WP, kloon op `test.triami.nl` als staging | Zie `docs/technische-aanpak.md` |
 | Fonts | Montserrat (koppen) + Source Sans 3 (tekst), lokaal gehost als variabele woff2 in `assets/fonts/` (AVG) | De Playground-demo valt terug op Google Fonts, omdat binaire bestanden niet inline in de blueprint passen |
-| Kleur | Rood `#ED1E24` alleen als accent; palet rood/zwart/wit, geen blauw | Huisstijl + kleurenblindheidstoets, zie `docs/huisstijl-voorstel.md` |
+| Kleur | Rood `#ED1E24` alleen als accent (lijnen, hartslag); knoppen op donkerrood `#C4151B` voor contrast; palet rood/zwart/wit, geen blauw | Huisstijl + kleurenblindheidstoets, zie `docs/huisstijl-voorstel.md` |
 | Toegankelijkheid | Kleur nooit enige drager van informatie; witte tekst op rood alleen groot/vet, kleine tekst op `#C4151B` | Contrastratio's in stijltegel |
 | URL's | Alle pagina's top-level (`/bestuur/`, `/faq/`), zoals op de oude site | Korte URL's, minder redirects |
 | Nieuws | Pagina + Query Loop aanwezig, geen berichten | Bestuur beslist of nieuws op de site komt |

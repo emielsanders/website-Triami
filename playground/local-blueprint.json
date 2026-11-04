@@ -2,6 +2,7 @@
   "steps": [
     {"step":"activateTheme","themeFolderName":"triami"},
     {"step":"importWxr","file":{"resource":"vfs","path":"/wordpress/wp-content/triami-import/triami-paginas-import.xml"}},
+    {"step":"setSiteLanguage","language":"nl_NL"},
     {"step":"setSiteOptions","options":{"blogname":"Triami Triathlonvereniging","blogdescription":"Dé triathlonvereniging van Deventer en omstreken","permalink_structure":"/%postname%/","timezone_string":"Europe/Amsterdam"}},
     {"step":"runPHP","code":"<?php require '/wordpress/wp-load.php'; wp_delete_post(1,true); wp_delete_post(2,true); $n=get_page_by_path('nieuws'); if($n){update_option('page_for_posts',$n->ID);} flush_rewrite_rules();"}
   ] }

@@ -48,6 +48,75 @@ add_action( 'wp_head', function () {
 	}
 }, 5 );
 
+/**
+ * SEO-basis zonder plugin: meta description, canonical en Open Graph.
+ * Zodra een SEO-plugin actief is (The SEO Framework, Rank Math, Yoast) doet die het werk.
+ */
+function triami_seo_plugin_active() {
+	return defined( 'THE_SEO_FRAMEWORK_VERSION' ) || defined( 'RANK_MATH_VERSION' ) || defined( 'WPSEO_VERSION' );
+}
+function triami_meta_description() {
+	if ( is_front_page() ) {
+		return get_bloginfo( 'description' ) . '. Zwemmen, fietsen en hardlopen onder begeleiding van gediplomeerde trainers. Train vrijblijvend mee.';
+	}
+	if ( is_singular() ) {
+		$post = get_queried_object();
+		if ( has_excerpt( $post ) ) {
+			return wp_strip_all_tags( get_the_excerpt( $post ) );
+		}
+		$blocks = parse_blocks( $post->post_content );
+		foreach ( $blocks as $block ) {
+			if ( 'core/paragraph' === $block['blockName'] ) {
+				$text = trim( wp_strip_all_tags( $block['innerHTML'] ) );
+				if ( strlen( $text ) > 40 ) {
+					return wp_html_excerpt( $text, 155, '…' );
+				}
+			}
+		}
+	}
+	return get_bloginfo( 'description' );
+}
+add_action( 'wp_head', function () {
+	if ( triami_seo_plugin_active() ) {
+		return;
+	}
+	$desc  = esc_attr( triami_meta_description() );
+	$title = esc_attr( wp_get_document_title() );
+	$url   = esc_url( is_singular() ? get_permalink() : home_url( '/' ) );
+	$img   = esc_url( get_template_directory_uri() . '/assets/img/og-image.png' );
+	if ( is_singular() && has_post_thumbnail() ) {
+		$img = esc_url( get_the_post_thumbnail_url( null, 'large' ) );
+	}
+	echo "<meta name=\"description\" content=\"{$desc}\">\n";
+	echo "<meta property=\"og:type\" content=\"website\">\n";
+	echo "<meta property=\"og:site_name\" content=\"" . esc_attr( get_bloginfo( 'name' ) ) . "\">\n";
+	echo "<meta property=\"og:title\" content=\"{$title}\">\n";
+	echo "<meta property=\"og:description\" content=\"{$desc}\">\n";
+	echo "<meta property=\"og:url\" content=\"{$url}\">\n";
+	echo "<meta property=\"og:image\" content=\"{$img}\">\n";
+	echo "<meta property=\"og:locale\" content=\"nl_NL\">\n";
+	echo "<meta name=\"twitter:card\" content=\"summary_large_image\">\n";
+	if ( is_front_page() ) {
+		$ld = array(
+			'@context' => 'https://schema.org',
+			'@type'    => 'SportsClub',
+			'name'     => 'Triami Triathlonvereniging',
+			'url'      => home_url( '/' ),
+			'logo'     => get_template_directory_uri() . '/assets/img/logo.svg',
+			'email'    => 'secretaris@triami.nl',
+			'sport'    => 'Triathlon',
+			'address'  => array( '@type' => 'PostalAddress', 'addressLocality' => 'Deventer', 'addressCountry' => 'NL' ),
+			'sameAs'   => array( 'https://www.strava.com/clubs/triami' ),
+		);
+		echo '<script type="application/ld+json">' . wp_json_encode( $ld, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE ) . "</script>\n";
+	}
+}, 6 );
+
+// Taal van de site: Nederlands, ook als de WordPress-taal nog niet is ingesteld.
+add_filter( 'language_attributes', function ( $output ) {
+	return 'en_US' === get_locale() ? 'lang="nl"' : $output;
+} );
+
 // Redirects van oude URL's (oude site) naar de nieuwe pagina's.
 add_action( 'template_redirect', function () {
 	$map = array(

@@ -11,7 +11,7 @@ THEME = ROOT / "theme" / "triami"
 def tree(d: Path) -> dict:
     out = {}
     for p in sorted(d.iterdir()):
-        if p.name.startswith(".") or p.name == "fonts": continue  # woff2 is binair, kan niet inline
+        if p.name.startswith(".") or p.name == "fonts" or p.suffix in (".png", ".jpg", ".woff2"): continue  # binair kan niet inline
         out[p.name] = tree(p) if p.is_dir() else p.read_text(encoding="utf-8")
     return out
 
@@ -29,6 +29,7 @@ bp = {
   "steps": [
     {"step": "installTheme", "themeData": {"resource": "literal:directory", "name": "triami", "files": files}, "options": {"activate": True}},
     {"step": "importWxr", "file": {"resource": "literal", "name": "triami-paginas-import.xml", "contents": wxr}},
+    {"step": "setSiteLanguage", "language": "nl_NL"},
     {"step": "setSiteOptions", "options": {"blogname": "Triami Triathlonvereniging", "blogdescription": "Dé triathlonvereniging van Deventer en omstreken", "permalink_structure": "/%postname%/", "timezone_string": "Europe/Amsterdam"}},
     {"step": "runPHP", "code": "<?php require '/wordpress/wp-load.php'; wp_delete_post(1,true); wp_delete_post(2,true); $n=get_page_by_path('nieuws'); if($n){update_option('page_for_posts',$n->ID);} flush_rewrite_rules();"}
   ]

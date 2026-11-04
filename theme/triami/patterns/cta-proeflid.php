@@ -23,7 +23,7 @@
 <!-- wp:buttons -->
 <div class="wp-block-buttons">
 <!-- wp:button {"className":"is-style-outline-wit"} -->
-<div class="wp-block-button is-style-outline-wit"><a class="wp-block-button__link wp-element-button" href="/lidmaatschap/">Word proeflid</a></div>
+<div class="wp-block-button is-style-outline-wit"><a class="wp-block-button__link wp-element-button" href="/lidmaatschap/#inschrijven">Word proeflid</a></div>
 <!-- /wp:button -->
 </div>
 <!-- /wp:buttons -->
