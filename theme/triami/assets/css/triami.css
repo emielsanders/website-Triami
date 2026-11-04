@@ -1,0 +1,126 @@
+/* Triami – aanvullende stijlen bovenop theme.json. Kleuren altijd via de presets. */
+
+:root {
+	--triami-radius: 8px;
+	--triami-schaduw: 0 2px 8px rgba(0, 0, 0, .08);
+}
+
+/* Koppen */
+h1, h2, h3, h4 { text-wrap: balance; }
+
+/* Kop met hartslaglijn eronder (blokstijl "Met hartslaglijn") */
+.is-style-hartslag {
+	position: relative;
+	padding-bottom: .75rem;
+}
+.is-style-hartslag::after {
+	content: "";
+	display: block;
+	width: 3.5rem;
+	height: 4px;
+	margin-top: .75rem;
+	background: var(--wp--preset--color--triami-rood);
+}
+.has-text-align-center.is-style-hartslag::after { margin-inline: auto; }
+
+/* Kaart (blokstijl op Groep) */
+.is-style-kaart {
+	background: var(--wp--preset--color--wit);
+	border: 1px solid var(--wp--preset--color--lijn);
+	border-radius: var(--triami-radius);
+	box-shadow: var(--triami-schaduw);
+	padding: 1.25rem;
+	min-width: 0;
+}
+
+/* Donkere sectie (blokstijl op Groep) */
+.is-style-donker {
+	background: var(--wp--preset--color--zwart);
+	color: var(--wp--preset--color--wit);
+}
+.is-style-donker :is(h1, h2, h3, h4, p, li) { color: var(--wp--preset--color--wit); }
+.is-style-donker a:not(.wp-block-button__link) { color: var(--wp--preset--color--wit); }
+.is-style-donker .wp-block-navigation a { color: var(--wp--preset--color--wit); }
+
+/* Knopvarianten */
+.wp-block-button.is-style-outline-wit .wp-block-button__link {
+	background: transparent;
+	color: var(--wp--preset--color--wit);
+	border: 2px solid var(--wp--preset--color--wit);
+}
+.wp-block-button.is-style-outline-wit .wp-block-button__link:hover { background: var(--wp--preset--color--wit); color: var(--wp--preset--color--zwart); }
+.wp-block-button.is-style-outline-zwart .wp-block-button__link {
+	background: transparent;
+	color: var(--wp--preset--color--zwart);
+	border: 2px solid var(--wp--preset--color--zwart);
+}
+.wp-block-button.is-style-outline-zwart .wp-block-button__link:hover { background: var(--wp--preset--color--zwart); color: var(--wp--preset--color--wit); }
+
+/* Header */
+.triami-header { border-bottom: 1px solid var(--wp--preset--color--lijn); }
+.triami-header .wp-block-site-logo img { height: 48px; width: auto; }
+.triami-header .wp-block-navigation .current-menu-item > a,
+.triami-header .wp-block-navigation .current-menu-ancestor > a {
+	box-shadow: inset 0 -3px 0 var(--wp--preset--color--triami-rood);
+}
+.triami-header .wp-block-navigation__responsive-container-open svg { width: 28px; height: 28px; }
+
+/* Hartslaglijn als sectiescheiding */
+.triami-hartslag {
+	display: block;
+	width: 100%;
+	height: 32px;
+	margin: 0;
+}
+
+/* Trainingsschema-kaarten */
+.triami-training .wp-block-group.is-style-kaart { height: 100%; }
+.triami-training .triami-icoon { width: 36px; height: 36px; color: var(--wp--preset--color--triami-rood); }
+.triami-training p { margin: 0; }
+.triami-tijd { font-weight: 600; font-variant-numeric: tabular-nums; }
+
+/* Tarieven en tabellen */
+.wp-block-table table { font-variant-numeric: tabular-nums; }
+.wp-block-table td, .wp-block-table th { border-color: var(--wp--preset--color--lijn); }
+
+/* Accordeon (details-blok) */
+.wp-block-details summary {
+	font-family: var(--wp--preset--font-family--kop);
+	font-weight: 700;
+	cursor: pointer;
+}
+.wp-block-details summary:focus-visible { outline: 2px solid var(--wp--preset--color--triami-rood); outline-offset: 4px; }
+
+/* Persoonskaart (bestuur, trainers) */
+.triami-persoon .wp-block-image img { border-radius: 999px; width: 96px; height: 96px; object-fit: cover; }
+.triami-persoon .triami-functie {
+	font-family: var(--wp--preset--font-family--kop);
+	font-weight: 700;
+	font-size: .8125rem;
+	text-transform: uppercase;
+	letter-spacing: .06em;
+	color: var(--wp--preset--color--triami-rood-donker);
+}
+
+/* Markeringen voor het bestuur: tekst die nog bevestigd moet worden. Verwijderen bij livegang. */
+.triami-check {
+	background: var(--wp--preset--color--triami-rood-tint);
+	border-left: 4px solid var(--wp--preset--color--triami-rood);
+	padding: .25rem .5rem;
+	font-size: .875rem;
+	color: var(--wp--preset--color--triami-rood-donker);
+}
+
+/* Toegankelijkheid */
+a:focus-visible, button:focus-visible, .wp-block-button__link:focus-visible {
+	outline: 3px solid var(--wp--preset--color--zwart);
+	outline-offset: 2px;
+}
+@media (prefers-reduced-motion: reduce) {
+	*, *::before, *::after { animation: none !important; transition: none !important; }
+}
+
+/* Footer */
+.triami-footer { font-size: .9375rem; }
+.triami-footer .wp-block-site-logo img { height: 40px; width: auto; }
+.triami-footer .wp-block-navigation { font-size: .8125rem; }
