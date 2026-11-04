@@ -1,0 +1,32 @@
+---
+title: Nieuws
+slug: nieuws
+order: 60
+---
+<!-- wp:paragraph {"fontSize":"groot"} -->
+<p class="has-groot-font-size">Wedstrijdverslagen, uitslagen van de clubcompetitie en aankondigingen.</p>
+<!-- /wp:paragraph -->
+<!-- wp:query {"queryId":2,"query":{"perPage":10,"postType":"post","order":"desc","orderBy":"date","inherit":false}} -->
+<div class="wp-block-query">
+<!-- wp:post-template {"layout":{"type":"grid","columnCount":2}} -->
+<!-- wp:group {"className":"is-style-kaart"} -->
+<div class="wp-block-group is-style-kaart">
+<!-- wp:post-featured-image {"isLink":true,"aspectRatio":"16/9"} /-->
+<!-- wp:post-date {"fontSize":"klein","textColor":"tekst-gedempt"} /-->
+<!-- wp:post-title {"isLink":true,"level":3} /-->
+<!-- wp:post-excerpt {"excerptLength":30} /-->
+</div>
+<!-- /wp:group -->
+<!-- /wp:post-template -->
+<!-- wp:query-no-results -->
+<!-- wp:paragraph -->
+<p>Er zijn nog geen berichten geplaatst. Nieuws voor leden delen we voorlopig via de nieuwsbrief en Spond.</p>
+<!-- /wp:paragraph -->
+<!-- /wp:query-no-results -->
+<!-- wp:query-pagination -->
+<!-- wp:query-pagination-previous /-->
+<!-- wp:query-pagination-numbers /-->
+<!-- wp:query-pagination-next /-->
+<!-- /wp:query-pagination -->
+</div>
+<!-- /wp:query -->
