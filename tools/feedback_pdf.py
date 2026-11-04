@@ -297,6 +297,7 @@ def main():
     toc_html = "<h1>Inhoud</h1><div class=\"hart\"></div><table class=\"toc\">" + "".join(
         f"<tr><td>{n}</td><td>{html.escape(t)}</td></tr>" for n, t in toc if n != toc_index) + "</table>"
     toc_html += '<p style="margin-top:6mm" class="lab">Per pagina</p><p>Eerst een blad met uitleg en de weergave op computer, daarna (bij lange pagina\'s) het vervolg, en tot slot de weergave op telefoon in smalle kolommen.</p>'
+    json.dump({"toc": toc, "paginas": {slug: n for n, t in toc for slug, titel, *_ in PAGINAS if t == titel}}, open(ROOT / "dist" / "feedbackboek-toc.json", "w"), ensure_ascii=False, indent=1)
     body = "".join(vel(inh.replace("@@TOC@@", toc_html), i + 1, kop, cls) for i, (kop, inh, cls) in enumerate(sheets))
     css = CSS.replace("@@MONT@@", font64(ROOT / "theme/triami/assets/fonts/montserrat-latin.woff2")).replace("@@SS@@", font64(ROOT / "theme/triami/assets/fonts/source-sans-3-latin.woff2"))
     HTML.write_text(f"<!doctype html><html lang=nl><meta charset=utf-8><title>Feedbackboek Triami</title><style>{css}</style><body>{body}</body></html>")
