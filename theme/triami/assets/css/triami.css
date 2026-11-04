@@ -150,3 +150,22 @@ a:focus-visible, button:focus-visible, .wp-block-button__link:focus-visible {
 .triami-header .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__submenu-container { justify-content: flex-start; align-items: flex-start; text-align: left; }
 .triami-header .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation-item.has-child { flex-direction: column; }
 .triami-header .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__submenu-container { width: 100%; }
+
+/* Volg Triami: kanaalkaarten (Strava, Spond, Instagram) */
+.triami-kanaal { display:flex; flex-direction:column; height:100%; }
+.triami-kanaal > * { margin-top:0; }
+.triami-kanaal > * + * { margin-top:.75rem; }
+.triami-kanaal .wp-block-buttons { margin-top:auto; padding-top:.5rem; }
+.triami-kanaal h3 { font-size:1.25rem; }
+.triami-kanaal-kop { display:flex; align-items:center; gap:.5rem; color:var(--wp--preset--color--triami-rood-donker); font-family:var(--wp--preset--font-family--kop); font-weight:700; font-size:.875rem; text-transform:uppercase; letter-spacing:.06em; }
+.triami-stats { list-style:none; margin:0; padding:0; display:grid; grid-template-columns:repeat(3,1fr); gap:.5rem; }
+.triami-stats li { background:var(--wp--preset--color--achtergrond-zacht); border-radius:8px; padding:.6rem .5rem; text-align:center; display:flex; flex-direction:column; }
+.triami-stats strong { font-family:var(--wp--preset--font-family--kop); font-size:1.25rem; line-height:1.1; color:var(--wp--preset--color--zwart); }
+.triami-stats span { font-size:.8rem; color:var(--wp--preset--color--tekst-gedempt); }
+.triami-qr { display:flex; align-items:center; gap:1rem; }
+.triami-qr img { width:120px; height:120px; border:1px solid var(--wp--preset--color--lijn); border-radius:8px; padding:4px; background:#fff; }
+.triami-qr span { font-size:.9rem; color:var(--wp--preset--color--tekst-gedempt); }
+.triami-feed { list-style:none; margin:0; padding:0; display:grid; grid-template-columns:repeat(3,1fr); gap:.4rem; }
+.triami-feed li { aspect-ratio:1; border-radius:6px; background:linear-gradient(135deg, var(--wp--preset--color--triami-rood-tint), #fff); border:1px dashed var(--wp--preset--color--triami-rood-licht); display:flex; align-items:flex-end; padding:.4rem; font-size:.75rem; color:var(--wp--preset--color--tekst-gedempt); }
+.triami-feed li:nth-child(2n) { background:linear-gradient(135deg, var(--wp--preset--color--achtergrond-zacht), #fff); border-color:var(--wp--preset--color--lijn); }
+.triami-feed li:nth-child(3n) { background:var(--wp--preset--color--zwart); color:#ddd; border:0; }

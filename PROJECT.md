@@ -60,6 +60,9 @@ dist/                bouwresultaat (niet in git)
 - Inschrijfformulier: MS Forms blijft. Gevolg: bij livegang cookieconsent (Complianz) voor het iframe.
 - Feedback bestuur via `docs/feedbackboek-2026-11-04.pdf` (62 bladen, groot nummer rechtsboven; `tools/feedback_pdf.py` + `pg/shots_pdf.py`).
 
+- Social media (4 nov, avond): blok `triami/volg` op de homepage: Strava-club (id 101737, 83 leden; officiële widget sinds jan 2026 onbetrouwbaar, dus link + kengetallen), Spond-uitnodiging met QR (`assets/img/spond-qr.svg`), Instagram-plaatshouders (feed via Smash Balloon bij livegang, accountnaam onbekend). Instagram-link ook in footer.
+- Feedbackpagina (artifact "Triami feedback", db-opslag): `tools/feedback_artifact.py`; opmerkingen uitlezen met ArtifactData (collecties `opmerkingen`, `antwoorden`).
+
 ## Volgende stappen
 1. Ophaallijst bestuur afwerken (`docs/ophaallijst-bestuur.md`) en `Check bestuur`-regels verwijderen.
 2. GitHub-repo aanmaken en pushen; `playground/blueprint.json` met `installTheme` via raw-URL (zie `docs/technische-aanpak.md`).

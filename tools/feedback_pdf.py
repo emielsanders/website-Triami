@@ -48,6 +48,7 @@ COMPONENTEN = [
     ("c-faq-item", "Uitklapvraag (FAQ)", "Open- en dichtklappen zonder script; werkt ook met toetsenbord en voorleessoftware."),
     ("c-formulier", "Inschrijfformulier (Microsoft Forms)", "Ingebed in het Nederlands; op telefoon ook een link om het in een nieuw venster te openen."),
     ("c-check-bestuur", "Markering \"Check bestuur\"", "Lichtrode notitie op pagina's waar het bestuur iets moet bevestigen. Verdwijnt vóór livegang."),
+    ("c-volg-desktop", "Volg Triami (Strava, Spond, Instagram)", "Nieuw blok op de homepage: Strava-club met kengetallen, Spond-uitnodiging met QR-code, Instagram-feed (nu plaatshouders)."),
     ("c-footer", "Voettekst", "Logo, korte tekst, Snel naar, Contact, KvK/NTB, Strava en Spond, privacyverklaring."),
 ]
 
