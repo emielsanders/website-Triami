@@ -10,14 +10,15 @@ Nieuwe website voor Triami Triathlonvereniging Deventer (triami.nl), beheerbaar 
 - Alle pagina's als blokinhoud in `content/pages/` (13 stuks), met `Check bestuur`-markeringen voor onbevestigde feiten.
 - Bouwscripts: `tools/build.py` (thema-zip + WXR-import) en `tools/blueprint.py` (Playground-blueprint met alles inline).
 - Demo bekeken in WordPress Playground; geen console-fouten op desktop en mobiel.
-- Nog niet: hosting, staging, plugins, redirects, livegang.
+- Favicon (hartslag-SVG) en 301-redirects van oude URL's zitten in `functions.php`.
+- Nog niet: hosting, staging, plugins, livegang.
 
 ## Keuzes
 | Onderwerp | Keuze | Reden |
 |---|---|---|
 | Techniek | Block theme, geen pagebuilder | Lichter, geen lock-in, volledig in git; redacteuren werken in de blokeditor |
 | Hosting (voornemen) | Antagonist Plus + WP, kloon op `test.triami.nl` als staging | Zie `docs/technische-aanpak.md` |
-| Fonts | Montserrat (koppen) + Source Sans 3 (tekst), nu via Google Fonts | Later lokaal hosten (AVG) |
+| Fonts | Montserrat (koppen) + Source Sans 3 (tekst), lokaal gehost als variabele woff2 in `assets/fonts/` (AVG) | De Playground-demo valt terug op Google Fonts, omdat binaire bestanden niet inline in de blueprint passen |
 | Kleur | Rood `#ED1E24` alleen als accent; palet rood/zwart/wit, geen blauw | Huisstijl + kleurenblindheidstoets, zie `docs/huisstijl-voorstel.md` |
 | Toegankelijkheid | Kleur nooit enige drager van informatie; witte tekst op rood alleen groot/vet, kleine tekst op `#C4151B` | Contrastratio's in stijltegel |
 | URL's | Alle pagina's top-level (`/bestuur/`, `/faq/`), zoals op de oude site | Korte URL's, minder redirects |
@@ -57,5 +58,5 @@ dist/                bouwresultaat (niet in git)
 2. GitHub-repo aanmaken en pushen; `playground/blueprint.json` met `installTheme` via raw-URL (zie `docs/technische-aanpak.md`).
 3. Hosting bestellen; kloon `test.triami.nl`; thema-zip uploaden, WXR importeren, menu/instellingen controleren.
 4. Plugins: Fluent Forms, Smash Balloon (als socials bestaan), UpdraftPlus, The SEO Framework, Complianz.
-5. Fonts lokaal hosten; favicon/site-icon; og-image; redirects (`/lidmaatschap-2/` → `/lidmaatschap/`, reglement-subpagina → PDF).
+5. Site-icoon instellen (nu favicon uit thema); og-image; echte logo-SVG en bestuursfoto's in de mediabibliotheek.
 6. Bestuur laten testen op staging; DNS/SSL; livegang; Hestia/Elementor verwijderen.
