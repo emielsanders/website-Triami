@@ -22,7 +22,7 @@
 <!-- wp:buttons {"style":{"spacing":{"margin":{"top":"1.5rem"}}}} -->
 <div class="wp-block-buttons" style="margin-top:1.5rem">
 <!-- wp:button -->
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/lidmaatschap/">Word proeflid</a></div>
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/lidmaatschap/#inschrijven">Word proeflid</a></div>
 <!-- /wp:button -->
 <!-- wp:button {"className":"is-style-outline-wit"} -->
 <div class="wp-block-button is-style-outline-wit"><a class="wp-block-button__link wp-element-button" href="/trainingen/">Bekijk de trainingen</a></div>

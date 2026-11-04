@@ -17,7 +17,7 @@ $fiets = '<svg class="triami-icoon" viewBox="0 0 24 24" fill="none" stroke="curr
 <!-- wp:paragraph -->
 <p>Alle trainingen zijn onder leiding van gediplomeerde trainers. Afgelastingen en wijzigingen melden we via Spond. Op feestdagen vervallen de trainingen; het zwemmen kent een zomerstop.</p>
 <!-- /wp:paragraph -->
-<!-- wp:group {"layout":{"type":"grid","columnCount":4,"minimumColumnWidth":null},"style":{"spacing":{"margin":{"top":"1.5rem"}}}} -->
+<!-- wp:group {"layout":{"type":"grid","minimumColumnWidth":"15rem"},"style":{"spacing":{"margin":{"top":"1.5rem"}}}} -->
 <div class="wp-block-group" style="margin-top:1.5rem">
 <!-- wp:group {"className":"is-style-kaart"} -->
 <div class="wp-block-group is-style-kaart">

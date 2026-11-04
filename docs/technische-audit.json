@@ -1,0 +1,1032 @@
+{
+ "/": {
+  "status": 200,
+  "title": "Triami Triathlonvereniging – Dé triathlonvereniging van Deventer en omstreken",
+  "lang": "nl-NL",
+  "metaDesc": "Dé triathlonvereniging van Deventer en omstreken. Zwemmen, fietsen en hardlopen onder begeleiding van gediplomeerde trainers. Train vrijblijvend mee.",
+  "og": [
+   "og:type",
+   "og:site_name",
+   "og:title",
+   "og:description",
+   "og:url",
+   "og:image",
+   "og:locale"
+  ],
+  "canonical": null,
+  "h1": 1,
+  "headings": [
+   "H1: Samen trainen, samen finishen",
+   "H2: Vrienden van de triathlon",
+   "H3: Gediplomeerde trainers",
+   "H3: Samen op pad",
+   "H3: Laagdrempelig",
+   "H3: Aangesloten bij de NTB",
+   "H2: Wekelijkse trainingen",
+   "H3: Zwemmen",
+   "H3: Zwemmen",
+   "H3: Hardlopen",
+   "H3: Fietsen",
+   "H2: Vrijblijvend meetrainen?",
+   "H2: Start2Tri: je eerste triathlon",
+   "H3: In het kort",
+   "H2: Vragen? Mail de secretaris",
+   "H2: Snel naar",
+   "H2: Contact"
+  ],
+  "imgsNoAlt": [],
+  "iframes": [],
+  "skipLink": true,
+  "hasSearch": false,
+  "wordCount": 430,
+  "smallTargets": 3,
+  "consoleErrors": [],
+  "axe": [
+   {
+    "id": "aria-allowed-role",
+    "impact": "minor",
+    "help": "ARIA role should be appropriate for the element",
+    "nodes": 7,
+    "targets": [
+     "#wp-admin-bar-wp-logo",
+     "#wp-admin-bar-site-name",
+     "#wp-admin-bar-site-editor"
+    ]
+   },
+   {
+    "id": "region",
+    "impact": "moderate",
+    "help": "All page content should be contained by landmarks",
+    "nodes": 1,
+    "targets": [
+     "#wp-skip-link"
+    ]
+   }
+  ]
+ },
+ "/vereniging/": {
+  "status": 200,
+  "title": "Vereniging – Triami Triathlonvereniging",
+  "lang": "nl-NL",
+  "metaDesc": "Triami is opgericht in 2006 en is een bloeiende, actieve triathlonvereniging met ruim 100 leden. Wij bieden iedereen uit Deventer en omgeving die aan triat…",
+  "og": [
+   "og:type",
+   "og:site_name",
+   "og:title",
+   "og:description",
+   "og:url",
+   "og:image",
+   "og:locale"
+  ],
+  "canonical": "http://127.0.0.1:9400/vereniging/",
+  "h1": 1,
+  "headings": [
+   "H1: Vereniging",
+   "H2: Een greep uit onze activiteiten",
+   "H2: Meer over de vereniging",
+   "H3: Bestuur",
+   "H3: Trainers",
+   "H3: Teamcompetitie",
+   "H3: Clubcompetitie",
+   "H3: Clubkleding",
+   "H3: Vertrouwenscontactpersoon",
+   "H2: Snel naar",
+   "H2: Contact"
+  ],
+  "imgsNoAlt": [],
+  "iframes": [],
+  "skipLink": true,
+  "hasSearch": false,
+  "wordCount": 338,
+  "smallTargets": 3,
+  "consoleErrors": [],
+  "axe": [
+   {
+    "id": "aria-allowed-role",
+    "impact": "minor",
+    "help": "ARIA role should be appropriate for the element",
+    "nodes": 8,
+    "targets": [
+     "#wp-admin-bar-wp-logo",
+     "#wp-admin-bar-site-name",
+     "#wp-admin-bar-site-editor"
+    ]
+   },
+   {
+    "id": "region",
+    "impact": "moderate",
+    "help": "All page content should be contained by landmarks",
+    "nodes": 1,
+    "targets": [
+     "#wp-skip-link"
+    ]
+   }
+  ]
+ },
+ "/bestuur/": {
+  "status": 200,
+  "title": "Bestuur – Triami Triathlonvereniging",
+  "lang": "nl-NL",
+  "metaDesc": "Het bestuur van Triami bestaat uit vier leden. Je bereikt ons het snelst per e-mail.",
+  "og": [
+   "og:type",
+   "og:site_name",
+   "og:title",
+   "og:description",
+   "og:url",
+   "og:image",
+   "og:locale"
+  ],
+  "canonical": "http://127.0.0.1:9400/bestuur/",
+  "h1": 1,
+  "headings": [
+   "H1: Bestuur",
+   "H3: Heleen",
+   "H3: Alma",
+   "H3: Edwin",
+   "H3: Emiel",
+   "H2: Algemene gegevens",
+   "H2: Statuten en reglement",
+   "H2: Snel naar",
+   "H2: Contact"
+  ],
+  "imgsNoAlt": [],
+  "iframes": [],
+  "skipLink": true,
+  "hasSearch": false,
+  "wordCount": 172,
+  "smallTargets": 3,
+  "consoleErrors": [],
+  "axe": [
+   {
+    "id": "aria-allowed-role",
+    "impact": "minor",
+    "help": "ARIA role should be appropriate for the element",
+    "nodes": 8,
+    "targets": [
+     "#wp-admin-bar-wp-logo",
+     "#wp-admin-bar-site-name",
+     "#wp-admin-bar-site-editor"
+    ]
+   },
+   {
+    "id": "heading-order",
+    "impact": "moderate",
+    "help": "Heading levels should only increase by one",
+    "nodes": 1,
+    "targets": [
+     ".is-style-kaart.triami-persoon.wp-block-group-is-layout-flow:nth-child(1) > h3"
+    ]
+   },
+   {
+    "id": "region",
+    "impact": "moderate",
+    "help": "All page content should be contained by landmarks",
+    "nodes": 1,
+    "targets": [
+     "#wp-skip-link"
+    ]
+   }
+  ]
+ },
+ "/trainers/": {
+  "status": 200,
+  "title": "Trainers – Triami Triathlonvereniging",
+  "lang": "nl-NL",
+  "metaDesc": "Al onze trainers zijn ervaren (tri)atleten met een relevant trainersdiploma van de NTB.",
+  "og": [
+   "og:type",
+   "og:site_name",
+   "og:title",
+   "og:description",
+   "og:url",
+   "og:image",
+   "og:locale"
+  ],
+  "canonical": "http://127.0.0.1:9400/trainers/",
+  "h1": 1,
+  "headings": [
+   "H1: Trainers",
+   "H2: Onze trainers",
+   "H2: Zelf trainer worden?",
+   "H2: Snel naar",
+   "H2: Contact"
+  ],
+  "imgsNoAlt": [],
+  "iframes": [],
+  "skipLink": true,
+  "hasSearch": false,
+  "wordCount": 174,
+  "smallTargets": 3,
+  "consoleErrors": [],
+  "axe": [
+   {
+    "id": "aria-allowed-role",
+    "impact": "minor",
+    "help": "ARIA role should be appropriate for the element",
+    "nodes": 8,
+    "targets": [
+     "#wp-admin-bar-wp-logo",
+     "#wp-admin-bar-site-name",
+     "#wp-admin-bar-site-editor"
+    ]
+   },
+   {
+    "id": "region",
+    "impact": "moderate",
+    "help": "All page content should be contained by landmarks",
+    "nodes": 1,
+    "targets": [
+     "#wp-skip-link"
+    ]
+   }
+  ]
+ },
+ "/teamcompetitie/": {
+  "status": 200,
+  "title": "Teamcompetitie – Triami Triathlonvereniging",
+  "lang": "nl-NL",
+  "metaDesc": "Wie denkt dat triathlon een sport voor individuen is, heeft het mis. Triami komt uit in de landelijke teamcompetitie.",
+  "og": [
+   "og:type",
+   "og:site_name",
+   "og:title",
+   "og:description",
+   "og:url",
+   "og:image",
+   "og:locale"
+  ],
+  "canonical": "http://127.0.0.1:9400/teamcompetitie/",
+  "h1": 1,
+  "headings": [
+   "H1: Teamcompetitie",
+   "H2: Hoe werkt het?",
+   "H2: Onze teams",
+   "H2: Meedoen?",
+   "H2: Snel naar",
+   "H2: Contact"
+  ],
+  "imgsNoAlt": [],
+  "iframes": [],
+  "skipLink": true,
+  "hasSearch": false,
+  "wordCount": 220,
+  "smallTargets": 3,
+  "consoleErrors": [],
+  "axe": [
+   {
+    "id": "aria-allowed-role",
+    "impact": "minor",
+    "help": "ARIA role should be appropriate for the element",
+    "nodes": 8,
+    "targets": [
+     "#wp-admin-bar-wp-logo",
+     "#wp-admin-bar-site-name",
+     "#wp-admin-bar-site-editor"
+    ]
+   },
+   {
+    "id": "region",
+    "impact": "moderate",
+    "help": "All page content should be contained by landmarks",
+    "nodes": 1,
+    "targets": [
+     "#wp-skip-link"
+    ]
+   }
+  ]
+ },
+ "/clubcompetitie/": {
+  "status": 200,
+  "title": "Clubcompetitie – Triami Triathlonvereniging",
+  "lang": "nl-NL",
+  "metaDesc": "De Triami Club Competitie (TCC) is een jaarlijkse reeks laagdrempelige clubwedstrijden, als aanvulling op de trainingen. De hoogst geklasseerde man en vrou…",
+  "og": [
+   "og:type",
+   "og:site_name",
+   "og:title",
+   "og:description",
+   "og:url",
+   "og:image",
+   "og:locale"
+  ],
+  "canonical": "http://127.0.0.1:9400/clubcompetitie/",
+  "h1": 1,
+  "headings": [
+   "H1: Clubcompetitie",
+   "H2: Hoe werkt het?",
+   "H2: Onderdelen",
+   "H2: Puntentelling",
+   "H2: Snel naar",
+   "H2: Contact"
+  ],
+  "imgsNoAlt": [],
+  "iframes": [],
+  "skipLink": true,
+  "hasSearch": false,
+  "wordCount": 271,
+  "smallTargets": 3,
+  "consoleErrors": [],
+  "axe": [
+   {
+    "id": "aria-allowed-role",
+    "impact": "minor",
+    "help": "ARIA role should be appropriate for the element",
+    "nodes": 8,
+    "targets": [
+     "#wp-admin-bar-wp-logo",
+     "#wp-admin-bar-site-name",
+     "#wp-admin-bar-site-editor"
+    ]
+   },
+   {
+    "id": "region",
+    "impact": "moderate",
+    "help": "All page content should be contained by landmarks",
+    "nodes": 1,
+    "targets": [
+     "#wp-skip-link"
+    ]
+   }
+  ]
+ },
+ "/clubkleding/": {
+  "status": 200,
+  "title": "Clubkleding – Triami Triathlonvereniging",
+  "lang": "nl-NL",
+  "metaDesc": "Train en race in de Triami-kleuren. Trisuits zijn op voorraad; fiets- en loopkleding bestellen we periodiek via de webshop van onze kledingleverancier.",
+  "og": [
+   "og:type",
+   "og:site_name",
+   "og:title",
+   "og:description",
+   "og:url",
+   "og:image",
+   "og:locale"
+  ],
+  "canonical": "http://127.0.0.1:9400/clubkleding/",
+  "h1": 1,
+  "headings": [
+   "H1: Clubkleding",
+   "H2: Trisuits",
+   "H2: Fiets- en loopkleding",
+   "H2: Snel naar",
+   "H2: Contact"
+  ],
+  "imgsNoAlt": [],
+  "iframes": [],
+  "skipLink": true,
+  "hasSearch": false,
+  "wordCount": 155,
+  "smallTargets": 3,
+  "consoleErrors": [],
+  "axe": [
+   {
+    "id": "aria-allowed-role",
+    "impact": "minor",
+    "help": "ARIA role should be appropriate for the element",
+    "nodes": 8,
+    "targets": [
+     "#wp-admin-bar-wp-logo",
+     "#wp-admin-bar-site-name",
+     "#wp-admin-bar-site-editor"
+    ]
+   },
+   {
+    "id": "region",
+    "impact": "moderate",
+    "help": "All page content should be contained by landmarks",
+    "nodes": 1,
+    "targets": [
+     "#wp-skip-link"
+    ]
+   }
+  ]
+ },
+ "/vertrouwenscontactpersoon/": {
+  "status": 200,
+  "title": "Vertrouwenscontactpersoon – Triami Triathlonvereniging",
+  "lang": "nl-NL",
+  "metaDesc": "Triami wil een laagdrempelige en veilige vereniging zijn. Trainers en bestuur hebben zich gecommitteerd aan gedragsregels voor veilig en vertrouwd sporten.",
+  "og": [
+   "og:type",
+   "og:site_name",
+   "og:title",
+   "og:description",
+   "og:url",
+   "og:image",
+   "og:locale"
+  ],
+  "canonical": "http://127.0.0.1:9400/vertrouwenscontactpersoon/",
+  "h1": 1,
+  "headings": [
+   "H1: Vertrouwenscontactpersoon",
+   "H2: Snel naar",
+   "H2: Contact"
+  ],
+  "imgsNoAlt": [],
+  "iframes": [],
+  "skipLink": true,
+  "hasSearch": false,
+  "wordCount": 177,
+  "smallTargets": 3,
+  "consoleErrors": [],
+  "axe": [
+   {
+    "id": "aria-allowed-role",
+    "impact": "minor",
+    "help": "ARIA role should be appropriate for the element",
+    "nodes": 8,
+    "targets": [
+     "#wp-admin-bar-wp-logo",
+     "#wp-admin-bar-site-name",
+     "#wp-admin-bar-site-editor"
+    ]
+   },
+   {
+    "id": "region",
+    "impact": "moderate",
+    "help": "All page content should be contained by landmarks",
+    "nodes": 1,
+    "targets": [
+     "#wp-skip-link"
+    ]
+   }
+  ]
+ },
+ "/trainingen/": {
+  "status": 200,
+  "title": "Trainingen – Triami Triathlonvereniging",
+  "lang": "nl-NL",
+  "metaDesc": "Alle trainingen staan onder leiding van gediplomeerde trainers en zijn geschikt voor de beginnende én de ervaren triatleet. Voor de zwemtrainingen vragen w…",
+  "og": [
+   "og:type",
+   "og:site_name",
+   "og:title",
+   "og:description",
+   "og:url",
+   "og:image",
+   "og:locale"
+  ],
+  "canonical": "http://127.0.0.1:9400/trainingen/",
+  "h1": 1,
+  "headings": [
+   "H1: Trainingen",
+   "H2: Wekelijkse trainingen",
+   "H3: Zwemmen",
+   "H3: Zwemmen",
+   "H3: Hardlopen",
+   "H3: Fietsen",
+   "H2: Goed om te weten",
+   "H2: Meedoen?",
+   "H2: Snel naar",
+   "H2: Contact"
+  ],
+  "imgsNoAlt": [],
+  "iframes": [],
+  "skipLink": true,
+  "hasSearch": false,
+  "wordCount": 337,
+  "smallTargets": 3,
+  "consoleErrors": [],
+  "axe": [
+   {
+    "id": "aria-allowed-role",
+    "impact": "minor",
+    "help": "ARIA role should be appropriate for the element",
+    "nodes": 8,
+    "targets": [
+     "#wp-admin-bar-wp-logo",
+     "#wp-admin-bar-site-name",
+     "#wp-admin-bar-site-editor"
+    ]
+   },
+   {
+    "id": "region",
+    "impact": "moderate",
+    "help": "All page content should be contained by landmarks",
+    "nodes": 1,
+    "targets": [
+     "#wp-skip-link"
+    ]
+   }
+  ]
+ },
+ "/start2tri/": {
+  "status": 200,
+  "title": "Start2Tri – Triami Triathlonvereniging",
+  "lang": "nl-NL",
+  "metaDesc": "Start2Tri is ons kennismakingsprogramma voor wie een eerste triathlon wil doen. In vijf weken maak je kennis met zwemmen, fietsen, lopen én wisselen, zonde…",
+  "og": [
+   "og:type",
+   "og:site_name",
+   "og:title",
+   "og:description",
+   "og:url",
+   "og:image",
+   "og:locale"
+  ],
+  "canonical": "http://127.0.0.1:9400/start2tri/",
+  "h1": 1,
+  "headings": [
+   "H1: Start2Tri",
+   "H2: Voor wie",
+   "H2: Wat je kunt verwachten",
+   "H2: Praktisch",
+   "H2: Snel naar",
+   "H2: Contact"
+  ],
+  "imgsNoAlt": [],
+  "iframes": [],
+  "skipLink": true,
+  "hasSearch": false,
+  "wordCount": 242,
+  "smallTargets": 4,
+  "consoleErrors": [],
+  "axe": [
+   {
+    "id": "aria-allowed-role",
+    "impact": "minor",
+    "help": "ARIA role should be appropriate for the element",
+    "nodes": 8,
+    "targets": [
+     "#wp-admin-bar-wp-logo",
+     "#wp-admin-bar-site-name",
+     "#wp-admin-bar-site-editor"
+    ]
+   },
+   {
+    "id": "region",
+    "impact": "moderate",
+    "help": "All page content should be contained by landmarks",
+    "nodes": 1,
+    "targets": [
+     "#wp-skip-link"
+    ]
+   }
+  ]
+ },
+ "/lidmaatschap/": {
+  "status": 200,
+  "title": "Lidmaatschap – Triami Triathlonvereniging",
+  "lang": "nl-NL",
+  "metaDesc": "Kennismaken is vrijblijvend: train een of twee keer mee. Bevalt het, dan word je tien weken proeflid en doe je mee aan alle trainingen en activiteiten.",
+  "og": [
+   "og:type",
+   "og:site_name",
+   "og:title",
+   "og:description",
+   "og:url",
+   "og:image",
+   "og:locale"
+  ],
+  "canonical": "http://127.0.0.1:9400/lidmaatschap/",
+  "h1": 1,
+  "headings": [
+   "H1: Lidmaatschap",
+   "H2: Zo word je (proef)lid",
+   "H3: Inschrijfformulier",
+   "H2: Tarieven",
+   "H2: Wat je krijgt",
+   "H2: Snel naar",
+   "H2: Contact"
+  ],
+  "imgsNoAlt": [],
+  "iframes": [
+   "https://forms.office.com/Pages/ResponsePage.aspx?id=7tsW9NdBGk2ozxeMbr7PRQwgd8BVLdNLmkOHyP_6nEtUM0oxVUVYUVg0U0I5VDYwNEFXQ0VIVVFHNC4u&embed=true&lang=nl-NL"
+  ],
+  "skipLink": true,
+  "hasSearch": false,
+  "wordCount": 355,
+  "smallTargets": 4,
+  "consoleErrors": [],
+  "axe": [
+   {
+    "id": "aria-allowed-role",
+    "impact": "minor",
+    "help": "ARIA role should be appropriate for the element",
+    "nodes": 8,
+    "targets": [
+     "#wp-admin-bar-wp-logo",
+     "#wp-admin-bar-site-name",
+     "#wp-admin-bar-site-editor"
+    ]
+   },
+   {
+    "id": "region",
+    "impact": "moderate",
+    "help": "All page content should be contained by landmarks",
+    "nodes": 1,
+    "targets": [
+     "#wp-skip-link"
+    ]
+   }
+  ]
+ },
+ "/contact/": {
+  "status": 200,
+  "title": "Contact – Triami Triathlonvereniging",
+  "lang": "nl-NL",
+  "metaDesc": "Vragen over lidmaatschap, trainingen of de vereniging? Mail de secretaris. Een afspraak om mee te trainen regel je ook via dit adres.",
+  "og": [
+   "og:type",
+   "og:site_name",
+   "og:title",
+   "og:description",
+   "og:url",
+   "og:image",
+   "og:locale"
+  ],
+  "canonical": "http://127.0.0.1:9400/contact/",
+  "h1": 1,
+  "headings": [
+   "H1: Contact",
+   "H3: Bestuur",
+   "H3: Vertrouwenscontactpersoon",
+   "H3: Trainingslocaties",
+   "H3: Voor leden",
+   "H3: Gegevens",
+   "H2: Snel naar",
+   "H2: Contact"
+  ],
+  "imgsNoAlt": [],
+  "iframes": [],
+  "skipLink": true,
+  "hasSearch": false,
+  "wordCount": 157,
+  "smallTargets": 3,
+  "consoleErrors": [],
+  "axe": [
+   {
+    "id": "aria-allowed-role",
+    "impact": "minor",
+    "help": "ARIA role should be appropriate for the element",
+    "nodes": 8,
+    "targets": [
+     "#wp-admin-bar-wp-logo",
+     "#wp-admin-bar-site-name",
+     "#wp-admin-bar-site-editor"
+    ]
+   },
+   {
+    "id": "heading-order",
+    "impact": "moderate",
+    "help": "Heading levels should only increase by one",
+    "nodes": 1,
+    "targets": [
+     ".wp-block-column.is-layout-flow.wp-block-column-is-layout-flow:nth-child(1) > h3:nth-child(1)"
+    ]
+   },
+   {
+    "id": "region",
+    "impact": "moderate",
+    "help": "All page content should be contained by landmarks",
+    "nodes": 1,
+    "targets": [
+     "#wp-skip-link"
+    ]
+   }
+  ]
+ },
+ "/faq/": {
+  "status": 200,
+  "title": "Veelgestelde vragen – Triami Triathlonvereniging",
+  "lang": "nl-NL",
+  "metaDesc": "De meest gestelde vragen over lidmaatschap, de NTB-licentie en onze communicatie. Staat je vraag er niet bij? Mail secretaris@triami.nl.",
+  "og": [
+   "og:type",
+   "og:site_name",
+   "og:title",
+   "og:description",
+   "og:url",
+   "og:image",
+   "og:locale"
+  ],
+  "canonical": "http://127.0.0.1:9400/faq/",
+  "h1": 1,
+  "headings": [
+   "H1: Veelgestelde vragen",
+   "H2: Lidmaatschap",
+   "H2: NTB-licentie",
+   "H2: Communicatie",
+   "H2: Snel naar",
+   "H2: Contact"
+  ],
+  "imgsNoAlt": [],
+  "iframes": [],
+  "skipLink": true,
+  "hasSearch": false,
+  "wordCount": 165,
+  "smallTargets": 3,
+  "consoleErrors": [],
+  "axe": [
+   {
+    "id": "aria-allowed-role",
+    "impact": "minor",
+    "help": "ARIA role should be appropriate for the element",
+    "nodes": 8,
+    "targets": [
+     "#wp-admin-bar-wp-logo",
+     "#wp-admin-bar-site-name",
+     "#wp-admin-bar-site-editor"
+    ]
+   },
+   {
+    "id": "region",
+    "impact": "moderate",
+    "help": "All page content should be contained by landmarks",
+    "nodes": 1,
+    "targets": [
+     "#wp-skip-link"
+    ]
+   }
+  ]
+ },
+ "/nieuws/": {
+  "status": 200,
+  "title": "Nieuws – Triami Triathlonvereniging",
+  "lang": "nl-NL",
+  "metaDesc": "Wedstrijdverslagen, uitslagen van de clubcompetitie en aankondigingen.",
+  "og": [
+   "og:type",
+   "og:site_name",
+   "og:title",
+   "og:description",
+   "og:url",
+   "og:image",
+   "og:locale"
+  ],
+  "canonical": "http://127.0.0.1:9400/nieuws/",
+  "h1": 1,
+  "headings": [
+   "H1: Nieuws",
+   "H2: Snel naar",
+   "H2: Contact"
+  ],
+  "imgsNoAlt": [],
+  "iframes": [],
+  "skipLink": true,
+  "hasSearch": false,
+  "wordCount": 96,
+  "smallTargets": 3,
+  "consoleErrors": [],
+  "axe": [
+   {
+    "id": "aria-allowed-role",
+    "impact": "minor",
+    "help": "ARIA role should be appropriate for the element",
+    "nodes": 8,
+    "targets": [
+     "#wp-admin-bar-wp-logo",
+     "#wp-admin-bar-site-name",
+     "#wp-admin-bar-site-editor"
+    ]
+   },
+   {
+    "id": "region",
+    "impact": "moderate",
+    "help": "All page content should be contained by landmarks",
+    "nodes": 1,
+    "targets": [
+     "#wp-skip-link"
+    ]
+   }
+  ]
+ },
+ "/statuten_akte-van-oprichting_18-5-2006.pdf/": {
+  "status": 404,
+  "title": "Pagina niet gevonden – Triami Triathlonvereniging",
+  "lang": "nl-NL",
+  "metaDesc": "Dé triathlonvereniging van Deventer en omstreken",
+  "og": [
+   "og:type",
+   "og:site_name",
+   "og:title",
+   "og:description",
+   "og:url",
+   "og:image",
+   "og:locale"
+  ],
+  "canonical": null,
+  "h1": 1,
+  "headings": [
+   "H1: Pagina niet gevonden",
+   "H2: Snel naar",
+   "H2: Contact"
+  ],
+  "imgsNoAlt": [],
+  "iframes": [],
+  "skipLink": true,
+  "hasSearch": false,
+  "wordCount": 85,
+  "smallTargets": 3,
+  "consoleErrors": [
+   "Failed to load resource: the server responded with a status of 404 (Not Found)",
+   "Failed to load resource: the server responded with a status of 404 (Not Found)",
+   "Failed to load resource: the server responded with a status of 404 (Not Found)",
+   "Failed to load resource: the server responded with a status of 404 (Not Found)",
+   "Failed to load resource: the server responded with a status of 404 (Not Found)",
+   "Failed to load resource: the server responded with a status of 404 (Not Found)",
+   "Failed to load resource: the server responded with a status of 404 (Not Found)",
+   "Failed to load resource: the server responded with a status of 404 (Not Found)",
+   "Failed to load resource: the server responded with a status of 404 (Not Found)",
+   "Failed to load resource: the server responded with a status of 404 (Not Found)",
+   "Failed to load resource: the server responded with a status of 404 (Not Found)",
+   "Failed to load resource: the server responded with a status of 404 (Not Found)",
+   "Failed to load resource: the server responded with a status of 404 (Not Found)",
+   "Failed to load resource: the server responded with a status of 404 (Not Found)",
+   "Failed to load resource: the server responded with a status of 404 (Not Found)"
+  ],
+  "axe": [
+   {
+    "id": "aria-allowed-role",
+    "impact": "minor",
+    "help": "ARIA role should be appropriate for the element",
+    "nodes": 7,
+    "targets": [
+     "#wp-admin-bar-wp-logo",
+     "#wp-admin-bar-site-name",
+     "#wp-admin-bar-site-editor"
+    ]
+   },
+   {
+    "id": "region",
+    "impact": "moderate",
+    "help": "All page content should be contained by landmarks",
+    "nodes": 1,
+    "targets": [
+     "#wp-skip-link"
+    ]
+   }
+  ]
+ },
+ "/wp-content/uploads/2025/11/Huishoudelijk-reglement-vastgesteld-19.1.2025.pdf/": {
+  "status": 200,
+  "title": "Triami Triathlonvereniging – Dé triathlonvereniging van Deventer en omstreken",
+  "lang": "nl-NL",
+  "metaDesc": "Dé triathlonvereniging van Deventer en omstreken. Zwemmen, fietsen en hardlopen onder begeleiding van gediplomeerde trainers. Train vrijblijvend mee.",
+  "og": [
+   "og:type",
+   "og:site_name",
+   "og:title",
+   "og:description",
+   "og:url",
+   "og:image",
+   "og:locale"
+  ],
+  "canonical": null,
+  "h1": 1,
+  "headings": [
+   "H1: Samen trainen, samen finishen",
+   "H2: Vrienden van de triathlon",
+   "H3: Gediplomeerde trainers",
+   "H3: Samen op pad",
+   "H3: Laagdrempelig",
+   "H3: Aangesloten bij de NTB",
+   "H2: Wekelijkse trainingen",
+   "H3: Zwemmen",
+   "H3: Zwemmen",
+   "H3: Hardlopen",
+   "H3: Fietsen",
+   "H2: Vrijblijvend meetrainen?",
+   "H2: Start2Tri: je eerste triathlon",
+   "H3: In het kort",
+   "H2: Vragen? Mail de secretaris",
+   "H2: Snel naar",
+   "H2: Contact"
+  ],
+  "imgsNoAlt": [],
+  "iframes": [],
+  "skipLink": true,
+  "hasSearch": false,
+  "wordCount": 430,
+  "smallTargets": 3,
+  "consoleErrors": [],
+  "axe": [
+   {
+    "id": "aria-allowed-role",
+    "impact": "minor",
+    "help": "ARIA role should be appropriate for the element",
+    "nodes": 7,
+    "targets": [
+     "#wp-admin-bar-wp-logo",
+     "#wp-admin-bar-site-name",
+     "#wp-admin-bar-site-editor"
+    ]
+   },
+   {
+    "id": "region",
+    "impact": "moderate",
+    "help": "All page content should be contained by landmarks",
+    "nodes": 1,
+    "targets": [
+     "#wp-skip-link"
+    ]
+   }
+  ]
+ },
+ "/privacystatement.pdf/": {
+  "status": 404,
+  "title": "Pagina niet gevonden – Triami Triathlonvereniging",
+  "lang": "nl-NL",
+  "metaDesc": "Dé triathlonvereniging van Deventer en omstreken",
+  "og": [
+   "og:type",
+   "og:site_name",
+   "og:title",
+   "og:description",
+   "og:url",
+   "og:image",
+   "og:locale"
+  ],
+  "canonical": null,
+  "h1": 1,
+  "headings": [
+   "H1: Pagina niet gevonden",
+   "H2: Snel naar",
+   "H2: Contact"
+  ],
+  "imgsNoAlt": [],
+  "iframes": [],
+  "skipLink": true,
+  "hasSearch": false,
+  "wordCount": 85,
+  "smallTargets": 3,
+  "consoleErrors": [
+   "Failed to load resource: the server responded with a status of 404 (Not Found)",
+   "Failed to load resource: the server responded with a status of 404 (Not Found)"
+  ],
+  "axe": [
+   {
+    "id": "aria-allowed-role",
+    "impact": "minor",
+    "help": "ARIA role should be appropriate for the element",
+    "nodes": 7,
+    "targets": [
+     "#wp-admin-bar-wp-logo",
+     "#wp-admin-bar-site-name",
+     "#wp-admin-bar-site-editor"
+    ]
+   },
+   {
+    "id": "region",
+    "impact": "moderate",
+    "help": "All page content should be contained by landmarks",
+    "nodes": 1,
+    "targets": [
+     "#wp-skip-link"
+    ]
+   }
+  ]
+ },
+ "_mobile": {
+  "/": {
+   "hScroll": false,
+   "scrollWidth": 400,
+   "menuButton": true,
+   "smallTargets": 7,
+   "minFont": 14,
+   "menuOpensWithItems": 11
+  },
+  "/trainingen/": {
+   "hScroll": false,
+   "scrollWidth": 400,
+   "menuButton": true,
+   "smallTargets": 4,
+   "minFont": 14
+  },
+  "/lidmaatschap/": {
+   "hScroll": false,
+   "scrollWidth": 400,
+   "menuButton": true,
+   "smallTargets": 7,
+   "minFont": 14
+  },
+  "/faq/": {
+   "hScroll": false,
+   "scrollWidth": 400,
+   "menuButton": true,
+   "smallTargets": 11,
+   "minFont": 14
+  }
+ },
+ "_external": [
+  "http://koffiedok.nl/contact/",
+  "https://centrumveiligesport.nl/doelgroepen/sporters",
+  "https://forms.office.com/Pages/ResponsePage.aspx?id=7tsW9NdBGk2ozxeMbr7PRQwgd8BVLdNLmkOHyP_6nEtUM0oxVUVYUVg0U0I5VDYwNEFXQ0VIVVFHNC4u&lang=nl-NL",
+  "https://learn.wordpress.org/",
+  "https://mijn.triathlonbond.nl",
+  "https://nl.wordpress.org/support/forums/",
+  "https://nocnsf.nl/high5-stappenplan/kennisbank",
+  "https://spond.com/invite/WFYQG",
+  "https://teamcompetities.nl/",
+  "https://wordpress.org/",
+  "https://wordpress.org/documentation/",
+  "https://wordpress.org/support/forum/requests-and-feedback",
+  "https://www.strava.com/clubs/triami",
+  "https://www.triami.nl/privacystatement.pdf",
+  "https://www.triathlonbond.nl/",
+  "https://www.triathlonbond.nl/leden/vragen-over-lidmaatschap/",
+  "https://www.triathlondeventer.nl/"
+ ]
+}

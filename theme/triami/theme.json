@@ -26,6 +26,11 @@
           "color": "#C4151B"
         },
         {
+          "slug": "triami-rood-diep",
+          "name": "Triami-rood diep",
+          "color": "#A3111A"
+        },
+        {
           "slug": "triami-rood-licht",
           "name": "Triami-rood licht",
           "color": "#F36B6F"
@@ -281,7 +286,7 @@
       },
       "button": {
         "color": {
-          "background": "var(--wp--preset--color--triami-rood)",
+          "background": "var(--wp--preset--color--triami-rood-donker)",
           "text": "var(--wp--preset--color--wit)"
         },
         "typography": {
@@ -304,13 +309,13 @@
         },
         ":hover": {
           "color": {
-            "background": "var(--wp--preset--color--triami-rood-donker)",
+            "background": "var(--wp--preset--color--triami-rood-diep)",
             "text": "var(--wp--preset--color--wit)"
           }
         },
         ":focus": {
           "color": {
-            "background": "var(--wp--preset--color--triami-rood-donker)",
+            "background": "var(--wp--preset--color--triami-rood-diep)",
             "text": "var(--wp--preset--color--wit)"
           }
         }
