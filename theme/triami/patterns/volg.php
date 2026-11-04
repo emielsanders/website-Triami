@@ -24,18 +24,11 @@ $img = get_template_directory_uri() . '/assets/img/';
 <p class="triami-kanaal-kop"><svg aria-hidden="true" viewBox="0 0 24 24" width="28" height="28"><path fill="currentColor" d="M3 17 9 5l3 6h-3l-3 6zm9-6 3 6 3-6h-2l-1 2-1-2z"/><path fill="currentColor" d="m12 11 3-6 6 12h-3l-3-6z" opacity=".55"/></svg><span>Strava-club</span></p>
 <!-- /wp:html -->
 <!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">Samen 83 leden op Strava</h3>
+<h3 class="wp-block-heading">Train virtueel mee op Strava</h3>
 <!-- /wp:heading -->
 <!-- wp:paragraph -->
 <p>In de club zie je wie er getraind heeft, de wekelijkse klassementen en de gezamenlijke kilometers. Word lid en train virtueel mee.</p>
 <!-- /wp:paragraph -->
-<!-- wp:html -->
-<ul class="triami-stats" aria-label="Kengetallen Strava-club">
-<li><strong>83</strong><span>leden</span></li>
-<li><strong>3</strong><span>sporten</span></li>
-<li><strong>Deventer</strong><span>en omstreken</span></li>
-</ul>
-<!-- /wp:html -->
 <!-- wp:buttons -->
 <div class="wp-block-buttons">
 <!-- wp:button {"className":"is-style-outline-zwart"} -->
@@ -44,7 +37,7 @@ $img = get_template_directory_uri() . '/assets/img/';
 </div>
 <!-- /wp:buttons -->
 <!-- wp:paragraph {"className":"triami-check"} -->
-<p class="triami-check">Check bestuur: ledental Strava-club (nu 83) handmatig bijhouden of weglaten? De officiële Strava-clubwidget met laatste activiteiten werkt sinds januari 2026 onbetrouwbaar; zodra Strava dat herstelt, plaatsen we hem hier.</p>
+<p class="triami-check">Check bestuur: Strava-club bevestigen. Ledental en laatste activiteiten tonen we pas zodra Strava de clubwidget weer werkend heeft (storing sinds januari 2026).</p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
