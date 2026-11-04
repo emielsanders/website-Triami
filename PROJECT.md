@@ -54,6 +54,12 @@ dist/                bouwresultaat (niet in git)
 3. Lokaal bekijken: `npx @wp-playground/cli server --mount=theme/triami:/wordpress/wp-content/themes/triami --mount=dist:/wordpress/wp-content/triami-import --blueprint=playground/local-blueprint.json --port=9400`
 4. Commit met duidelijke boodschap.
 
+## Besluiten 4 nov (ronde 2)
+- GitHub: Emiel maakt zelf repo `emielsanders/triami-website` aan (leeg, publiek); daarna koppelen en pushen.
+- Hosting: komt bij Vimexx of andere partij; pas nodig bij staging/livegang, niet nu.
+- Inschrijfformulier: MS Forms blijft. Gevolg: bij livegang cookieconsent (Complianz) voor het iframe.
+- Feedback bestuur via `docs/feedbackboek-2026-11-04.pdf` (62 bladen, groot nummer rechtsboven; `tools/feedback_pdf.py` + `pg/shots_pdf.py`).
+
 ## Volgende stappen
 1. Ophaallijst bestuur afwerken (`docs/ophaallijst-bestuur.md`) en `Check bestuur`-regels verwijderen.
 2. GitHub-repo aanmaken en pushen; `playground/blueprint.json` met `installTheme` via raw-URL (zie `docs/technische-aanpak.md`).

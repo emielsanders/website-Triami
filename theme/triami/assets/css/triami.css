@@ -136,3 +136,17 @@ a:focus-visible, button:focus-visible, .wp-block-button__link:focus-visible {
 /* Ingebed formulier (MS Forms) */
 .triami-formulier iframe { width: 100%; height: 900px; border: 1px solid var(--wp--preset--color--lijn); border-radius: 8px; }
 @media (max-width: 600px) { .triami-formulier iframe { height: 700px; } }
+
+/* Mobiel menu (overlay): links uitgelijnd, ruimte aan de randen, submenu ingesprongen */
+.triami-header .wp-block-navigation__responsive-container.is-menu-open { padding: 1.5rem max(1.25rem, env(safe-area-inset-right)) 2rem max(1.25rem, env(safe-area-inset-left)); }
+.triami-header .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content { align-items: flex-start; }
+.triami-header .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__container { align-items: flex-start; gap: .25rem; }
+.triami-header .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation-item__content { font-size: 1.125rem; }
+.triami-header .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__submenu-container { border: 0; box-shadow: none; padding: 0 0 .5rem 1rem; border-left: 3px solid var(--wp--preset--color--triami-rood); margin: .25rem 0 .5rem; }
+.triami-header .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__submenu-container .wp-block-navigation-item__content { font-size: 1rem; font-weight: 600; text-transform: none; letter-spacing: 0; }
+.triami-header .wp-block-navigation__responsive-container-close { right: max(1.25rem, env(safe-area-inset-right)); top: 1.25rem; }
+.triami-header .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__container,
+.triami-header .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation-item,
+.triami-header .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__submenu-container { justify-content: flex-start; align-items: flex-start; text-align: left; }
+.triami-header .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation-item.has-child { flex-direction: column; }
+.triami-header .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__submenu-container { width: 100%; }
