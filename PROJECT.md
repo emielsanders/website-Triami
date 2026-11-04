@@ -63,6 +63,8 @@ dist/                bouwresultaat (niet in git)
 - Social media (4 nov, avond): blok `triami/volg` op de homepage: Strava-club (id 101737, 83 leden; officiële widget sinds jan 2026 onbetrouwbaar, dus link + kengetallen), Spond-uitnodiging met QR (`assets/img/spond-qr.svg`), Instagram-plaatshouders (feed via Smash Balloon bij livegang, accountnaam onbekend). Instagram-link ook in footer.
 - Feedbackpagina (artifact "Triami feedback", db-opslag): `tools/feedback_artifact.py`; opmerkingen uitlezen met ArtifactData (collecties `opmerkingen`, `antwoorden`).
 
+- Repo is publiek; demo via korte link: `https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/emielsanders/website-Triami/main/playground/blueprint.json` (thema-zip en WXR staan in `playground/dist/`, na `tools/build.py` kopiëren en pushen).
+
 ## Volgende stappen
 1. Ophaallijst bestuur afwerken (`docs/ophaallijst-bestuur.md`) en `Check bestuur`-regels verwijderen.
 2. GitHub-repo aanmaken en pushen; `playground/blueprint.json` met `installTheme` via raw-URL (zie `docs/technische-aanpak.md`).
