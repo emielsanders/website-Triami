@@ -11,8 +11,8 @@
  *  6. verwijdert zichzelf.
  * Daarna: https://nieuw.triami.nl/ openen en de WordPress-installatie doorlopen.
  *
- * Gebruik: dit bestand (of de 3-regelige lader) in de webroot van de oude site zetten en
- * aanroepen met ?token=<TOKEN>. Het token staat hieronder; wijzig het vóór gebruik.
+ * Gebruik: lader.php (met een zelfgekozen code) in de webroot van de oude site zetten en
+ * aanroepen met ?token=<code>. De lader haalt dit bestand op en voert het uit.
  */
 declare(strict_types=1);
 @set_time_limit(600);
@@ -20,14 +20,14 @@ declare(strict_types=1);
 error_reporting(E_ALL);
 header('Content-Type: text/plain; charset=utf-8');
 
-const TOKEN      = 'triami-2026-nieuw';
 const SUBDOMEIN  = 'nieuw.triami.nl';
 const PREFIX     = 'nieuw_';
 const WP_ZIP     = 'https://nl.wordpress.org/latest-nl_NL.zip';
 const THEMA_ZIP  = 'https://raw.githubusercontent.com/emielsanders/website-Triami/main/playground/dist/triami.zip';
 const WXR_URL    = 'https://raw.githubusercontent.com/emielsanders/website-Triami/main/playground/dist/triami-paginas-import.xml';
 
-if (($_GET['token'] ?? '') !== TOKEN) { http_response_code(403); exit("Geen toegang.\n"); }
+// De toegangscode staat NIET in dit bestand (openbare repo) maar in lader.php op de server.
+if (!defined('TRIAMI_TOKEN') || TRIAMI_TOKEN === '' || ($_GET['token'] ?? '') !== TRIAMI_TOKEN) { http_response_code(403); exit("Geen toegang.\n"); }
 
 function stap(string $t): void { echo "• $t\n"; @ob_flush(); @flush(); }
 function fout(string $t): never { echo "\nFOUT: $t\n"; exit(1); }
