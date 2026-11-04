@@ -131,7 +131,6 @@ a:focus-visible, button:focus-visible, .wp-block-button__link:focus-visible {
 /* Header: knop en submenu */
 .triami-header .wp-block-group > .wp-block-group { gap: 1rem 1.5rem; }
 .triami-header-cta .wp-block-button__link { padding: .5rem 1rem; }
-@media (max-width: 600px) { .triami-header-cta { display: none; } }
 .triami-header .wp-block-navigation__submenu-container { border: 1px solid var(--wp--preset--color--lijn); border-radius: 8px; box-shadow: var(--triami-schaduw); }
 
 /* Ingebed formulier (MS Forms) */
