@@ -17,24 +17,48 @@ add_action( 'after_setup_theme', function () {
 	load_theme_textdomain( 'triami', get_template_directory() . '/languages' );
 } );
 
+/**
+ * Fonts: lokaal gehost via theme.json (assets/fonts/*.woff2, AVG-proof).
+ * Alleen als de fontbestanden ontbreken (bv. in de Playground-demo) valt het thema terug op Google Fonts.
+ */
+function triami_google_fonts_url() {
+	return 'https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&family=Source+Sans+3:wght@400;600&display=swap';
+}
+function triami_fonts_missing() {
+	return ! file_exists( get_template_directory() . '/assets/fonts/montserrat-latin.woff2' );
+}
+
 add_action( 'wp_enqueue_scripts', function () {
-	// Google Fonts. Later vervangen door lokaal gehoste woff2 (AVG); zie PROJECT.md.
-	wp_enqueue_style(
-		'triami-fonts',
-		'https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&family=Source+Sans+3:wght@400;600&display=swap',
-		array(),
-		null
-	);
+	if ( triami_fonts_missing() ) {
+		wp_enqueue_style( 'triami-fonts', triami_google_fonts_url(), array(), null );
+	}
 	wp_enqueue_style( 'triami-style', get_template_directory_uri() . '/assets/css/triami.css', array(), TRIAMI_VERSION );
 } );
 
 add_action( 'enqueue_block_editor_assets', function () {
-	wp_enqueue_style(
-		'triami-fonts-editor',
-		'https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&family=Source+Sans+3:wght@400;600&display=swap',
-		array(),
-		null
+	if ( triami_fonts_missing() ) {
+		wp_enqueue_style( 'triami-fonts-editor', triami_google_fonts_url(), array(), null );
+	}
+} );
+
+// Favicon uit het thema zolang er geen site-icoon is ingesteld.
+add_action( 'wp_head', function () {
+	if ( ! has_site_icon() ) {
+		echo '<link rel="icon" type="image/svg+xml" href="' . esc_url( get_template_directory_uri() . '/assets/img/favicon.svg' ) . '">' . "\n";
+	}
+}, 5 );
+
+// Redirects van oude URL's (oude site) naar de nieuwe pagina's.
+add_action( 'template_redirect', function () {
+	$map = array(
+		'/lidmaatschap-2/' => '/lidmaatschap/',
+		'/bestuur/huishoudelijk-reglement-vastgesteld-19-1-2025/' => '/bestuur/',
 	);
+	$path = wp_parse_url( $_SERVER['REQUEST_URI'] ?? '/', PHP_URL_PATH );
+	if ( $path && isset( $map[ $path ] ) ) {
+		wp_safe_redirect( home_url( $map[ $path ] ), 301 );
+		exit;
+	}
 } );
 
 add_action( 'init', function () {

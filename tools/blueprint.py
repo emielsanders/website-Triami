@@ -11,16 +11,23 @@ THEME = ROOT / "theme" / "triami"
 def tree(d: Path) -> dict:
     out = {}
     for p in sorted(d.iterdir()):
-        if p.name.startswith("."): continue
+        if p.name.startswith(".") or p.name == "fonts": continue  # woff2 is binair, kan niet inline
         out[p.name] = tree(p) if p.is_dir() else p.read_text(encoding="utf-8")
     return out
 
 wxr = (ROOT / "dist" / "triami-paginas-import.xml").read_text(encoding="utf-8")
+files = tree(THEME)
+# Demo zonder binaire fonts: fontFace uit theme.json halen, functions.php valt dan terug op Google Fonts.
+tj = json.loads(files["theme.json"])
+for ff in tj["settings"]["typography"]["fontFamilies"]:
+    ff.pop("fontFace", None)
+files["theme.json"] = json.dumps(tj, ensure_ascii=False)
+
 bp = {
   "landingPage": "/", "login": True,
   "preferredVersions": {"php": "8.3", "wp": "latest"},
   "steps": [
-    {"step": "installTheme", "themeData": {"resource": "literal:directory", "name": "triami", "files": tree(THEME)}, "options": {"activate": True}},
+    {"step": "installTheme", "themeData": {"resource": "literal:directory", "name": "triami", "files": files}, "options": {"activate": True}},
     {"step": "importWxr", "file": {"resource": "literal", "name": "triami-paginas-import.xml", "contents": wxr}},
     {"step": "setSiteOptions", "options": {"blogname": "Triami Triathlonvereniging", "blogdescription": "Dé triathlonvereniging van Deventer en omstreken", "permalink_structure": "/%postname%/", "timezone_string": "Europe/Amsterdam"}},
     {"step": "runPHP", "code": "<?php require '/wordpress/wp-load.php'; wp_delete_post(1,true); wp_delete_post(2,true); $n=get_page_by_path('nieuws'); if($n){update_option('page_for_posts',$n->ID);} flush_rewrite_rules();"}
