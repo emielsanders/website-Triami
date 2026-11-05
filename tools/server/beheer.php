@@ -13,8 +13,8 @@
 declare(strict_types=1);
 @set_time_limit(300);
 header('Content-Type: text/plain; charset=utf-8');
-define('TRIAMI_TOKEN', 'KIES-ZELF-EEN-CODE');
-if (TRIAMI_TOKEN === 'KIES-ZELF-EEN-CODE' || ($_GET['token'] ?? '') !== TRIAMI_TOKEN) { http_response_code(403); exit("Geen toegang.\n"); }
+// De code staat in de kleine lader op de server (beheer-lader.php), niet in deze repo.
+if (!defined('TRIAMI_TOKEN') || ($_GET['token'] ?? '') !== TRIAMI_TOKEN) { http_response_code(403); exit("Geen toegang.\n"); }
 
 $actie = $_GET['actie'] ?? 'status';
 $doel = dirname(__DIR__) . '/nieuw';
