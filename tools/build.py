@@ -103,7 +103,9 @@ def build_zip() -> Path:
 
 
 def main() -> None:
-    pages = sorted((read_page(p) for p in PAGES.glob("*.html")), key=lambda p: int(p["order"]))
+    alle = [read_page(p) for p in PAGES.glob("*.html")]
+    # status: draft = (nog) niet publiceren; blijft in de repo, gaat niet mee in de import.
+    pages = sorted((p for p in alle if p.get("status", "publish") != "draft"), key=lambda p: int(p["order"]))
     DIST.mkdir(exist_ok=True)
     xml = DIST / "triami-paginas-import.xml"
     xml.write_text(build_wxr(pages), encoding="utf-8")
