@@ -9,7 +9,7 @@ Per punt: wat we nodig hebben, waar het op de site komt, en wie het aanlevert. A
 | 3 | Teamcompetitie 2026: welke teams, divisies en teamcaptains | Teamcompetitie | Secretaris / captains | ☐ |
 | 4 | Trainers: actuele lijst, namen van de trainers in opleiding, toestemming voor naam en eventueel foto | Trainers | Hoofdtrainer | ☐ |
 | 5 | Achternamen van bestuur en trainers vermelden, of bewust alleen voornamen? | Bestuur, Trainers | Bestuur | ☐ |
-| 6 | Vertrouwenscontactpersoon: is Leoniek nog VCP en welk e-mailadres is juist (vertrouwenscontactpersoon@ of vcp@)? | Vertrouwenscontactpersoon, Contact | Voorzitter | ☐ |
+| 6 | Vertrouwenscontactpersoon: is Leoniek nog VCP? E-mailadres is vcp@triami.nl (Emiel, 5 nov) | Vertrouwenscontactpersoon, Contact | Voorzitter | ☐ (adres ☑) |
 | 7 | Jaarschema zwemmen (PDF of lijst) en de zomerstop-periode | Trainingen | Zwemtrainers | ☐ |
 | 8 | Start2Tri 2027: data, kosten, aanmeldroute, groepsgrootte | Start2Tri | Organisator Start2Tri | ☐ |
 | 9 | Clubcompetitie: tellen de beste 6 of 7 resultaten? Kalender van het seizoen; standen op de site of alleen in de nieuwsbrief? | Clubcompetitie | TCC-commissie | ☐ |
