@@ -56,7 +56,7 @@
 <h3 class="wp-block-heading">Laagdrempelig</h3>
 <!-- /wp:heading -->
 <!-- wp:paragraph -->
-<p>Eerst twee keer gratis meetrainen, daarna tien weken proeflid. Geen inschrijfkosten.</p>
+<p>Kom vrijblijvend kennismaken tijdens een training. Daarna word je tien weken proeflid voor € 35, of meteen lid.</p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
