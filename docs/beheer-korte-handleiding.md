@@ -27,3 +27,10 @@ Klik in de editor op **+** en kies **Afbeelding**. Upload een foto van maximaal 
 
 ## Hulp
 Websitebeheer: algemeenbestuurslid@triami.nl.
+
+## Namen op de website (vastgesteld 5 november 2026)
+
+- Leden in verslagen, trainers en teamcaptains: **alleen voornaam**.
+- Bestuur: **voornaam + functie + functie-mailadres** (bijv. secretaris@triami.nl), geen persoonlijke adressen of telefoonnummers.
+- Vertrouwenscontactpersoon: **volledige naam + vcp@triami.nl**, geen telefoonnummer.
+- Altijd alleen met toestemming van de persoon; herkenbare foto's van leden alleen met hun akkoord.
