@@ -9,7 +9,7 @@
     <title>Triami Triathlonvereniging</title>
     <link>https://www.triami.nl</link>
     <description>Dé triathlonvereniging van Deventer en omstreken</description>
-    <pubDate>Thu, 05 Nov 2026 21:15:25 +0000</pubDate>
+    <pubDate>Thu, 05 Nov 2026 21:50:53 +0000</pubDate>
     <language>nl-NL</language>
     <wp:wxr_version>1.2</wp:wxr_version>
     <wp:base_site_url>https://www.triami.nl</wp:base_site_url>
@@ -20,7 +20,7 @@
     <item>
         <title><![CDATA[Vereniging]]></title>
         <link>https://www.triami.nl/vereniging/</link>
-        <pubDate>Thu, 05 Nov 2026 21:15:25 +0000</pubDate>
+        <pubDate>Thu, 05 Nov 2026 21:50:53 +0000</pubDate>
         <dc:creator><![CDATA[admin]]></dc:creator>
         <guid isPermaLink="false">https://www.triami.nl/?page_id=100</guid>
         <description></description>
@@ -85,7 +85,7 @@
 <h2 class="wp-block-heading">Samenwerking</h2>
 <!-- /wp:heading -->
 <!-- wp:paragraph -->
-<p>We werken veel samen met andere Deventer verenigingen, zoals zwemclub <a href="https://www.zwemclubdeventer.nl/" target="_blank" rel="noopener">De IJsel</a>, met wie we op vrijdagochtend het vroege zwemuur delen, en wielervereniging De Zwaluwen. De trainingen vinden plaats bij AV Daventria, in De Scheg en het Borgelerbad. Via <a href="https://www.rechtop.nu/" target="_blank" rel="noopener">Stichting Rechtop</a> kunnen Deventenaren met een kleiner budget een bijdrage krijgen voor hun lidmaatschap.</p>
+<p>We werken veel samen met andere Deventer verenigingen, zoals zwemclub <a href="https://www.zwemclubdeventer.nl/" target="_blank" rel="noopener">De IJsel</a>, met wie we op vrijdag vroeg samen zwemmen, en wielervereniging De Zwaluwen. We trainen op de atletiekbaan en in de zwembaden van Deventer. Via <a href="https://www.rechtop.nu/" target="_blank" rel="noopener">Stichting Rechtop</a> kunnen Deventenaren met een kleiner budget een bijdrage krijgen voor hun lidmaatschap.</p>
 <!-- /wp:paragraph -->
 <!-- wp:heading -->
 <h2 class="wp-block-heading">Onze sponsoren</h2>
@@ -168,8 +168,8 @@
 <!-- /wp:group -->]]></content:encoded>
         <excerpt:encoded><![CDATA[]]></excerpt:encoded>
         <wp:post_id>100</wp:post_id>
-        <wp:post_date><![CDATA[2026-11-05 21:15:25]]></wp:post_date>
-        <wp:post_date_gmt><![CDATA[2026-11-05 21:15:25]]></wp:post_date_gmt>
+        <wp:post_date><![CDATA[2026-11-05 21:50:53]]></wp:post_date>
+        <wp:post_date_gmt><![CDATA[2026-11-05 21:50:53]]></wp:post_date_gmt>
         <wp:comment_status><![CDATA[closed]]></wp:comment_status>
         <wp:ping_status><![CDATA[closed]]></wp:ping_status>
         <wp:post_name><![CDATA[vereniging]]></wp:post_name>
@@ -183,7 +183,7 @@
     <item>
         <title><![CDATA[Bestuur]]></title>
         <link>https://www.triami.nl/bestuur/</link>
-        <pubDate>Thu, 05 Nov 2026 21:15:25 +0000</pubDate>
+        <pubDate>Thu, 05 Nov 2026 21:50:53 +0000</pubDate>
         <dc:creator><![CDATA[admin]]></dc:creator>
         <guid isPermaLink="false">https://www.triami.nl/?page_id=101</guid>
         <description></description>
@@ -276,8 +276,8 @@
 <!-- /wp:list -->]]></content:encoded>
         <excerpt:encoded><![CDATA[]]></excerpt:encoded>
         <wp:post_id>101</wp:post_id>
-        <wp:post_date><![CDATA[2026-11-05 21:15:25]]></wp:post_date>
-        <wp:post_date_gmt><![CDATA[2026-11-05 21:15:25]]></wp:post_date_gmt>
+        <wp:post_date><![CDATA[2026-11-05 21:50:53]]></wp:post_date>
+        <wp:post_date_gmt><![CDATA[2026-11-05 21:50:53]]></wp:post_date_gmt>
         <wp:comment_status><![CDATA[closed]]></wp:comment_status>
         <wp:ping_status><![CDATA[closed]]></wp:ping_status>
         <wp:post_name><![CDATA[bestuur]]></wp:post_name>
@@ -291,7 +291,7 @@
     <item>
         <title><![CDATA[Trainers]]></title>
         <link>https://www.triami.nl/trainers/</link>
-        <pubDate>Thu, 05 Nov 2026 21:15:25 +0000</pubDate>
+        <pubDate>Thu, 05 Nov 2026 21:50:53 +0000</pubDate>
         <dc:creator><![CDATA[admin]]></dc:creator>
         <guid isPermaLink="false">https://www.triami.nl/?page_id=102</guid>
         <description></description>
@@ -328,8 +328,8 @@
 <!-- /wp:paragraph -->]]></content:encoded>
         <excerpt:encoded><![CDATA[]]></excerpt:encoded>
         <wp:post_id>102</wp:post_id>
-        <wp:post_date><![CDATA[2026-11-05 21:15:25]]></wp:post_date>
-        <wp:post_date_gmt><![CDATA[2026-11-05 21:15:25]]></wp:post_date_gmt>
+        <wp:post_date><![CDATA[2026-11-05 21:50:53]]></wp:post_date>
+        <wp:post_date_gmt><![CDATA[2026-11-05 21:50:53]]></wp:post_date_gmt>
         <wp:comment_status><![CDATA[closed]]></wp:comment_status>
         <wp:ping_status><![CDATA[closed]]></wp:ping_status>
         <wp:post_name><![CDATA[trainers]]></wp:post_name>
@@ -343,7 +343,7 @@
     <item>
         <title><![CDATA[Teamcompetitie]]></title>
         <link>https://www.triami.nl/teamcompetitie/</link>
-        <pubDate>Thu, 05 Nov 2026 21:15:25 +0000</pubDate>
+        <pubDate>Thu, 05 Nov 2026 21:50:53 +0000</pubDate>
         <dc:creator><![CDATA[admin]]></dc:creator>
         <guid isPermaLink="false">https://www.triami.nl/?page_id=103</guid>
         <description></description>
@@ -380,8 +380,8 @@
 <!-- /wp:paragraph -->]]></content:encoded>
         <excerpt:encoded><![CDATA[]]></excerpt:encoded>
         <wp:post_id>103</wp:post_id>
-        <wp:post_date><![CDATA[2026-11-05 21:15:25]]></wp:post_date>
-        <wp:post_date_gmt><![CDATA[2026-11-05 21:15:25]]></wp:post_date_gmt>
+        <wp:post_date><![CDATA[2026-11-05 21:50:53]]></wp:post_date>
+        <wp:post_date_gmt><![CDATA[2026-11-05 21:50:53]]></wp:post_date_gmt>
         <wp:comment_status><![CDATA[closed]]></wp:comment_status>
         <wp:ping_status><![CDATA[closed]]></wp:ping_status>
         <wp:post_name><![CDATA[teamcompetitie]]></wp:post_name>
@@ -395,7 +395,7 @@
     <item>
         <title><![CDATA[Clubcompetitie]]></title>
         <link>https://www.triami.nl/clubcompetitie/</link>
-        <pubDate>Thu, 05 Nov 2026 21:15:25 +0000</pubDate>
+        <pubDate>Thu, 05 Nov 2026 21:50:53 +0000</pubDate>
         <dc:creator><![CDATA[admin]]></dc:creator>
         <guid isPermaLink="false">https://www.triami.nl/?page_id=104</guid>
         <description></description>
@@ -444,8 +444,8 @@
 <!-- /wp:list -->]]></content:encoded>
         <excerpt:encoded><![CDATA[]]></excerpt:encoded>
         <wp:post_id>104</wp:post_id>
-        <wp:post_date><![CDATA[2026-11-05 21:15:25]]></wp:post_date>
-        <wp:post_date_gmt><![CDATA[2026-11-05 21:15:25]]></wp:post_date_gmt>
+        <wp:post_date><![CDATA[2026-11-05 21:50:53]]></wp:post_date>
+        <wp:post_date_gmt><![CDATA[2026-11-05 21:50:53]]></wp:post_date_gmt>
         <wp:comment_status><![CDATA[closed]]></wp:comment_status>
         <wp:ping_status><![CDATA[closed]]></wp:ping_status>
         <wp:post_name><![CDATA[clubcompetitie]]></wp:post_name>
@@ -459,7 +459,7 @@
     <item>
         <title><![CDATA[Clubkleding]]></title>
         <link>https://www.triami.nl/clubkleding/</link>
-        <pubDate>Thu, 05 Nov 2026 21:15:25 +0000</pubDate>
+        <pubDate>Thu, 05 Nov 2026 21:50:53 +0000</pubDate>
         <dc:creator><![CDATA[admin]]></dc:creator>
         <guid isPermaLink="false">https://www.triami.nl/?page_id=105</guid>
         <description></description>
@@ -486,8 +486,8 @@
 <!-- /wp:paragraph -->]]></content:encoded>
         <excerpt:encoded><![CDATA[]]></excerpt:encoded>
         <wp:post_id>105</wp:post_id>
-        <wp:post_date><![CDATA[2026-11-05 21:15:25]]></wp:post_date>
-        <wp:post_date_gmt><![CDATA[2026-11-05 21:15:25]]></wp:post_date_gmt>
+        <wp:post_date><![CDATA[2026-11-05 21:50:53]]></wp:post_date>
+        <wp:post_date_gmt><![CDATA[2026-11-05 21:50:53]]></wp:post_date_gmt>
         <wp:comment_status><![CDATA[closed]]></wp:comment_status>
         <wp:ping_status><![CDATA[closed]]></wp:ping_status>
         <wp:post_name><![CDATA[clubkleding]]></wp:post_name>
@@ -501,7 +501,7 @@
     <item>
         <title><![CDATA[Vertrouwens&shy;contact&shy;persoon]]></title>
         <link>https://www.triami.nl/vertrouwenscontactpersoon/</link>
-        <pubDate>Thu, 05 Nov 2026 21:15:25 +0000</pubDate>
+        <pubDate>Thu, 05 Nov 2026 21:50:53 +0000</pubDate>
         <dc:creator><![CDATA[admin]]></dc:creator>
         <guid isPermaLink="false">https://www.triami.nl/?page_id=106</guid>
         <description></description>
@@ -522,8 +522,8 @@
 <!-- /wp:paragraph -->]]></content:encoded>
         <excerpt:encoded><![CDATA[]]></excerpt:encoded>
         <wp:post_id>106</wp:post_id>
-        <wp:post_date><![CDATA[2026-11-05 21:15:25]]></wp:post_date>
-        <wp:post_date_gmt><![CDATA[2026-11-05 21:15:25]]></wp:post_date_gmt>
+        <wp:post_date><![CDATA[2026-11-05 21:50:53]]></wp:post_date>
+        <wp:post_date_gmt><![CDATA[2026-11-05 21:50:53]]></wp:post_date_gmt>
         <wp:comment_status><![CDATA[closed]]></wp:comment_status>
         <wp:ping_status><![CDATA[closed]]></wp:ping_status>
         <wp:post_name><![CDATA[vertrouwenscontactpersoon]]></wp:post_name>
@@ -537,7 +537,7 @@
     <item>
         <title><![CDATA[Trainingen]]></title>
         <link>https://www.triami.nl/trainingen/</link>
-        <pubDate>Thu, 05 Nov 2026 21:15:25 +0000</pubDate>
+        <pubDate>Thu, 05 Nov 2026 21:50:53 +0000</pubDate>
         <dc:creator><![CDATA[admin]]></dc:creator>
         <guid isPermaLink="false">https://www.triami.nl/?page_id=107</guid>
         <description></description>
@@ -555,10 +555,27 @@
 <p>Triamisten spreken veel onderling af: een duurloop in het weekend, een fietsronde over de Holterberg of samen open water zwemmen in Bussloo of de Berkel. Voorstellen staan in Spond; iedereen kan aansluiten.</p>
 <!-- /wp:paragraph -->
 <!-- wp:paragraph -->
-<p>We werken daarbij veel samen met andere Deventer verenigingen, zoals zwemclub <a href="https://www.zwemclubdeventer.nl/" target="_blank" rel="noopener">De IJsel</a> (onder meer het vroege zwemuur op vrijdag) en wielervereniging De Zwaluwen.</p>
+<p>We werken daarbij veel samen met andere Deventer verenigingen, zoals zwemclub <a href="https://www.zwemclubdeventer.nl/" target="_blank" rel="noopener">De IJsel</a> (onder meer bij het vroege zwemmen op vrijdag) en wielervereniging De Zwaluwen.</p>
 <!-- /wp:paragraph -->
 <!-- wp:paragraph {"className":"triami-check"} -->
 <p class="triami-check">Check bestuur: website van wielervereniging De Zwaluwen aanleveren (niet online gevonden). Klopt de link naar De IJsel (zwemclubdeventer.nl)?</p>
+<!-- /wp:paragraph -->
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Veilig samen fietsen</h2>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>Fietsen in een groep is gezellig en snel, maar vraagt goede afspraken. Check vóór elke rit je fiets: remmen, banden, ketting en aandrijving, en verlichting als het donker wordt. Onderweg volgen we de richtlijnen van de wielersportbond NTFU.</p>
+<!-- /wp:paragraph -->
+<!-- wp:list -->
+<ul class="wp-block-list">
+<!-- wp:list-item --><li><a href="https://www.youtube.com/watch?v=plixvVVVs_E" target="_blank" rel="noopener">Communicatie in de groep</a>: tekens en waarschuwingen doorgeven (video NTFU)</li><!-- /wp:list-item -->
+<!-- wp:list-item --><li><a href="https://www.youtube.com/watch?v=u_WVIGkIK1o" target="_blank" rel="noopener">Ruimte geven en ritsen</a> zodat ander verkeer kan passeren (video NTFU)</li><!-- /wp:list-item -->
+<!-- wp:list-item --><li><a href="https://www.youtube.com/watch?v=ZmiPi1rHW1I" target="_blank" rel="noopener">De route kiezen</a>: rustige wegen, vooraf besproken (video NTFU)</li><!-- /wp:list-item -->
+<!-- wp:list-item --><li><a href="https://www.youtube.com/watch?v=swoWq3EAT-0" target="_blank" rel="noopener">Wisselen op kop</a>, zodat iedereen even rust krijgt (video NTFU)</li><!-- /wp:list-item -->
+</ul>
+<!-- /wp:list -->
+<!-- wp:paragraph {"fontSize":"klein"} -->
+<p class="has-klein-font-size">Meer tips: <a href="https://www.ntfu.nl/kenniscentrum/veilig-fietsen/fietsen-in-een-groep/wielrennen" target="_blank" rel="noopener">NTFU, wielrennen in een groep</a>.</p>
 <!-- /wp:paragraph -->
 <!-- wp:heading -->
 <h2 class="wp-block-heading">Goed om te weten</h2>
@@ -572,7 +589,7 @@
 <li>De hardlooptrainingen gaan in principe het hele jaar door, behalve op feestdagen en bij extreem weer.</li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
-<li>De zwemtrainingen in De Scheg en het Borgelerbad volgen een jaarschema en kennen een zomerstop vanwege de beperkte beschikbaarheid van zwembadpersoneel.</li>
+<li>De zwemtrainingen volgen het jaarschema van de zwembaden en kennen een zomerstop vanwege de beperkte beschikbaarheid van zwembadpersoneel.</li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
 <li>Op feestdagen vervallen alle trainingen. Afgelastingen en wijzigingen melden we via Spond.</li>
@@ -584,7 +601,7 @@
 <li>Fietsen: geen vaste training. Leden doen voorstellen via Spond; afstand en tempo bepaal je onderling. Afspraak: samen uit, samen thuis.</li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
-<li>Bij de zelfstandige zwemuren is er geen trainer. Op zondag is een kantwacht verplicht; zonder kantwacht wordt er niet gezwommen. Meld je daarom ook eens als kantwacht aan in Spond.</li>
+<li>Bij de extra zwemmomenten is er geen trainer; leden zwemmen samen en zorgen zelf voor een kantwacht.</li>
 <!-- /wp:list-item -->
 </ul>
 <!-- /wp:list -->
@@ -599,8 +616,8 @@
 <!-- /wp:paragraph -->]]></content:encoded>
         <excerpt:encoded><![CDATA[]]></excerpt:encoded>
         <wp:post_id>107</wp:post_id>
-        <wp:post_date><![CDATA[2026-11-05 21:15:25]]></wp:post_date>
-        <wp:post_date_gmt><![CDATA[2026-11-05 21:15:25]]></wp:post_date_gmt>
+        <wp:post_date><![CDATA[2026-11-05 21:50:53]]></wp:post_date>
+        <wp:post_date_gmt><![CDATA[2026-11-05 21:50:53]]></wp:post_date_gmt>
         <wp:comment_status><![CDATA[closed]]></wp:comment_status>
         <wp:ping_status><![CDATA[closed]]></wp:ping_status>
         <wp:post_name><![CDATA[trainingen]]></wp:post_name>
@@ -614,7 +631,7 @@
     <item>
         <title><![CDATA[Start2Tri]]></title>
         <link>https://www.triami.nl/start2tri/</link>
-        <pubDate>Thu, 05 Nov 2026 21:15:25 +0000</pubDate>
+        <pubDate>Thu, 05 Nov 2026 21:50:53 +0000</pubDate>
         <dc:creator><![CDATA[admin]]></dc:creator>
         <guid isPermaLink="false">https://www.triami.nl/?page_id=108</guid>
         <description></description>
@@ -682,8 +699,8 @@
 <!-- /wp:buttons -->]]></content:encoded>
         <excerpt:encoded><![CDATA[]]></excerpt:encoded>
         <wp:post_id>108</wp:post_id>
-        <wp:post_date><![CDATA[2026-11-05 21:15:25]]></wp:post_date>
-        <wp:post_date_gmt><![CDATA[2026-11-05 21:15:25]]></wp:post_date_gmt>
+        <wp:post_date><![CDATA[2026-11-05 21:50:53]]></wp:post_date>
+        <wp:post_date_gmt><![CDATA[2026-11-05 21:50:53]]></wp:post_date_gmt>
         <wp:comment_status><![CDATA[closed]]></wp:comment_status>
         <wp:ping_status><![CDATA[closed]]></wp:ping_status>
         <wp:post_name><![CDATA[start2tri]]></wp:post_name>
@@ -695,15 +712,28 @@
         <wp:is_sticky>0</wp:is_sticky>
     </item>
     <item>
-        <title><![CDATA[Lidmaatschap]]></title>
+        <title><![CDATA[Lidmaatschap & tarieven]]></title>
         <link>https://www.triami.nl/lidmaatschap/</link>
-        <pubDate>Thu, 05 Nov 2026 21:15:25 +0000</pubDate>
+        <pubDate>Thu, 05 Nov 2026 21:50:53 +0000</pubDate>
         <dc:creator><![CDATA[admin]]></dc:creator>
         <guid isPermaLink="false">https://www.triami.nl/?page_id=109</guid>
         <description></description>
         <content:encoded><![CDATA[<!-- wp:paragraph {"fontSize":"groot"} -->
 <p class="has-groot-font-size">Kennismaken is vrijblijvend: train een of twee keer mee. Daarna kies je: tien weken proeflid voor € 35, met alle trainingen en activiteiten, of meteen lid.</p>
 <!-- /wp:paragraph -->
+<!-- wp:group {"className":"is-style-kaart triami-tarief-kort"} -->
+<div class="wp-block-group is-style-kaart triami-tarief-kort"><!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Wat kost het?</h3>
+<!-- /wp:heading --><!-- wp:list -->
+<ul class="wp-block-list">
+<!-- wp:list-item --><li><strong>Proeflid</strong>: € 35 voor 10 weken, alle trainingen en activiteiten</li><!-- /wp:list-item -->
+<!-- wp:list-item --><li><strong>Lid</strong>: € 193 per jaar, inclusief NTB-basislicentie</li><!-- /wp:list-item -->
+<!-- wp:list-item --><li><strong>Donateur</strong>: vanaf € 25 per jaar</li><!-- /wp:list-item -->
+</ul>
+<!-- /wp:list --><!-- wp:paragraph {"fontSize":"klein"} -->
+<p class="has-klein-font-size"><a href="#tarieven">Alle tarieven en toelichting</a></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
 <!-- wp:image {"sizeSlug":"large","className":"triami-demo"} -->
 <figure class="wp-block-image size-large triami-demo"><img src="/wp-content/themes/triami/assets/img/demo/kennismaken.jpg" alt="Demo-afbeelding: kennismaken tijdens een training. Wordt vervangen door een echte foto." width="1600" height="1000"/></figure>
 <!-- /wp:image -->
@@ -732,11 +762,11 @@
 <!-- wp:paragraph -->
 <p>Werkt het formulier niet goed op je telefoon? <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=7tsW9NdBGk2ozxeMbr7PRQwgd8BVLdNLmkOHyP_6nEtUM0oxVUVYUVg0U0I5VDYwNEFXQ0VIVVFHNC4u&amp;lang=nl-NL" target="_blank" rel="noopener">Open het formulier in een nieuw venster</a>. Lukt het niet? Mail dan naar <a href="mailto:secretaris@triami.nl">secretaris@triami.nl</a>.</p>
 <!-- /wp:paragraph -->
-<!-- wp:heading -->
-<h2 class="wp-block-heading">Tarieven</h2>
+<!-- wp:heading {"anchor":"tarieven"} -->
+<h2 class="wp-block-heading" id="tarieven">Tarieven</h2>
 <!-- /wp:heading -->
 <!-- wp:paragraph -->
-<p>De contributie is een vast bedrag per kalenderjaar, altijd inclusief het basislidmaatschap van de Nederlandse Triathlon Bond (NTB). De hoogte wordt jaarlijks vastgesteld op de algemene ledenvergadering in januari. Word je later in het jaar lid, dan betaal je naar rato.</p>
+<p>De contributie is een vast bedrag per kalenderjaar, altijd inclusief het basislidmaatschap van de Nederlandse Triathlon Bond (NTB). De hoogte wordt jaarlijks vastgesteld op de algemene ledenvergadering aan het begin van het jaar. Word je later in het jaar lid, dan betaal je naar rato.</p>
 <!-- /wp:paragraph -->
 <!-- wp:table -->
 <figure class="wp-block-table"><table class="has-fixed-layout"><thead><tr><th>Lidmaatschap</th><th>Bedrag per jaar</th><th>Toelichting</th></tr></thead><tbody>
@@ -786,8 +816,8 @@
 <!-- /wp:paragraph -->]]></content:encoded>
         <excerpt:encoded><![CDATA[]]></excerpt:encoded>
         <wp:post_id>109</wp:post_id>
-        <wp:post_date><![CDATA[2026-11-05 21:15:25]]></wp:post_date>
-        <wp:post_date_gmt><![CDATA[2026-11-05 21:15:25]]></wp:post_date_gmt>
+        <wp:post_date><![CDATA[2026-11-05 21:50:53]]></wp:post_date>
+        <wp:post_date_gmt><![CDATA[2026-11-05 21:50:53]]></wp:post_date_gmt>
         <wp:comment_status><![CDATA[closed]]></wp:comment_status>
         <wp:ping_status><![CDATA[closed]]></wp:ping_status>
         <wp:post_name><![CDATA[lidmaatschap]]></wp:post_name>
@@ -801,7 +831,7 @@
     <item>
         <title><![CDATA[Veelgestelde vragen]]></title>
         <link>https://www.triami.nl/faq/</link>
-        <pubDate>Thu, 05 Nov 2026 21:15:25 +0000</pubDate>
+        <pubDate>Thu, 05 Nov 2026 21:50:53 +0000</pubDate>
         <dc:creator><![CDATA[admin]]></dc:creator>
         <guid isPermaLink="false">https://www.triami.nl/?page_id=110</guid>
         <description></description>
@@ -887,8 +917,8 @@
 <!-- /wp:details -->]]></content:encoded>
         <excerpt:encoded><![CDATA[]]></excerpt:encoded>
         <wp:post_id>110</wp:post_id>
-        <wp:post_date><![CDATA[2026-11-05 21:15:25]]></wp:post_date>
-        <wp:post_date_gmt><![CDATA[2026-11-05 21:15:25]]></wp:post_date_gmt>
+        <wp:post_date><![CDATA[2026-11-05 21:50:53]]></wp:post_date>
+        <wp:post_date_gmt><![CDATA[2026-11-05 21:50:53]]></wp:post_date_gmt>
         <wp:comment_status><![CDATA[closed]]></wp:comment_status>
         <wp:ping_status><![CDATA[closed]]></wp:ping_status>
         <wp:post_name><![CDATA[faq]]></wp:post_name>
@@ -902,7 +932,7 @@
     <item>
         <title><![CDATA[Contact]]></title>
         <link>https://www.triami.nl/contact/</link>
-        <pubDate>Thu, 05 Nov 2026 21:15:25 +0000</pubDate>
+        <pubDate>Thu, 05 Nov 2026 21:50:53 +0000</pubDate>
         <dc:creator><![CDATA[admin]]></dc:creator>
         <guid isPermaLink="false">https://www.triami.nl/?page_id=111</guid>
         <description></description>
@@ -939,9 +969,9 @@
 <!-- /wp:heading -->
 <!-- wp:list -->
 <ul class="wp-block-list">
-<!-- wp:list-item --><li>Zwembad De Scheg, Deventer (dinsdag)</li><!-- /wp:list-item -->
-<!-- wp:list-item --><li>Borgelerbad, Deventer (donderdag)</li><!-- /wp:list-item -->
-<!-- wp:list-item --><li>Atletiekbaan AV Daventria, Deventer (woensdag)</li><!-- /wp:list-item -->
+<!-- wp:list-item --><li>Zwemmen: Deventer binnenbaden (di- en do-avond)</li><!-- /wp:list-item -->
+<!-- wp:list-item --><li>Hardlopen: atletiekbaan in Deventer (wo-avond)</li><!-- /wp:list-item -->
+<!-- wp:list-item --><li>Exacte tijden en adressen krijg je bij je aanmelding om mee te trainen.</li><!-- /wp:list-item -->
 </ul>
 <!-- /wp:list -->
 <!-- wp:heading {"level":3} -->
@@ -964,12 +994,12 @@
 </div>
 <!-- /wp:columns -->
 <!-- wp:paragraph {"className":"triami-check"} -->
-<p class="triami-check">Check bestuur: adressen van de trainingslocaties en eventuele social-media-accounts (Instagram, Facebook, TikTok) toevoegen.</p>
+<p class="triami-check">Check bestuur: eventuele extra social-media-accounts (Facebook, TikTok) doorgeven.</p>
 <!-- /wp:paragraph -->]]></content:encoded>
         <excerpt:encoded><![CDATA[]]></excerpt:encoded>
         <wp:post_id>111</wp:post_id>
-        <wp:post_date><![CDATA[2026-11-05 21:15:25]]></wp:post_date>
-        <wp:post_date_gmt><![CDATA[2026-11-05 21:15:25]]></wp:post_date_gmt>
+        <wp:post_date><![CDATA[2026-11-05 21:50:53]]></wp:post_date>
+        <wp:post_date_gmt><![CDATA[2026-11-05 21:50:53]]></wp:post_date_gmt>
         <wp:comment_status><![CDATA[closed]]></wp:comment_status>
         <wp:ping_status><![CDATA[closed]]></wp:ping_status>
         <wp:post_name><![CDATA[contact]]></wp:post_name>
@@ -983,7 +1013,7 @@
     <item>
         <title><![CDATA[Nieuws]]></title>
         <link>https://www.triami.nl/nieuws/</link>
-        <pubDate>Thu, 05 Nov 2026 21:15:25 +0000</pubDate>
+        <pubDate>Thu, 05 Nov 2026 21:50:53 +0000</pubDate>
         <dc:creator><![CDATA[admin]]></dc:creator>
         <guid isPermaLink="false">https://www.triami.nl/?page_id=112</guid>
         <description></description>
@@ -1016,8 +1046,8 @@
 <!-- /wp:query -->]]></content:encoded>
         <excerpt:encoded><![CDATA[]]></excerpt:encoded>
         <wp:post_id>112</wp:post_id>
-        <wp:post_date><![CDATA[2026-11-05 21:15:25]]></wp:post_date>
-        <wp:post_date_gmt><![CDATA[2026-11-05 21:15:25]]></wp:post_date_gmt>
+        <wp:post_date><![CDATA[2026-11-05 21:50:53]]></wp:post_date>
+        <wp:post_date_gmt><![CDATA[2026-11-05 21:50:53]]></wp:post_date_gmt>
         <wp:comment_status><![CDATA[closed]]></wp:comment_status>
         <wp:ping_status><![CDATA[closed]]></wp:ping_status>
         <wp:post_name><![CDATA[nieuws]]></wp:post_name>

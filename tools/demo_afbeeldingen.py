@@ -14,9 +14,9 @@ W, H = 1600, 1000
 ROOD, DONKER, ZWART, TINT = (237, 30, 36), (196, 21, 27), (17, 17, 17), (253, 232, 232)
 
 DEMO = [
-    ("zwemmen", "Zwemtraining", "Dinsdag in De Scheg", "golven"),
-    ("fietsen", "Samen fietsen", "Zondagochtend vanaf De Scheg", "weg"),
-    ("hardlopen", "Looptraining", "Woensdag bij AV Daventria", "baan"),
+    ("zwemmen", "Zwemtraining", "Techniek en conditie in het bad", "golven"),
+    ("fietsen", "Samen fietsen", "Samen uit, samen thuis", "weg"),
+    ("hardlopen", "Looptraining", "Met loopscholing op de baan", "baan"),
     ("groepsfoto", "Groepsfoto", "Triamisten bij elkaar", "groep"),
     ("trainingsweekend", "Trainingsweekend", "Elk jaar in april", "bergen"),
     ("start2tri", "Start2Tri", "Je eerste triathlon", "finish"),
