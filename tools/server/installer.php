@@ -73,9 +73,25 @@ foreach (['DB_NAME', 'DB_USER', 'DB_PASSWORD', 'DB_HOST'] as $k) {
 }
 stap("databasegegevens gelezen uit $config (database {$db['DB_NAME']}, host {$db['DB_HOST']})");
 
-// 2. doelmap naast de oude site
+// Droogloop: alleen de mappenstructuur tonen, niets aanmaken (?dry=1)
+if (isset($_GET['dry'])) {
+    echo "\nDROOGLOOP — er wordt niets gewijzigd.\n";
+    echo "script:      " . __FILE__ . "\n";
+    echo "oude site:   $oudroot\n";
+    foreach ([dirname($oudroot), dirname($oudroot, 2)] as $d) {
+        echo "\ninhoud van $d:\n";
+        foreach (@scandir($d) ?: [] as $n) { if ($n === '.' || $n === '..') continue; echo '  ' . (is_dir("$d/$n") ? '[map] ' : '      ') . $n . "\n"; }
+    }
+    echo "\nDOCUMENT_ROOT: " . ($_SERVER['DOCUMENT_ROOT'] ?? '?') . "\nSERVER_NAME: " . ($_SERVER['SERVER_NAME'] ?? '?') . "\nPHP: " . PHP_VERSION . "\n";
+    echo "allow_url_fopen: " . ini_get('allow_url_fopen') . ", ZipArchive: " . (class_exists('ZipArchive') ? 'ja' : 'nee') . "\n";
+    echo "\nVoorgestelde doelmap: " . dirname($oudroot) . '/' . SUBDOMEIN . "\n(anders opgeven met &doel=/volledig/pad)\n";
+    exit;
+}
+
+// 2. doelmap naast de oude site (of opgegeven via ?doel=)
 $ouder = dirname($oudroot);
-$doel = "$ouder/" . SUBDOMEIN;
+$doel = $_GET['doel'] ?? "$ouder/" . SUBDOMEIN;
+if (!preg_match('~^/[A-Za-z0-9_./-]+$~', $doel) || str_contains($doel, '..')) fout('ongeldige doelmap');
 if (is_file("$doel/wp-config.php")) fout("$doel bevat al een WordPress-installatie; stop.");
 if (!is_dir($doel) && !mkdir($doel, 0755)) fout("kan $doel niet aanmaken");
 stap("doelmap: $doel");
@@ -125,6 +141,7 @@ stap('pagina-import (WXR) geplaatst in wp-content/triami-import/');
 // 6. opruimen
 verwijder_map($tmp);
 @unlink(__FILE__);
-stap('tijdelijke bestanden en dit script verwijderd');
+@unlink(dirname(__FILE__) . '/lader.php');
+stap('tijdelijke bestanden, dit script en lader.php verwijderd');
 
 echo "\nKLAAR. Open nu https://" . SUBDOMEIN . "/ en doorloop de WordPress-installatie (taal Nederlands, sitetitel 'Triami Triathlonvereniging', vink 'Zoekmachines ontmoedigen' aan).\n";
