@@ -9,7 +9,7 @@
 <!-- wp:group {"backgroundColor":"achtergrond-zacht","layout":{"type":"constrained","contentSize":"1200px"},"style":{"spacing":{"padding":{"top":"4rem","bottom":"4rem"}}}} -->
 <div class="wp-block-group has-achtergrond-zacht-background-color has-background" style="padding-top:4rem;padding-bottom:4rem">
 <!-- wp:heading {"className":"is-style-hartslag"} -->
-<h2 class="wp-block-heading is-style-hartslag">Vragen? Mail de secretaris</h2>
+<h2 class="wp-block-heading is-style-hartslag">Vragen? Mail ons</h2>
 <!-- /wp:heading -->
 <!-- wp:columns -->
 <div class="wp-block-columns">
