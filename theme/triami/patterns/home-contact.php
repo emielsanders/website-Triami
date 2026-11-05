@@ -23,7 +23,7 @@
 <!-- wp:column -->
 <div class="wp-block-column">
 <!-- wp:paragraph -->
-<p><strong>Leden</strong> communiceren over trainingen en activiteiten via <a href="https://spond.com/invite/WFYQG" target="_blank" rel="noopener">Spond</a>. Volg de club op <a href="https://www.strava.com/clubs/triami" target="_blank" rel="noopener">Strava</a>.</p>
+<p><strong>Leden</strong> communiceren over trainingen en activiteiten via Spond. Volg de club op <a href="https://www.strava.com/clubs/triami" target="_blank" rel="noopener">Strava</a>.</p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:column -->

@@ -4,8 +4,8 @@ Per punt: wat we nodig hebben, waar het op de site komt, en wie het aanlevert. A
 
 | # | Nodig | Waar op de site | Wie | Klaar |
 |---|---|---|---|---|
-| 1 | Tarieven 2026 (vastgesteld op de ALV van januari 2026): basislidmaatschap, Triami-deel, NTB-deel, atletenlicentie, donateur | Lidmaatschap | Penningmeester | ☐ |
-| 2 | Proeflidmaatschap: € 35 voor 10 weken én € 50 voor Start2Tri (3 maanden): kloppen beide en hoe verhouden ze zich? | Lidmaatschap, Start2Tri | Penningmeester | ☐ |
+| 1 | Tarieven 2026 (vastgesteld op de ALV van januari 2026): basislidmaatschap, Triami-deel, NTB-deel, atletenlicentie, donateur. Let op: € 144 + € 51,50 is € 195,50, niet € 193 | Lidmaatschap | Penningmeester | ☐ |
+| 2 | Start2Tri-opzet uitzoeken: duur (10 weken of 3 maanden?) en prijs (€ 50 of € 35?). Proeflid krijgt op de site bewust weinig nadruk (besluit 5 nov) | Lidmaatschap, Start2Tri | Penningmeester | ☐ |
 | 3 | Teamcompetitie 2026: welke teams, divisies en teamcaptains | Teamcompetitie | Secretaris / captains | ☐ |
 | 4 | Trainers: actuele lijst, namen van de trainers in opleiding, toestemming voor naam en eventueel foto | Trainers | Hoofdtrainer | ☐ |
 | 5 | Achternamen van bestuur en trainers vermelden, of bewust alleen voornamen? | Bestuur, Trainers | Bestuur | ☐ |
@@ -18,7 +18,9 @@ Per punt: wat we nodig hebben, waar het op de site komt, en wie het aanlevert. A
 | 12 | Nieuws: wil het bestuur berichten op de site plaatsen (wie, hoe vaak), of blijft nieuws in nieuwsbrief en Spond? | Nieuws | Bestuur | ☐ |
 | 13 | Foto's: 6 tot 10 recente foto's (trainingen, teams, evenementen) in hoge resolutie met toestemming van de afgebeelde leden | Home, Trainingen, Start2Tri | Leden | ☐ |
 | 14 | Logo: officieel SVG-bestand en transparante PNG's bij de ontwerper opvragen (.afdesign-bron) | Overal | Bestuur | ☐ |
-| 15 | Privacyverklaring: versie/datum controleren en als pagina of PDF aanleveren; contactpersoon AVG | Footer | Secretaris | ☐ |
+| 15 | Privacyverklaring: staat als pagina op /privacy/ (bijgewerkt nov 2026: Spond, nieuwsbrief, WhatsApp, clubvoorraad KoffieDok) | Footer | Secretaris | ☑ |
 | 16 | Triami Sprint Triathlon / triathlondeventer.nl: eigen evenement? Hoe presenteren we het op de site? | Vereniging, Start2Tri | Bestuur | ☐ |
 | 17 | Adressen van de trainingslocaties (De Scheg, Borgelerbad, AV Daventria) | Contact | Secretaris | ☐ |
 | 18 | Ledental 2026 ("ruim 100 leden" klopt nog?) | Vereniging, Home | Secretaris | ☐ |
+| 19 | Welkomstmail voor nieuwe leden met de Spond-uitnodiging (de link staat niet meer op de site). Advies: in Spond een nieuwe uitnodigingslink maken, de oude (WFYQG) stond openbaar | Buiten de site | Secretaris | ☐ |
+| 20 | Blok "Je eerste training" (veelgestelde vragen): minimumleeftijd 18 jaar en de lat "rondje op de baan, baan borstcrawl" bevestigen | Veelgestelde vragen | Bestuur / trainers | ☐ |
