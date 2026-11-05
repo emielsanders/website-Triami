@@ -9,7 +9,7 @@
     <title>Triami Triathlonvereniging</title>
     <link>https://www.triami.nl</link>
     <description>Dé triathlonvereniging van Deventer en omstreken</description>
-    <pubDate>Thu, 05 Nov 2026 21:50:53 +0000</pubDate>
+    <pubDate>Thu, 05 Nov 2026 22:08:27 +0000</pubDate>
     <language>nl-NL</language>
     <wp:wxr_version>1.2</wp:wxr_version>
     <wp:base_site_url>https://www.triami.nl</wp:base_site_url>
@@ -20,7 +20,7 @@
     <item>
         <title><![CDATA[Vereniging]]></title>
         <link>https://www.triami.nl/vereniging/</link>
-        <pubDate>Thu, 05 Nov 2026 21:50:53 +0000</pubDate>
+        <pubDate>Thu, 05 Nov 2026 22:08:27 +0000</pubDate>
         <dc:creator><![CDATA[admin]]></dc:creator>
         <guid isPermaLink="false">https://www.triami.nl/?page_id=100</guid>
         <description></description>
@@ -78,6 +78,9 @@
 <!-- /wp:list-item -->
 </ul>
 <!-- /wp:list -->
+<!-- wp:paragraph -->
+<p>Het hele jaaroverzicht staat op de pagina <a href="/activiteiten/">Activiteiten</a>.</p>
+<!-- /wp:paragraph -->
 <!-- wp:image {"sizeSlug":"large","className":"triami-demo"} -->
 <figure class="wp-block-image size-large triami-demo"><img src="/wp-content/themes/triami/assets/img/demo/trainingsweekend.jpg" alt="Demo-afbeelding: het trainingsweekend in april. Wordt vervangen door een echte foto." width="1600" height="1000"/></figure>
 <!-- /wp:image -->
@@ -138,6 +141,13 @@
 <!-- /wp:group -->
 <!-- wp:group {"className":"is-style-kaart"} -->
 <div class="wp-block-group is-style-kaart"><!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading"><a href="/activiteiten/">Activiteiten</a></h3>
+<!-- /wp:heading --><!-- wp:paragraph -->
+<p>Trainingsweekend, eigen wedstrijden, ALV en Social Salad: het jaar rond.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+<!-- wp:group {"className":"is-style-kaart"} -->
+<div class="wp-block-group is-style-kaart"><!-- wp:heading {"level":3} -->
 <h3 class="wp-block-heading"><a href="/teamcompetitie/">Team&shy;competitie</a></h3>
 <!-- /wp:heading --><!-- wp:paragraph -->
 <p>Hoe de landelijke teamcompetitie werkt en met welke teams Triami uitkomt.</p>
@@ -168,8 +178,8 @@
 <!-- /wp:group -->]]></content:encoded>
         <excerpt:encoded><![CDATA[]]></excerpt:encoded>
         <wp:post_id>100</wp:post_id>
-        <wp:post_date><![CDATA[2026-11-05 21:50:53]]></wp:post_date>
-        <wp:post_date_gmt><![CDATA[2026-11-05 21:50:53]]></wp:post_date_gmt>
+        <wp:post_date><![CDATA[2026-11-05 22:08:27]]></wp:post_date>
+        <wp:post_date_gmt><![CDATA[2026-11-05 22:08:27]]></wp:post_date_gmt>
         <wp:comment_status><![CDATA[closed]]></wp:comment_status>
         <wp:ping_status><![CDATA[closed]]></wp:ping_status>
         <wp:post_name><![CDATA[vereniging]]></wp:post_name>
@@ -183,7 +193,7 @@
     <item>
         <title><![CDATA[Bestuur]]></title>
         <link>https://www.triami.nl/bestuur/</link>
-        <pubDate>Thu, 05 Nov 2026 21:50:53 +0000</pubDate>
+        <pubDate>Thu, 05 Nov 2026 22:08:27 +0000</pubDate>
         <dc:creator><![CDATA[admin]]></dc:creator>
         <guid isPermaLink="false">https://www.triami.nl/?page_id=101</guid>
         <description></description>
@@ -270,14 +280,14 @@
 <li><a href="https://www.triami.nl/wp-content/uploads/2025/11/Huishoudelijk-reglement-vastgesteld-19.1.2025.pdf" target="_blank" rel="noopener">Huishoudelijk reglement (PDF, vastgesteld 19 januari 2025)</a></li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
-<li><a href="https://www.triami.nl/privacystatement.pdf" target="_blank" rel="noopener">Privacyverklaring (PDF)</a></li>
+<li><a href="/privacy/">Privacyverklaring</a></li>
 <!-- /wp:list-item -->
 </ul>
 <!-- /wp:list -->]]></content:encoded>
         <excerpt:encoded><![CDATA[]]></excerpt:encoded>
         <wp:post_id>101</wp:post_id>
-        <wp:post_date><![CDATA[2026-11-05 21:50:53]]></wp:post_date>
-        <wp:post_date_gmt><![CDATA[2026-11-05 21:50:53]]></wp:post_date_gmt>
+        <wp:post_date><![CDATA[2026-11-05 22:08:27]]></wp:post_date>
+        <wp:post_date_gmt><![CDATA[2026-11-05 22:08:27]]></wp:post_date_gmt>
         <wp:comment_status><![CDATA[closed]]></wp:comment_status>
         <wp:ping_status><![CDATA[closed]]></wp:ping_status>
         <wp:post_name><![CDATA[bestuur]]></wp:post_name>
@@ -291,7 +301,7 @@
     <item>
         <title><![CDATA[Trainers]]></title>
         <link>https://www.triami.nl/trainers/</link>
-        <pubDate>Thu, 05 Nov 2026 21:50:53 +0000</pubDate>
+        <pubDate>Thu, 05 Nov 2026 22:08:27 +0000</pubDate>
         <dc:creator><![CDATA[admin]]></dc:creator>
         <guid isPermaLink="false">https://www.triami.nl/?page_id=102</guid>
         <description></description>
@@ -328,8 +338,8 @@
 <!-- /wp:paragraph -->]]></content:encoded>
         <excerpt:encoded><![CDATA[]]></excerpt:encoded>
         <wp:post_id>102</wp:post_id>
-        <wp:post_date><![CDATA[2026-11-05 21:50:53]]></wp:post_date>
-        <wp:post_date_gmt><![CDATA[2026-11-05 21:50:53]]></wp:post_date_gmt>
+        <wp:post_date><![CDATA[2026-11-05 22:08:27]]></wp:post_date>
+        <wp:post_date_gmt><![CDATA[2026-11-05 22:08:27]]></wp:post_date_gmt>
         <wp:comment_status><![CDATA[closed]]></wp:comment_status>
         <wp:ping_status><![CDATA[closed]]></wp:ping_status>
         <wp:post_name><![CDATA[trainers]]></wp:post_name>
@@ -341,11 +351,111 @@
         <wp:is_sticky>0</wp:is_sticky>
     </item>
     <item>
-        <title><![CDATA[Teamcompetitie]]></title>
-        <link>https://www.triami.nl/teamcompetitie/</link>
-        <pubDate>Thu, 05 Nov 2026 21:50:53 +0000</pubDate>
+        <title><![CDATA[Activiteiten]]></title>
+        <link>https://www.triami.nl/activiteiten/</link>
+        <pubDate>Thu, 05 Nov 2026 22:08:27 +0000</pubDate>
         <dc:creator><![CDATA[admin]]></dc:creator>
         <guid isPermaLink="false">https://www.triami.nl/?page_id=103</guid>
+        <description></description>
+        <content:encoded><![CDATA[<!-- wp:paragraph {"fontSize":"groot"} -->
+<p class="has-groot-font-size">Triami is meer dan trainen. Door het jaar heen organiseren we activiteiten waar je elkaar beter leert kennen, samen een wedstrijd doet of gewoon gezellig bijpraat. Hieronder vind je wat er elk jaar terugkomt.</p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph -->
+<p>Leden vinden de actuele data en aanmelding in Spond en in de nieuwsbrief.</p>
+<!-- /wp:paragraph -->
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Het jaar rond</h2>
+<!-- /wp:heading -->
+<!-- wp:group {"layout":{"type":"grid","minimumColumnWidth":"16rem"},"style":{"spacing":{"blockGap":"1.5rem"}}} -->
+<div class="wp-block-group">
+<!-- wp:group {"className":"is-style-kaart"} -->
+<div class="wp-block-group is-style-kaart"><!-- wp:paragraph {"className":"triami-label"} -->
+<p class="triami-label">Begin van het jaar</p>
+<!-- /wp:paragraph --><!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Algemene leden&shy;vergadering</h3>
+<!-- /wp:heading --><!-- wp:paragraph -->
+<p>We blikken terug op het afgelopen jaar, stellen de contributie en de begroting vast en kiezen het bestuur. We maken er ook de clubkampioenen bekend. Na afloop is er een borrel.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+<!-- wp:group {"className":"is-style-kaart"} -->
+<div class="wp-block-group is-style-kaart"><!-- wp:paragraph {"className":"triami-label"} -->
+<p class="triami-label">Voorjaar</p>
+<!-- /wp:paragraph --><!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Start2Tri</h3>
+<!-- /wp:heading --><!-- wp:paragraph -->
+<p>Ons kennismakingsprogramma voor wie een eerste triathlon wil doen. Leden helpen mee als buddy of trainer. <a href="/start2tri/">Meer over Start2Tri</a>.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+<!-- wp:group {"className":"is-style-kaart"} -->
+<div class="wp-block-group is-style-kaart"><!-- wp:paragraph {"className":"triami-label"} -->
+<p class="triami-label">April</p>
+<!-- /wp:paragraph --><!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Trainings&shy;weekend</h3>
+<!-- /wp:heading --><!-- wp:paragraph -->
+<p>Elk jaar gaan we een weekend weg, vaak naar het Duitse heuvelland: fietsen met veel hoogtemeters, hardlopen en wandelen, en 's avonds een quiz en spelletjes. Ideaal om nieuwe clubgenoten te leren kennen.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+<!-- wp:group {"className":"is-style-kaart"} -->
+<div class="wp-block-group is-style-kaart"><!-- wp:paragraph {"className":"triami-label"} -->
+<p class="triami-label">Seizoen</p>
+<!-- /wp:paragraph --><!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Triami Sprint Triathlon</h3>
+<!-- /wp:heading --><!-- wp:paragraph -->
+<p>Onze eigen wedstrijd in sportpark Keizerslanden in Deventer. Veel leden doen mee, anderen helpen als vrijwilliger. <a href="https://www.triathlondeventer.nl/" target="_blank" rel="noopener">Naar de wedstrijdsite</a>.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+<!-- wp:group {"className":"is-style-kaart"} -->
+<div class="wp-block-group is-style-kaart"><!-- wp:paragraph {"className":"triami-label"} -->
+<p class="triami-label">Hele seizoen</p>
+<!-- /wp:paragraph --><!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Club&shy;competitie</h3>
+<!-- /wp:heading --><!-- wp:paragraph -->
+<p>Laagdrempelige clubwedstrijdjes, van een zwemtest tot een tijdrit en een crossduathlon. Wie het hoogst eindigt, wordt clubkampioen. <a href="/clubcompetitie/">Meer over de clubcompetitie</a>.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+<!-- wp:group {"className":"is-style-kaart"} -->
+<div class="wp-block-group is-style-kaart"><!-- wp:paragraph {"className":"triami-label"} -->
+<p class="triami-label">Eind augustus</p>
+<!-- /wp:paragraph --><!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Social Salad</h3>
+<!-- /wp:heading --><!-- wp:paragraph -->
+<p>Onze clubbarbecue rond de Looermark triathlon. Iedereen neemt iets mee voor het buffet; partners en kinderen zijn van harte welkom.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+</div>
+<!-- /wp:group -->
+<!-- wp:image {"sizeSlug":"large","className":"triami-demo"} -->
+<figure class="wp-block-image size-large triami-demo"><img src="/wp-content/themes/triami/assets/img/demo/trainingsweekend.jpg" alt="Demo-afbeelding: het trainingsweekend in april. Wordt vervangen door een echte foto." width="1600" height="1000"/></figure>
+<!-- /wp:image -->
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Samen naar wedstrijden</h2>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>Bij triathlons, duathlons, zwemlopen en crosslopen in de regio kom je altijd wel Triamisten tegen. Met dames- en herenteams doen we mee aan de landelijke <a href="/teamcompetitie/">teamcompetitie</a>. Vaak spreken leden af om samen te gaan en elkaar aan te moedigen.</p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph {"className":"triami-check"} -->
+<p class="triami-check">Check bestuur: klopt dit jaaroverzicht? In welke maand is de Triami Sprint Triathlon meestal? Ontbreken er vaste activiteiten?</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+        <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+        <wp:post_id>103</wp:post_id>
+        <wp:post_date><![CDATA[2026-11-05 22:08:27]]></wp:post_date>
+        <wp:post_date_gmt><![CDATA[2026-11-05 22:08:27]]></wp:post_date_gmt>
+        <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+        <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+        <wp:post_name><![CDATA[activiteiten]]></wp:post_name>
+        <wp:status><![CDATA[publish]]></wp:status>
+        <wp:post_parent>0</wp:post_parent>
+        <wp:menu_order>13</wp:menu_order>
+        <wp:post_type><![CDATA[page]]></wp:post_type>
+        <wp:post_password><![CDATA[]]></wp:post_password>
+        <wp:is_sticky>0</wp:is_sticky>
+    </item>
+    <item>
+        <title><![CDATA[Teamcompetitie]]></title>
+        <link>https://www.triami.nl/teamcompetitie/</link>
+        <pubDate>Thu, 05 Nov 2026 22:08:27 +0000</pubDate>
+        <dc:creator><![CDATA[admin]]></dc:creator>
+        <guid isPermaLink="false">https://www.triami.nl/?page_id=104</guid>
         <description></description>
         <content:encoded><![CDATA[<!-- wp:paragraph {"fontSize":"groot"} -->
 <p class="has-groot-font-size">Wie denkt dat triathlon een sport voor individuen is, heeft het mis. Triami komt uit in de landelijke teamcompetitie.</p>
@@ -379,9 +489,9 @@
 <p>Interesse om in een team uit te komen? Spreek een teamcaptain aan op de training of mail <a href="mailto:secretaris@triami.nl">secretaris@triami.nl</a>.</p>
 <!-- /wp:paragraph -->]]></content:encoded>
         <excerpt:encoded><![CDATA[]]></excerpt:encoded>
-        <wp:post_id>103</wp:post_id>
-        <wp:post_date><![CDATA[2026-11-05 21:50:53]]></wp:post_date>
-        <wp:post_date_gmt><![CDATA[2026-11-05 21:50:53]]></wp:post_date_gmt>
+        <wp:post_id>104</wp:post_id>
+        <wp:post_date><![CDATA[2026-11-05 22:08:27]]></wp:post_date>
+        <wp:post_date_gmt><![CDATA[2026-11-05 22:08:27]]></wp:post_date_gmt>
         <wp:comment_status><![CDATA[closed]]></wp:comment_status>
         <wp:ping_status><![CDATA[closed]]></wp:ping_status>
         <wp:post_name><![CDATA[teamcompetitie]]></wp:post_name>
@@ -395,9 +505,9 @@
     <item>
         <title><![CDATA[Clubcompetitie]]></title>
         <link>https://www.triami.nl/clubcompetitie/</link>
-        <pubDate>Thu, 05 Nov 2026 21:50:53 +0000</pubDate>
+        <pubDate>Thu, 05 Nov 2026 22:08:27 +0000</pubDate>
         <dc:creator><![CDATA[admin]]></dc:creator>
-        <guid isPermaLink="false">https://www.triami.nl/?page_id=104</guid>
+        <guid isPermaLink="false">https://www.triami.nl/?page_id=105</guid>
         <description></description>
         <content:encoded><![CDATA[<!-- wp:paragraph {"fontSize":"groot"} -->
 <p class="has-groot-font-size">De Triami Club Competitie (TCC) is een jaarlijkse reeks laagdrempelige clubwedstrijden, als aanvulling op de trainingen. De hoogst geklasseerde man en vrouw worden clubkampioen.</p>
@@ -443,9 +553,9 @@
 </ul>
 <!-- /wp:list -->]]></content:encoded>
         <excerpt:encoded><![CDATA[]]></excerpt:encoded>
-        <wp:post_id>104</wp:post_id>
-        <wp:post_date><![CDATA[2026-11-05 21:50:53]]></wp:post_date>
-        <wp:post_date_gmt><![CDATA[2026-11-05 21:50:53]]></wp:post_date_gmt>
+        <wp:post_id>105</wp:post_id>
+        <wp:post_date><![CDATA[2026-11-05 22:08:27]]></wp:post_date>
+        <wp:post_date_gmt><![CDATA[2026-11-05 22:08:27]]></wp:post_date_gmt>
         <wp:comment_status><![CDATA[closed]]></wp:comment_status>
         <wp:ping_status><![CDATA[closed]]></wp:ping_status>
         <wp:post_name><![CDATA[clubcompetitie]]></wp:post_name>
@@ -459,9 +569,9 @@
     <item>
         <title><![CDATA[Clubkleding]]></title>
         <link>https://www.triami.nl/clubkleding/</link>
-        <pubDate>Thu, 05 Nov 2026 21:50:53 +0000</pubDate>
+        <pubDate>Thu, 05 Nov 2026 22:08:27 +0000</pubDate>
         <dc:creator><![CDATA[admin]]></dc:creator>
-        <guid isPermaLink="false">https://www.triami.nl/?page_id=105</guid>
+        <guid isPermaLink="false">https://www.triami.nl/?page_id=106</guid>
         <description></description>
         <content:encoded><![CDATA[<!-- wp:paragraph {"fontSize":"groot"} -->
 <p class="has-groot-font-size">Train en race in de Triami-kleuren. Trisuits zijn op voorraad; fiets- en loopkleding bestellen we periodiek via de webshop van onze kledingleverancier.</p>
@@ -485,9 +595,9 @@
 <p class="triami-check">Check bestuur: kloppen Koffiedok en Bioracer nog (pagina dateert van februari 2023)? Webshop-link, prijzen en een recente foto van de kleding toevoegen.</p>
 <!-- /wp:paragraph -->]]></content:encoded>
         <excerpt:encoded><![CDATA[]]></excerpt:encoded>
-        <wp:post_id>105</wp:post_id>
-        <wp:post_date><![CDATA[2026-11-05 21:50:53]]></wp:post_date>
-        <wp:post_date_gmt><![CDATA[2026-11-05 21:50:53]]></wp:post_date_gmt>
+        <wp:post_id>106</wp:post_id>
+        <wp:post_date><![CDATA[2026-11-05 22:08:27]]></wp:post_date>
+        <wp:post_date_gmt><![CDATA[2026-11-05 22:08:27]]></wp:post_date_gmt>
         <wp:comment_status><![CDATA[closed]]></wp:comment_status>
         <wp:ping_status><![CDATA[closed]]></wp:ping_status>
         <wp:post_name><![CDATA[clubkleding]]></wp:post_name>
@@ -501,9 +611,9 @@
     <item>
         <title><![CDATA[Vertrouwens&shy;contact&shy;persoon]]></title>
         <link>https://www.triami.nl/vertrouwenscontactpersoon/</link>
-        <pubDate>Thu, 05 Nov 2026 21:50:53 +0000</pubDate>
+        <pubDate>Thu, 05 Nov 2026 22:08:27 +0000</pubDate>
         <dc:creator><![CDATA[admin]]></dc:creator>
-        <guid isPermaLink="false">https://www.triami.nl/?page_id=106</guid>
+        <guid isPermaLink="false">https://www.triami.nl/?page_id=107</guid>
         <description></description>
         <content:encoded><![CDATA[<!-- wp:paragraph {"fontSize":"groot"} -->
 <p class="has-groot-font-size">Triami wil een laagdrempelige en veilige vereniging zijn. Trainers en bestuur hebben zich gecommitteerd aan gedragsregels voor veilig en vertrouwd sporten.</p>
@@ -521,9 +631,9 @@
 <p>Je kunt ook terecht bij de vertrouwenscontactpersonen van NOC*NSF via het <a href="https://centrumveiligesport.nl/doelgroepen/sporters" target="_blank" rel="noopener">Centrum Veilige Sport Nederland</a>.</p>
 <!-- /wp:paragraph -->]]></content:encoded>
         <excerpt:encoded><![CDATA[]]></excerpt:encoded>
-        <wp:post_id>106</wp:post_id>
-        <wp:post_date><![CDATA[2026-11-05 21:50:53]]></wp:post_date>
-        <wp:post_date_gmt><![CDATA[2026-11-05 21:50:53]]></wp:post_date_gmt>
+        <wp:post_id>107</wp:post_id>
+        <wp:post_date><![CDATA[2026-11-05 22:08:27]]></wp:post_date>
+        <wp:post_date_gmt><![CDATA[2026-11-05 22:08:27]]></wp:post_date_gmt>
         <wp:comment_status><![CDATA[closed]]></wp:comment_status>
         <wp:ping_status><![CDATA[closed]]></wp:ping_status>
         <wp:post_name><![CDATA[vertrouwenscontactpersoon]]></wp:post_name>
@@ -537,9 +647,9 @@
     <item>
         <title><![CDATA[Trainingen]]></title>
         <link>https://www.triami.nl/trainingen/</link>
-        <pubDate>Thu, 05 Nov 2026 21:50:53 +0000</pubDate>
+        <pubDate>Thu, 05 Nov 2026 22:08:27 +0000</pubDate>
         <dc:creator><![CDATA[admin]]></dc:creator>
-        <guid isPermaLink="false">https://www.triami.nl/?page_id=107</guid>
+        <guid isPermaLink="false">https://www.triami.nl/?page_id=108</guid>
         <description></description>
         <content:encoded><![CDATA[<!-- wp:paragraph {"fontSize":"groot"} -->
 <p class="has-groot-font-size">Alle trainingen staan onder leiding van gediplomeerde trainers en zijn geschikt voor de beginnende én de ervaren triatleet. Voor de zwemtrainingen vragen we dat je de borstcrawl al in enige mate beheerst.</p>
@@ -615,9 +725,9 @@
 <p>Je mag vrijblijvend een of twee trainingen meedoen. Meld je vooraf even aan via <a href="mailto:secretaris@triami.nl">secretaris@triami.nl</a>, dan weet de trainer dat je komt. Daarna word je <a href="/lidmaatschap/#inschrijven">proeflid (tien weken, € 35) of meteen lid</a> via het formulier.</p>
 <!-- /wp:paragraph -->]]></content:encoded>
         <excerpt:encoded><![CDATA[]]></excerpt:encoded>
-        <wp:post_id>107</wp:post_id>
-        <wp:post_date><![CDATA[2026-11-05 21:50:53]]></wp:post_date>
-        <wp:post_date_gmt><![CDATA[2026-11-05 21:50:53]]></wp:post_date_gmt>
+        <wp:post_id>108</wp:post_id>
+        <wp:post_date><![CDATA[2026-11-05 22:08:27]]></wp:post_date>
+        <wp:post_date_gmt><![CDATA[2026-11-05 22:08:27]]></wp:post_date_gmt>
         <wp:comment_status><![CDATA[closed]]></wp:comment_status>
         <wp:ping_status><![CDATA[closed]]></wp:ping_status>
         <wp:post_name><![CDATA[trainingen]]></wp:post_name>
@@ -631,9 +741,9 @@
     <item>
         <title><![CDATA[Start2Tri]]></title>
         <link>https://www.triami.nl/start2tri/</link>
-        <pubDate>Thu, 05 Nov 2026 21:50:53 +0000</pubDate>
+        <pubDate>Thu, 05 Nov 2026 22:08:27 +0000</pubDate>
         <dc:creator><![CDATA[admin]]></dc:creator>
-        <guid isPermaLink="false">https://www.triami.nl/?page_id=108</guid>
+        <guid isPermaLink="false">https://www.triami.nl/?page_id=109</guid>
         <description></description>
         <content:encoded><![CDATA[<!-- wp:paragraph {"fontSize":"groot"} -->
 <p class="has-groot-font-size">Start2Tri is ons kennismakingsprogramma voor wie een eerste triathlon wil doen. In vijf weken maak je kennis met zwemmen, fietsen, lopen én wisselen, zonder prestatiedruk. Daarna train je vijf weken mee als proeflid.</p>
@@ -698,9 +808,9 @@
 </div>
 <!-- /wp:buttons -->]]></content:encoded>
         <excerpt:encoded><![CDATA[]]></excerpt:encoded>
-        <wp:post_id>108</wp:post_id>
-        <wp:post_date><![CDATA[2026-11-05 21:50:53]]></wp:post_date>
-        <wp:post_date_gmt><![CDATA[2026-11-05 21:50:53]]></wp:post_date_gmt>
+        <wp:post_id>109</wp:post_id>
+        <wp:post_date><![CDATA[2026-11-05 22:08:27]]></wp:post_date>
+        <wp:post_date_gmt><![CDATA[2026-11-05 22:08:27]]></wp:post_date_gmt>
         <wp:comment_status><![CDATA[closed]]></wp:comment_status>
         <wp:ping_status><![CDATA[closed]]></wp:ping_status>
         <wp:post_name><![CDATA[start2tri]]></wp:post_name>
@@ -714,9 +824,9 @@
     <item>
         <title><![CDATA[Lidmaatschap & tarieven]]></title>
         <link>https://www.triami.nl/lidmaatschap/</link>
-        <pubDate>Thu, 05 Nov 2026 21:50:53 +0000</pubDate>
+        <pubDate>Thu, 05 Nov 2026 22:08:27 +0000</pubDate>
         <dc:creator><![CDATA[admin]]></dc:creator>
-        <guid isPermaLink="false">https://www.triami.nl/?page_id=109</guid>
+        <guid isPermaLink="false">https://www.triami.nl/?page_id=110</guid>
         <description></description>
         <content:encoded><![CDATA[<!-- wp:paragraph {"fontSize":"groot"} -->
 <p class="has-groot-font-size">Kennismaken is vrijblijvend: train een of twee keer mee. Daarna kies je: tien weken proeflid voor € 35, met alle trainingen en activiteiten, of meteen lid.</p>
@@ -815,9 +925,9 @@
 <p>Meer vragen over contributie, opzeggen en licenties? Zie de <a href="/faq/">veelgestelde vragen</a>.</p>
 <!-- /wp:paragraph -->]]></content:encoded>
         <excerpt:encoded><![CDATA[]]></excerpt:encoded>
-        <wp:post_id>109</wp:post_id>
-        <wp:post_date><![CDATA[2026-11-05 21:50:53]]></wp:post_date>
-        <wp:post_date_gmt><![CDATA[2026-11-05 21:50:53]]></wp:post_date_gmt>
+        <wp:post_id>110</wp:post_id>
+        <wp:post_date><![CDATA[2026-11-05 22:08:27]]></wp:post_date>
+        <wp:post_date_gmt><![CDATA[2026-11-05 22:08:27]]></wp:post_date_gmt>
         <wp:comment_status><![CDATA[closed]]></wp:comment_status>
         <wp:ping_status><![CDATA[closed]]></wp:ping_status>
         <wp:post_name><![CDATA[lidmaatschap]]></wp:post_name>
@@ -831,9 +941,9 @@
     <item>
         <title><![CDATA[Veelgestelde vragen]]></title>
         <link>https://www.triami.nl/faq/</link>
-        <pubDate>Thu, 05 Nov 2026 21:50:53 +0000</pubDate>
+        <pubDate>Thu, 05 Nov 2026 22:08:27 +0000</pubDate>
         <dc:creator><![CDATA[admin]]></dc:creator>
-        <guid isPermaLink="false">https://www.triami.nl/?page_id=110</guid>
+        <guid isPermaLink="false">https://www.triami.nl/?page_id=111</guid>
         <description></description>
         <content:encoded><![CDATA[<!-- wp:paragraph {"fontSize":"groot"} -->
 <p class="has-groot-font-size">De meest gestelde vragen over lidmaatschap, de NTB-licentie en onze communicatie. Staat je vraag er niet bij? Mail <a href="mailto:secretaris@triami.nl">secretaris@triami.nl</a>.</p>
@@ -916,9 +1026,9 @@
 <!-- /wp:paragraph --></details>
 <!-- /wp:details -->]]></content:encoded>
         <excerpt:encoded><![CDATA[]]></excerpt:encoded>
-        <wp:post_id>110</wp:post_id>
-        <wp:post_date><![CDATA[2026-11-05 21:50:53]]></wp:post_date>
-        <wp:post_date_gmt><![CDATA[2026-11-05 21:50:53]]></wp:post_date_gmt>
+        <wp:post_id>111</wp:post_id>
+        <wp:post_date><![CDATA[2026-11-05 22:08:27]]></wp:post_date>
+        <wp:post_date_gmt><![CDATA[2026-11-05 22:08:27]]></wp:post_date_gmt>
         <wp:comment_status><![CDATA[closed]]></wp:comment_status>
         <wp:ping_status><![CDATA[closed]]></wp:ping_status>
         <wp:post_name><![CDATA[faq]]></wp:post_name>
@@ -932,9 +1042,9 @@
     <item>
         <title><![CDATA[Contact]]></title>
         <link>https://www.triami.nl/contact/</link>
-        <pubDate>Thu, 05 Nov 2026 21:50:53 +0000</pubDate>
+        <pubDate>Thu, 05 Nov 2026 22:08:27 +0000</pubDate>
         <dc:creator><![CDATA[admin]]></dc:creator>
-        <guid isPermaLink="false">https://www.triami.nl/?page_id=111</guid>
+        <guid isPermaLink="false">https://www.triami.nl/?page_id=112</guid>
         <description></description>
         <content:encoded><![CDATA[<!-- wp:paragraph {"fontSize":"groot"} -->
 <p class="has-groot-font-size">Vragen over lidmaatschap, trainingen of de vereniging? Mail ons via <a href="mailto:secretaris@triami.nl">secretaris@triami.nl</a>. Ook een afspraak om mee te trainen regel je via dit adres.</p>
@@ -987,7 +1097,7 @@
 <h3 class="wp-block-heading">Gegevens</h3>
 <!-- /wp:heading -->
 <!-- wp:paragraph -->
-<p>KvK 08147105 · NTB-lidnummer 2019<br><a href="https://www.triami.nl/privacystatement.pdf" target="_blank" rel="noopener">Privacyverklaring (PDF)</a></p>
+<p>KvK 08147105 · NTB-lidnummer 2019<br><a href="/privacy/">Privacyverklaring</a></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:column -->
@@ -997,9 +1107,9 @@
 <p class="triami-check">Check bestuur: eventuele extra social-media-accounts (Facebook, TikTok) doorgeven.</p>
 <!-- /wp:paragraph -->]]></content:encoded>
         <excerpt:encoded><![CDATA[]]></excerpt:encoded>
-        <wp:post_id>111</wp:post_id>
-        <wp:post_date><![CDATA[2026-11-05 21:50:53]]></wp:post_date>
-        <wp:post_date_gmt><![CDATA[2026-11-05 21:50:53]]></wp:post_date_gmt>
+        <wp:post_id>112</wp:post_id>
+        <wp:post_date><![CDATA[2026-11-05 22:08:27]]></wp:post_date>
+        <wp:post_date_gmt><![CDATA[2026-11-05 22:08:27]]></wp:post_date_gmt>
         <wp:comment_status><![CDATA[closed]]></wp:comment_status>
         <wp:ping_status><![CDATA[closed]]></wp:ping_status>
         <wp:post_name><![CDATA[contact]]></wp:post_name>
@@ -1011,49 +1121,139 @@
         <wp:is_sticky>0</wp:is_sticky>
     </item>
     <item>
-        <title><![CDATA[Nieuws]]></title>
-        <link>https://www.triami.nl/nieuws/</link>
-        <pubDate>Thu, 05 Nov 2026 21:50:53 +0000</pubDate>
+        <title><![CDATA[Privacyverklaring]]></title>
+        <link>https://www.triami.nl/privacy/</link>
+        <pubDate>Thu, 05 Nov 2026 22:08:27 +0000</pubDate>
         <dc:creator><![CDATA[admin]]></dc:creator>
-        <guid isPermaLink="false">https://www.triami.nl/?page_id=112</guid>
+        <guid isPermaLink="false">https://www.triami.nl/?page_id=113</guid>
         <description></description>
         <content:encoded><![CDATA[<!-- wp:paragraph {"fontSize":"groot"} -->
-<p class="has-groot-font-size">Wedstrijdverslagen, uitslagen van de clubcompetitie en aankondigingen.</p>
+<p class="has-groot-font-size">Triami biedt iedereen die aan triathlon wil doen de faciliteiten om samen te sporten. Dat doen we op een verantwoorde en veilige manier. Daar hoort bij dat we bewust omgaan met persoonsgegevens.</p>
 <!-- /wp:paragraph -->
-<!-- wp:query {"queryId":2,"query":{"perPage":10,"postType":"post","order":"desc","orderBy":"date","inherit":false}} -->
-<div class="wp-block-query">
-<!-- wp:post-template {"layout":{"type":"grid","columnCount":2}} -->
-<!-- wp:group {"className":"is-style-kaart"} -->
-<div class="wp-block-group is-style-kaart">
-<!-- wp:post-featured-image {"isLink":true,"aspectRatio":"16/9"} /-->
-<!-- wp:post-date {"fontSize":"klein","textColor":"tekst-gedempt"} /-->
-<!-- wp:post-title {"isLink":true,"level":3} /-->
-<!-- wp:post-excerpt {"excerptLength":30} /-->
-</div>
-<!-- /wp:group -->
-<!-- /wp:post-template -->
-<!-- wp:query-no-results -->
+<!-- wp:paragraph {"className":"triami-check"} -->
+<p class="triami-check">Check bestuur: deze tekst komt uit de privacyverklaring van juli 2018. Kloppen de kanalen nog? Die versie noemt een besloten Facebookgroep en twee WhatsApp-groepen; tegenwoordig gebruiken we Spond en de nieuwsbrief. Ligt clubkleding nog op voorraad bij Run2Day Deventer? Na akkoord passen we de datum aan en vervalt de PDF.</p>
+<!-- /wp:paragraph -->
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Waarom deze verklaring</h2>
+<!-- /wp:heading -->
 <!-- wp:paragraph -->
-<p>Er zijn nog geen berichten geplaatst. Nieuws voor leden delen we voorlopig via de nieuwsbrief en Spond.</p>
+<p>De Algemene Verordening Gegevensbescherming (AVG) bepaalt onder welke voorwaarden je met persoonsgegevens mag werken. De AVG geldt ook voor Triami. We verwerken persoonsgegevens alleen op basis van een van de grondslagen uit artikel 6 lid 1 AVG. Daarom geven we per registratie aan met welk doel we gegevens verzamelen, welke gegevens dat zijn, wie er toegang toe heeft en hoe lang we ze bewaren.</p>
 <!-- /wp:paragraph -->
-<!-- /wp:query-no-results -->
-<!-- wp:query-pagination -->
-<!-- wp:query-pagination-previous /-->
-<!-- wp:query-pagination-numbers /-->
-<!-- wp:query-pagination-next /-->
-<!-- /wp:query-pagination -->
-</div>
-<!-- /wp:query -->]]></content:encoded>
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Uitgangspunten</h2>
+<!-- /wp:heading -->
+<!-- wp:list -->
+<ul class="wp-block-list">
+<!-- wp:list-item --><li>We verwerken persoonsgegevens rechtmatig, behoorlijk en transparant.</li><!-- /wp:list-item -->
+<!-- wp:list-item --><li>We verzamelen ze alleen voor duidelijk omschreven en gerechtvaardigde doelen.</li><!-- /wp:list-item -->
+<!-- wp:list-item --><li>We verzamelen niet meer gegevens dan nodig is voor die doelen.</li><!-- /wp:list-item -->
+<!-- wp:list-item --><li>De gegevens zijn juist en actueel. Is dat niet zo, dan verbeteren of wissen we ze.</li><!-- /wp:list-item -->
+<!-- wp:list-item --><li>We bewaren gegevens niet langer dan nodig.</li><!-- /wp:list-item -->
+<!-- wp:list-item --><li>We nemen passende technische en organisatorische maatregelen om datalekken te voorkomen.</li><!-- /wp:list-item -->
+<!-- wp:list-item --><li>We respecteren de rechten van de mensen van wie we gegevens hebben.</li><!-- /wp:list-item -->
+</ul>
+<!-- /wp:list -->
+<!-- wp:paragraph -->
+<p>Persoonsgegevens staan in de eerste plaats in de ledenadministratie. We gebruiken ze binnen de vereniging voor interne communicatie en voor de facturering en incasso van het lidmaatschap. Voor de clubkleding houden we een aparte administratie bij.</p>
+<!-- /wp:paragraph -->
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Lidmaatschap en ledenadministratie</h2>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>Als je lid wordt, leggen we de gegevens voor je lidmaatschap vast in de lidmaatschapsovereenkomst (met incassomachtiging). Het bestuur voert ze eenmalig in in de ledenadministratie via het mijnNTB-account van Triami. Via de NTB krijg je een eigen mijnNTB-account. Daarmee houd je je eigen gegevens bij, download je je eventuele atletenlicentie en beheer je je inschrijvingen voor NTB-wedstrijden. Bij een minderjarig lid geeft een ouder of voogd toestemming door het inschrijfformulier (mede) te ondertekenen.</p>
+<!-- /wp:paragraph -->
+<!-- wp:list {"className":"triami-privacy-lijst"} -->
+<ul class="wp-block-list triami-privacy-lijst">
+<!-- wp:list-item --><li><strong>Doel:</strong> deelnemen aan alle verenigingsactiviteiten en aan de communicatie binnen de vereniging. Leden van Triami zijn automatisch lid van de NTB; we delen de gegevens daarom met de NTB (zie het privacybeleid van de NTB).</li><!-- /wp:list-item -->
+<!-- wp:list-item --><li><strong>Gegevens:</strong> naam en voorletters, adres, e-mailadres, telefoonnummer, geslacht, geboortedatum, IBAN en NTB-lidnummer.</li><!-- /wp:list-item -->
+<!-- wp:list-item --><li><strong>Toegang:</strong> het lid zelf (inzien en beheren), de bestuursleden (inzien en beheren) en de NTB (alleen inzien).</li><!-- /wp:list-item -->
+<!-- wp:list-item --><li><strong>Bewaartermijn:</strong> de overeenkomst bewaren we digitaal in de cloudopslag van onze internetprovider. De overeenkomst en de gegevens in de ledenadministratie verwijderen we direct nadat het lidmaatschap eindigt.</li><!-- /wp:list-item -->
+</ul>
+<!-- /wp:list -->
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Communicatie</h2>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>De basisgegevens van de vereniging staan op deze openbare website. Voor communicatie binnen de vereniging gebruiken we gegevens uit de ledenadministratie.</p>
+<!-- /wp:paragraph -->
+<!-- wp:list {"className":"triami-privacy-lijst"} -->
+<ul class="wp-block-list triami-privacy-lijst">
+<!-- wp:list-item --><li><strong>Website:</strong> voornamen en functies van bestuursleden en trainers, en de naam van de vertrouwenscontactpersoon. Deze gegevens zijn openbaar. Stopt iemand, dan halen we de naam weg.</li><!-- /wp:list-item -->
+<!-- wp:list-item --><li><strong>Nieuwsbrief:</strong> ons formele kanaal naar de leden, met mededelingen, wedstrijdverslagen, ervaringen en foto's. We gebruiken naam en e-mailadres in een online mailprogramma. Alleen het bestuur en de nieuwsbriefcoördinator hebben toegang. Na aanmelding als lid ontvang je de nieuwsbrief; je kunt je altijd afmelden. Eindigt je lidmaatschap, dan halen we je direct uit de mailinglijst. De nieuwsbrieven zelf bewaren we in het verenigingsarchief.</li><!-- /wp:list-item -->
+<!-- wp:list-item --><li><strong>Besloten groepen:</strong> voor dagelijkse communicatie, mededelingen over trainingen en het delen van verslagen en foto's. Wat je daar deelt, is zichtbaar voor alle leden in die groep. Na aanmelding als lid nodigen we je uit; je kunt je altijd afmelden. Eindigt je lidmaatschap, dan halen we je direct uit de groepen.</li><!-- /wp:list-item -->
+<!-- wp:list-item --><li><strong>Jaarverslag:</strong> de belangrijkste gebeurtenissen van het jaar in een fotoverslag, uitslagen van (club)wedstrijden en de financiële verslaglegging. Het jaarverslag bevat geen persoonsgegevens uit de ledenadministratie, wordt verspreid op de jaarvergadering en is voor leden op aanvraag beschikbaar. We bewaren het in het verenigingsarchief.</li><!-- /wp:list-item -->
+</ul>
+<!-- /wp:list -->
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Facturering en incasso</h2>
+<!-- /wp:heading -->
+<!-- wp:list {"className":"triami-privacy-lijst"} -->
+<ul class="wp-block-list triami-privacy-lijst">
+<!-- wp:list-item --><li><strong>Doel:</strong> facturering van het lidmaatschap en automatische incasso. De gegevens staan in de online boekhouding en komen via de incasso bij de bank terecht.</li><!-- /wp:list-item -->
+<!-- wp:list-item --><li><strong>Gegevens:</strong> in de boekhouding naam, adres, IBAN en e-mailadres; bij de bank naam, adres en IBAN.</li><!-- /wp:list-item -->
+<!-- wp:list-item --><li><strong>Toegang:</strong> de penningmeester en de leden van de jaarlijkse kascommissie.</li><!-- /wp:list-item -->
+<!-- wp:list-item --><li><strong>Bewaartermijn:</strong> zeven jaar, volgens de regels van de Belastingdienst.</li><!-- /wp:list-item -->
+</ul>
+<!-- /wp:list -->
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Clubkleding</h2>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>Koop je kleding uit de clubvoorraad, dan vul je een uitgifteformulier met eenmalige incasso in. Bestellen we nieuwe clubkleding, dan gaat dat via een online bestelformulier met incassomachtiging.</p>
+<!-- /wp:paragraph -->
+<!-- wp:list {"className":"triami-privacy-lijst"} -->
+<ul class="wp-block-list triami-privacy-lijst">
+<!-- wp:list-item --><li><strong>Doel:</strong> de voorraad bijhouden, de juiste bestelling doen en de incasso uitvoeren.</li><!-- /wp:list-item -->
+<!-- wp:list-item --><li><strong>Gegevens:</strong> naam en voorletters, adres, e-mailadres, geslacht, kledingmaat en IBAN.</li><!-- /wp:list-item -->
+<!-- wp:list-item --><li><strong>Toegang:</strong> de bestuursleden en de kledingcoördinator. De leverancier krijgt per kledingstuk alleen maat en geslacht.</li><!-- /wp:list-item -->
+<!-- wp:list-item --><li><strong>Bewaartermijn:</strong> papieren formulieren digitaliseren we en vernietigen we direct daarna. De formulieren staan in de cloudopslag van onze internetprovider en verwijderen we zodra de kleding is geleverd en de incasso is afgerond. Bestellijsten bewaren we twee jaar.</li><!-- /wp:list-item -->
+</ul>
+<!-- /wp:list -->
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Vrijwilligers</h2>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>Met bestuursleden, trainers, de nieuwsbriefcoördinator en de kledingcoördinator sluiten we een vrijwilligersovereenkomst. Daarin houden zij zich aan de gedragsregels van Triami en leggen we waar nodig afspraken over onkostenvergoedingen vast.</p>
+<!-- /wp:paragraph -->
+<!-- wp:list {"className":"triami-privacy-lijst"} -->
+<ul class="wp-block-list triami-privacy-lijst">
+<!-- wp:list-item --><li><strong>Doel:</strong> communicatie met vrijwilligers en het uitbetalen van vergoedingen.</li><!-- /wp:list-item -->
+<!-- wp:list-item --><li><strong>Gegevens:</strong> naam en voorletters, e-mailadres en IBAN.</li><!-- /wp:list-item -->
+<!-- wp:list-item --><li><strong>Toegang:</strong> alleen de bestuursleden.</li><!-- /wp:list-item -->
+<!-- wp:list-item --><li><strong>Bewaartermijn:</strong> de overeenkomst staat digitaal in de cloudopslag van onze internetprovider (de papieren versie vernietigen we) en wordt vijf jaar na het stoppen als vrijwilliger verwijderd.</li><!-- /wp:list-item -->
+</ul>
+<!-- /wp:list -->
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Ons beleid</h2>
+<!-- /wp:heading -->
+<!-- wp:list -->
+<ul class="wp-block-list">
+<!-- wp:list-item --><li><strong>Bijzondere persoonsgegevens:</strong> Triami houdt geen bijzondere persoonsgegevens bij.</li><!-- /wp:list-item -->
+<!-- wp:list-item --><li><strong>Derden:</strong> Triami verstrekt geen persoonsgegevens aan derden, behalve aan de NTB zoals hierboven beschreven.</li><!-- /wp:list-item -->
+<!-- wp:list-item --><li><strong>Verwerkersovereenkomsten:</strong> voor het beheer van de mailinglijst en van de online boekhouding hebben we een verwerkersovereenkomst met de dienstverlener.</li><!-- /wp:list-item -->
+<!-- wp:list-item --><li><strong>Inzien en corrigeren:</strong> leden kunnen hun gegevens altijd inzien en corrigeren via hun mijnNTB-account.</li><!-- /wp:list-item -->
+<!-- wp:list-item --><li><strong>Wijzigingen:</strong> wijzigingen in deze privacyverklaring melden we via de nieuwsbrief.</li><!-- /wp:list-item -->
+</ul>
+<!-- /wp:list -->
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Vragen</h2>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>Heb je een vraag over hoe Triami met persoonsgegevens omgaat, of wil je gegevens laten verwijderen? Mail ons via <a href="mailto:secretaris@triami.nl">secretaris@triami.nl</a>.</p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph {"fontSize":"klein","textColor":"tekst-gedempt"} -->
+<p class="has-tekst-gedempt-color has-text-color has-klein-font-size">Gebaseerd op de privacyverklaring van Triami van juli 2018.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
         <excerpt:encoded><![CDATA[]]></excerpt:encoded>
-        <wp:post_id>112</wp:post_id>
-        <wp:post_date><![CDATA[2026-11-05 21:50:53]]></wp:post_date>
-        <wp:post_date_gmt><![CDATA[2026-11-05 21:50:53]]></wp:post_date_gmt>
+        <wp:post_id>113</wp:post_id>
+        <wp:post_date><![CDATA[2026-11-05 22:08:27]]></wp:post_date>
+        <wp:post_date_gmt><![CDATA[2026-11-05 22:08:27]]></wp:post_date_gmt>
         <wp:comment_status><![CDATA[closed]]></wp:comment_status>
         <wp:ping_status><![CDATA[closed]]></wp:ping_status>
-        <wp:post_name><![CDATA[nieuws]]></wp:post_name>
+        <wp:post_name><![CDATA[privacy]]></wp:post_name>
         <wp:status><![CDATA[publish]]></wp:status>
         <wp:post_parent>0</wp:post_parent>
-        <wp:menu_order>60</wp:menu_order>
+        <wp:menu_order>70</wp:menu_order>
         <wp:post_type><![CDATA[page]]></wp:post_type>
         <wp:post_password><![CDATA[]]></wp:post_password>
         <wp:is_sticky>0</wp:is_sticky>
