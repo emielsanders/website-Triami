@@ -15,7 +15,7 @@ $fiets = '<svg class="triami-icoon" viewBox="0 0 24 24" fill="none" stroke="curr
 <h2 class="wp-block-heading is-style-hartslag">Wekelijkse trainingen</h2>
 <!-- /wp:heading -->
 <!-- wp:paragraph -->
-<p>Drie trainingen per week onder leiding van gediplomeerde trainers, plus zelfstandige zwemuren. Daarnaast spreken leden veel onderling af om samen te fietsen, te lopen of in open water te zwemmen. Wijzigingen en afgelastingen staan in Spond.</p>
+<p>Drie trainingen per week onder leiding van gediplomeerde trainers, plus extra momenten waarop leden samen zwemmen en fietsen. Exacte tijden en locaties krijg je zodra je je aanmeldt om mee te trainen; leden vinden alles actueel in Spond.</p>
 <!-- /wp:paragraph -->
 <!-- wp:group {"layout":{"type":"grid","minimumColumnWidth":"15rem"},"style":{"spacing":{"margin":{"top":"1.5rem"}}}} -->
 <div class="wp-block-group" style="margin-top:1.5rem">
@@ -28,10 +28,10 @@ $fiets = '<svg class="triami-icoon" viewBox="0 0 24 24" fill="none" stroke="curr
 <h3 class="wp-block-heading">Zwemmen</h3>
 <!-- /wp:heading -->
 <!-- wp:paragraph {"className":"triami-tijd"} -->
-<p class="triami-tijd">Dinsdag 19:30 – 20:30</p>
+<p class="triami-tijd">Dinsdag- en donderdagavond</p>
 <!-- /wp:paragraph -->
 <!-- wp:paragraph {"textColor":"tekst-gedempt","fontSize":"klein"} -->
-<p class="has-tekst-gedempt-color has-text-color has-klein-font-size">Zwembad De Scheg, Piet van Donkplein 1</p>
+<p class="has-tekst-gedempt-color has-text-color has-klein-font-size">In een Deventer binnenbad, met techniek en conditie.</p>
 <!-- /wp:paragraph -->
 <!-- wp:paragraph {"className":"triami-label","fontSize":"klein"} -->
 <p class="triami-label has-klein-font-size">Met trainer</p>
@@ -47,10 +47,10 @@ $fiets = '<svg class="triami-icoon" viewBox="0 0 24 24" fill="none" stroke="curr
 <h3 class="wp-block-heading">Hardlopen</h3>
 <!-- /wp:heading -->
 <!-- wp:paragraph {"className":"triami-tijd"} -->
-<p class="triami-tijd">Woensdag 19:30 – 20:45</p>
+<p class="triami-tijd">Woensdagavond</p>
 <!-- /wp:paragraph -->
 <!-- wp:paragraph {"textColor":"tekst-gedempt","fontSize":"klein"} -->
-<p class="has-tekst-gedempt-color has-text-color has-klein-font-size">Atletiekbaan AV Daventria, Borgelerdijk 2. Met loopscholing.</p>
+<p class="has-tekst-gedempt-color has-text-color has-klein-font-size">Op de atletiekbaan in Deventer, met loopscholing.</p>
 <!-- /wp:paragraph -->
 <!-- wp:paragraph {"className":"triami-label","fontSize":"klein"} -->
 <p class="triami-label has-klein-font-size">Met trainer</p>
@@ -63,54 +63,16 @@ $fiets = '<svg class="triami-icoon" viewBox="0 0 24 24" fill="none" stroke="curr
 <?php echo $zwem; ?>
 <!-- /wp:html -->
 <!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">Zwemmen</h3>
+<h3 class="wp-block-heading">Samen zwemmen</h3>
 <!-- /wp:heading -->
 <!-- wp:paragraph {"className":"triami-tijd"} -->
-<p class="triami-tijd">Donderdag 20:45 – 21:45</p>
+<p class="triami-tijd">Extra zwemmomenten</p>
 <!-- /wp:paragraph -->
 <!-- wp:paragraph {"textColor":"tekst-gedempt","fontSize":"klein"} -->
-<p class="has-tekst-gedempt-color has-text-color has-klein-font-size">Borgelerbad, Borgelerdijk 1</p>
+<p class="has-tekst-gedempt-color has-text-color has-klein-font-size">Vrijdag vroeg zwemmen, in de winter samen op zondag en in de zomer samen open water zwemmen.</p>
 <!-- /wp:paragraph -->
 <!-- wp:paragraph {"className":"triami-label","fontSize":"klein"} -->
-<p class="triami-label has-klein-font-size">Met trainer</p>
-<!-- /wp:paragraph -->
-</div>
-<!-- /wp:group -->
-<!-- wp:group {"className":"is-style-kaart"} -->
-<div class="wp-block-group is-style-kaart">
-<!-- wp:html -->
-<?php echo $zwem; ?>
-<!-- /wp:html -->
-<!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">Vroege zwemuur</h3>
-<!-- /wp:heading -->
-<!-- wp:paragraph {"className":"triami-tijd"} -->
-<p class="triami-tijd">Vrijdag 6:00 – 7:00</p>
-<!-- /wp:paragraph -->
-<!-- wp:paragraph {"textColor":"tekst-gedempt","fontSize":"klein"} -->
-<p class="has-tekst-gedempt-color has-text-color has-klein-font-size">Zwembad De Scheg. Samen met zwemclub <a href="https://www.zwemclubdeventer.nl/" target="_blank" rel="noopener">De IJsel</a>.</p>
-<!-- /wp:paragraph -->
-<!-- wp:paragraph {"className":"triami-label","fontSize":"klein"} -->
-<p class="triami-label has-klein-font-size">Zelfstandig</p>
-<!-- /wp:paragraph -->
-</div>
-<!-- /wp:group -->
-<!-- wp:group {"className":"is-style-kaart"} -->
-<div class="wp-block-group is-style-kaart">
-<!-- wp:html -->
-<?php echo $zwem; ?>
-<!-- /wp:html -->
-<!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">Bonuszwemuur</h3>
-<!-- /wp:heading -->
-<!-- wp:paragraph {"className":"triami-tijd"} -->
-<p class="triami-tijd">Zondag 12:30 – 13:30 (winter)</p>
-<!-- /wp:paragraph -->
-<!-- wp:paragraph {"textColor":"tekst-gedempt","fontSize":"klein"} -->
-<p class="has-tekst-gedempt-color has-text-color has-klein-font-size">Borgelerbad. Alleen met kantwacht; aanmelden via Spond.</p>
-<!-- /wp:paragraph -->
-<!-- wp:paragraph {"className":"triami-label","fontSize":"klein"} -->
-<p class="triami-label has-klein-font-size">Zelfstandig</p>
+<p class="triami-label has-klein-font-size">Onderling</p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -123,10 +85,10 @@ $fiets = '<svg class="triami-icoon" viewBox="0 0 24 24" fill="none" stroke="curr
 <h3 class="wp-block-heading">Fietsen</h3>
 <!-- /wp:heading -->
 <!-- wp:paragraph {"className":"triami-tijd"} -->
-<p class="triami-tijd">Op afspraak, vaak zondag</p>
+<p class="triami-tijd">Op afspraak, vaak in het weekend</p>
 <!-- /wp:paragraph -->
 <!-- wp:paragraph {"textColor":"tekst-gedempt","fontSize":"klein"} -->
-<p class="has-tekst-gedempt-color has-text-color has-klein-font-size">Vertrek bij De Scheg. Leden spreken af via Spond: samen uit, samen thuis.</p>
+<p class="has-tekst-gedempt-color has-text-color has-klein-font-size">Leden spreken samen ritten af: samen uit, samen thuis.</p>
 <!-- /wp:paragraph -->
 <!-- wp:paragraph {"className":"triami-label","fontSize":"klein"} -->
 <p class="triami-label has-klein-font-size">Onderling</p>
@@ -135,5 +97,12 @@ $fiets = '<svg class="triami-icoon" viewBox="0 0 24 24" fill="none" stroke="curr
 <!-- /wp:group -->
 </div>
 <!-- /wp:group -->
+<!-- wp:buttons {"style":{"spacing":{"margin":{"top":"1.5rem"}}}} -->
+<div class="wp-block-buttons" style="margin-top:1.5rem">
+<!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="mailto:secretaris@triami.nl?subject=Meetrainen%20bij%20Triami">Meetrainen? Meld je aan</a></div>
+<!-- /wp:button -->
+</div>
+<!-- /wp:buttons -->
 </div>
 <!-- /wp:group -->
