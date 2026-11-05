@@ -79,7 +79,7 @@ dist/                bouwresultaat (niet in git)
 ## Opruimen bij livegang
 - `update-thema.php` en `beheer-lader.php` van www.triami.nl verwijderen (eerst `&actie=weg`).
 - Plugin WP File Manager van de oude site verwijderen.
-- `privacystatement.pdf` van www.triami.nl verwijderen; de privacyverklaring staat nu op /privacy/ (vervangt de versie van juli 2018). Eventueel een redirect van de PDF naar /privacy/.
+- `privacystatement.pdf` van www.triami.nl verwijderen (let op: statuten-PDF en huishoudelijk reglement wél overzetten, de nieuwe site linkt ernaar); de privacyverklaring staat nu op /privacy/ (vervangt de versie van juli 2018). Besluit Emiel (5 nov): redirect van de PDF naar /privacy/ (301).
 - Password Protected uitzetten en zoekmachines toestaan op de nieuwe site.
 
 ## 5 november 2026 – menu-aanpassingen (akkoord Emiel, punten 1-4)
