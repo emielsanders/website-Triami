@@ -169,3 +169,11 @@ a:focus-visible, button:focus-visible, .wp-block-button__link:focus-visible {
 .triami-feed li { aspect-ratio:1; border-radius:6px; background:linear-gradient(135deg, var(--wp--preset--color--triami-rood-tint), #fff); border:1px dashed var(--wp--preset--color--triami-rood-licht); display:flex; align-items:flex-end; padding:.4rem; font-size:.75rem; color:var(--wp--preset--color--tekst-gedempt); }
 .triami-feed li:nth-child(2n) { background:linear-gradient(135deg, var(--wp--preset--color--achtergrond-zacht), #fff); border-color:var(--wp--preset--color--lijn); }
 .triami-feed li:nth-child(3n) { background:var(--wp--preset--color--zwart); color:#ddd; border:0; }
+
+/* Label op trainingskaart: met trainer / zelfstandig / onderling */
+.triami-training .triami-label { margin-top: .75rem !important; display: inline-block; font-weight: 600; font-size: .8125rem; letter-spacing: .02em; padding: .15rem .6rem; border-radius: 999px; background: var(--wp--preset--color--wit); border: 1px solid var(--wp--preset--color--lijn); color: var(--wp--preset--color--tekst); }
+.triami-training .is-style-kaart a { color: var(--wp--preset--color--triami-rood-donker); }
+
+/* Foto's: afgeronde hoeken, vaste beeldverhouding */
+.wp-block-image.triami-demo img, .triami-fotostrook img { border-radius: 12px; aspect-ratio: 16 / 10; object-fit: cover; width: 100%; height: auto; }
+.triami-fotostrook .wp-block-image { margin: 0; }

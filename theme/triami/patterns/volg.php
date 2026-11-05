@@ -86,13 +86,10 @@ $img = get_template_directory_uri() . '/assets/img/';
 <!-- wp:buttons -->
 <div class="wp-block-buttons">
 <!-- wp:button {"className":"is-style-outline-zwart"} -->
-<div class="wp-block-button is-style-outline-zwart"><a class="wp-block-button__link wp-element-button" href="https://www.instagram.com/" target="_blank" rel="noopener">Volg ons op Instagram</a></div>
+<div class="wp-block-button is-style-outline-zwart"><a class="wp-block-button__link wp-element-button" href="https://www.instagram.com/triami_triathlon/" target="_blank" rel="noopener">Volg @triami_triathlon</a></div>
 <!-- /wp:button -->
 </div>
 <!-- /wp:buttons -->
-<!-- wp:paragraph {"className":"triami-check"} -->
-<p class="triami-check">Check bestuur: bestaat er een Instagram-account (naam)? De tegels zijn nu plaatshouders; bij livegang koppelen we de echte feed (plugin Smash Balloon, gratis) en zetten we de accountnaam in de knop.</p>
-<!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
 
