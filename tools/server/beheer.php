@@ -94,8 +94,11 @@ if ($actie === 'import') {
     require_once ABSPATH . 'wp-admin/includes/media.php';
     $plugin = WP_PLUGIN_DIR . '/wordpress-importer/wordpress-importer.php';
     if (!is_file($plugin)) exit("FOUT: WordPress Importer-plugin niet geïnstalleerd\n");
+    if (!defined('WP_LOAD_IMPORTERS')) define('WP_LOAD_IMPORTERS', true);
     if (!class_exists('WP_Importer')) require_once ABSPATH . 'wp-admin/includes/class-wp-importer.php';
     require_once $plugin;
+    if (!class_exists('WP_Import')) { foreach (['class-wp-import.php', 'src/class-wp-import.php'] as $c) { if (is_file(dirname($plugin) . '/' . $c)) require_once dirname($plugin) . '/' . $c; } }
+    if (!class_exists('WP_Import')) exit("FOUT: klasse WP_Import niet gevonden; bestanden: " . implode(', ', array_map('basename', glob(dirname($plugin) . '/*'))) . "\n");
     $imp = new WP_Import();
     $imp->fetch_attachments = false;
     $_POST['user_map'] = []; $_POST['imported_authors'] = [];
