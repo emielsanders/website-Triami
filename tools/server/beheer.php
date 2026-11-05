@@ -83,31 +83,26 @@ if ($actie === 'opties') {
 }
 
 if ($actie === 'import') {
+    // Eigen, minimale WXR-import: alleen pagina's (titel, slug, inhoud, volgorde). Bestaande slug = bijwerken.
     $file = "$doel/wp-content/triami-import/triami-paginas-import.xml";
     if (!is_file($file)) exit("FOUT: $file ontbreekt\n");
-    require_once ABSPATH . 'wp-admin/includes/import.php';
-    require_once ABSPATH . 'wp-admin/includes/post.php';
-    require_once ABSPATH . 'wp-admin/includes/taxonomy.php';
-    require_once ABSPATH . 'wp-admin/includes/comment.php';
-    require_once ABSPATH . 'wp-admin/includes/image.php';
-    require_once ABSPATH . 'wp-admin/includes/file.php';
-    require_once ABSPATH . 'wp-admin/includes/media.php';
-    $plugin = WP_PLUGIN_DIR . '/wordpress-importer/wordpress-importer.php';
-    if (!is_file($plugin)) exit("FOUT: WordPress Importer-plugin niet geïnstalleerd\n");
-    if (!defined('WP_LOAD_IMPORTERS')) define('WP_LOAD_IMPORTERS', true);
-    if (!class_exists('WP_Importer')) require_once ABSPATH . 'wp-admin/includes/class-wp-importer.php';
-    require_once $plugin;
-    if (!class_exists('WP_Import')) { foreach (['class-wp-import.php', 'src/class-wp-import.php'] as $c) { if (is_file(dirname($plugin) . '/' . $c)) require_once dirname($plugin) . '/' . $c; } }
-    if (!class_exists('WP_Import')) exit("FOUT: klasse WP_Import niet gevonden; bestanden: " . implode(', ', array_map('basename', glob(dirname($plugin) . '/*'))) . "\n");
-    $imp = new WP_Import();
-    $imp->fetch_attachments = false;
-    $_POST['user_map'] = []; $_POST['imported_authors'] = [];
-    ob_start();
-    $imp->import($file);
-    $log = strip_tags(ob_get_clean());
-    echo preg_replace('/\n{2,}/', "\n", trim($log)) . "\n";
-    echo "pagina's nu: " . wp_count_posts('page')->publish . "\n";
-    exit;
+    $xml = simplexml_load_file($file);
+    if (!$xml) exit("FOUT: XML niet leesbaar\n");
+    $ns = $xml->getNamespaces(true);
+    $n = 0; $u = 0;
+    foreach ($xml->channel->item as $item) {
+        $wp = $item->children($ns['wp']); $content = $item->children($ns['content']);
+        if ((string) $wp->post_type !== 'page') continue;
+        $slug = (string) $wp->post_name;
+        $data = ['post_type' => 'page', 'post_status' => 'publish', 'post_title' => (string) $item->title, 'post_name' => $slug,
+                 'post_content' => (string) $content->encoded, 'menu_order' => (int) $wp->menu_order, 'comment_status' => 'closed', 'ping_status' => 'closed'];
+        $bestaand = get_page_by_path($slug);
+        if ($bestaand) { $data['ID'] = $bestaand->ID; wp_update_post($data); $u++; } else { $id = wp_insert_post($data, true); if (is_wp_error($id)) { echo "FOUT bij $slug: " . $id->get_error_message() . "\n"; continue; } $n++; }
+        echo "• $slug\n";
+    }
+    $nieuws = get_page_by_path('nieuws'); if ($nieuws) update_option('page_for_posts', $nieuws->ID);
+    flush_rewrite_rules();
+    exit("klaar: $n nieuw, $u bijgewerkt; pagina's nu: " . wp_count_posts('page')->publish . "\n");
 }
 
 exit("onbekende actie\n");
