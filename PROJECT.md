@@ -75,3 +75,9 @@ dist/                bouwresultaat (niet in git)
 4. Plugins: Fluent Forms, Smash Balloon (als socials bestaan), UpdraftPlus, The SEO Framework, Complianz.
 5. Site-icoon instellen (nu favicon uit thema); og-image; echte logo-SVG en bestuursfoto's in de mediabibliotheek.
 6. Bestuur laten testen op staging; DNS/SSL; livegang; Hestia/Elementor verwijderen.
+
+## 5 november 2026 – menu-aanpassingen (akkoord Emiel, punten 1-4)
+- Lidmaatschap & tarieven is een submenu met Tarieven en Veelgestelde vragen.
+- Nieuws staat uit footer en import (`status: draft` in front matter) en is op staging concept, tot er berichten zijn.
+- Nieuwe pagina Activiteiten (onder Vereniging, ook in footer en als kaart op Vereniging).
+- Privacyverklaring is een pagina (/privacy/) op basis van de PDF van juli 2018; footer, Contact en Bestuur linken ernaar. Check bestuur: kanalen (Facebook/WhatsApp vs Spond), Run2Day, datum.
