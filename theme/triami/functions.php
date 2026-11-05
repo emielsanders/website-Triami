@@ -144,3 +144,11 @@ remove_action( 'wp_head', 'wp_generator' );
 remove_action( 'wp_head', 'print_emoji_detection_script', 7 );
 remove_action( 'wp_print_styles', 'print_emoji_styles' );
 add_filter( 'xmlrpc_enabled', '__return_false' );
+
+/**
+ * Shortcodes in het shortcode-blok ook uitvoeren als het blok in een thema-patroon of
+ * template staat (bijv. de Instagram-feed in het patroon Volg Triami).
+ */
+add_filter( 'render_block_core/shortcode', function ( $content ) {
+	return do_shortcode( $content );
+} );
