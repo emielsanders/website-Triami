@@ -17,12 +17,12 @@
 <h1 class="wp-block-heading">Samen trainen, samen finishen</h1>
 <!-- /wp:heading -->
 <!-- wp:paragraph {"fontSize":"groot"} -->
-<p class="has-groot-font-size">Zwemmen, fietsen en hardlopen onder begeleiding van gediplomeerde trainers, voor beginners én gevorderde triatleten. Doe vrijblijvend mee met een training.</p>
+<p class="has-groot-font-size">Zwemmen, fietsen en hardlopen onder begeleiding van gediplomeerde trainers, voor beginners én gevorderde triatleten. Kom gratis een keer meetrainen.</p>
 <!-- /wp:paragraph -->
 <!-- wp:buttons {"style":{"spacing":{"margin":{"top":"1.5rem"}}}} -->
 <div class="wp-block-buttons" style="margin-top:1.5rem">
 <!-- wp:button -->
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/lidmaatschap/#inschrijven">Word proeflid</a></div>
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/lidmaatschap/#meetrainen">Train een keer mee</a></div>
 <!-- /wp:button -->
 <!-- wp:button {"className":"is-style-outline-wit"} -->
 <div class="wp-block-button is-style-outline-wit"><a class="wp-block-button__link wp-element-button" href="/trainingen/">Bekijk de trainingen</a></div>

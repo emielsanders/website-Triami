@@ -3,9 +3,8 @@
  * Title: Volg Triami (Strava, Spond, Instagram)
  * Slug: triami/volg
  * Categories: triami
- * Description: Drie kaarten met de kanalen van de club: Strava-club, Spond (leden, met QR-code) en Instagram.
+ * Description: Drie kaarten met de kanalen van de club: Strava-club, Spond (leden, uitnodiging na aanmelding) en Instagram.
  */
-$img = get_template_directory_uri() . '/assets/img/';
 ?>
 <!-- wp:group {"className":"triami-volg","layout":{"type":"constrained","contentSize":"1200px"},"style":{"spacing":{"padding":{"top":"4rem","bottom":"4rem"}}}} -->
 <div class="wp-block-group triami-volg" style="padding-top:4rem;padding-bottom:4rem">
@@ -51,18 +50,8 @@ $img = get_template_directory_uri() . '/assets/img/';
 <h3 class="wp-block-heading">Trainingen en activiteiten in Spond</h3>
 <!-- /wp:heading -->
 <!-- wp:paragraph -->
-<p>Leden melden zich in Spond aan voor trainingen, het trainingsweekend en wedstrijden. Nieuw lid? Scan de code of open de uitnodiging.</p>
+<p>Leden melden zich in Spond aan voor trainingen, het trainingsweekend en wedstrijden. Daar staan ook de exacte tijden en locaties. Nieuwe leden krijgen de uitnodiging in de welkomstmail.</p>
 <!-- /wp:paragraph -->
-<!-- wp:html -->
-<div class="triami-qr"><img src="<?php echo esc_url( $img . 'spond-qr.svg' ); ?>" alt="QR-code naar de Spond-uitnodiging van Triami" width="120" height="120" loading="lazy"><span>Scan met de camera van je telefoon</span></div>
-<!-- /wp:html -->
-<!-- wp:buttons -->
-<div class="wp-block-buttons">
-<!-- wp:button {"className":"is-style-outline-zwart"} -->
-<div class="wp-block-button is-style-outline-zwart"><a class="wp-block-button__link wp-element-button" href="https://spond.com/invite/WFYQG" target="_blank" rel="noopener">Open de Spond-uitnodiging</a></div>
-<!-- /wp:button -->
-</div>
-<!-- /wp:buttons -->
 </div>
 <!-- /wp:group -->
 
