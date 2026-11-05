@@ -65,6 +65,9 @@ dist/                bouwresultaat (niet in git)
 
 - Repo is publiek; demo via korte link: `https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/emielsanders/website-Triami/main/playground/blueprint.json` (thema-zip en WXR staan in `playground/dist/`, na `tools/build.py` kopiëren en pushen).
 
+- 5 nov avond: trainingsschema bijgewerkt uit nieuwsbrief jan 2026 (wo 19:30–20:45, vr 6:00 zelfstandig met De IJsel, zo-winter bonuszwemuur, fietsen op afspraak), racefiets-icoon; vereniging: geschiedenis (opgericht 11-4-2006), trainingsweekend april, Social Salad, ALV, samenwerking (De IJsel = zwemclubdeventer.nl; De Zwaluwe nog onbekend), sponsoren 3SL Sports + KoffieDok, Rechtop; 10 demo-afbeeldingen in theme/triami/assets/img/demo (tools/demo_afbeeldingen.py) + patroon fotostrook op home; Instagram @triami_triathlon; Smash Balloon geïnstalleerd op staging (koppelen door Emiel).
+- Staging bijwerken: push naar GitHub, dan https://www.triami.nl/update-thema.php?token=…&actie=thema&wxr=1 en &actie=import (token niet in repo; zie sessie). Oude site: plugin WP File Manager nog verwijderen.
+
 ## Volgende stappen
 1. Ophaallijst bestuur afwerken (`docs/ophaallijst-bestuur.md`) en `Check bestuur`-regels verwijderen.
 2. GitHub-repo aanmaken en pushen; `playground/blueprint.json` met `installTheme` via raw-URL (zie `docs/technische-aanpak.md`).
