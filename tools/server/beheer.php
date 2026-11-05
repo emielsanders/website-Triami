@@ -43,6 +43,9 @@ if ($actie === 'thema') {
 
 // Vanaf hier draait WordPress van de nieuwe site mee.
 define('WP_USE_THEMES', false);
+@ini_set('display_errors', '1'); error_reporting(E_ALL);
+set_exception_handler(function (Throwable $e) { echo "FOUT: " . get_class($e) . ': ' . $e->getMessage() . ' in ' . $e->getFile() . ':' . $e->getLine() . "\n"; });
+register_shutdown_function(function () { $e = error_get_last(); if ($e && in_array($e['type'], [E_ERROR, E_PARSE, E_CORE_ERROR, E_COMPILE_ERROR], true)) echo "FATAAL: {$e['message']} in {$e['file']}:{$e['line']}\n"; });
 require "$doel/wp-load.php";
 $admins = get_users(['role' => 'administrator', 'number' => 1, 'orderby' => 'ID']);
 if (!$admins) exit("FOUT: geen beheerder gevonden\n");
@@ -59,7 +62,9 @@ if ($actie === 'status') {
 }
 
 if ($actie === 'opties') {
-    update_option('blogname', 'Triami Triathlonvereniging');
+    $r = update_option('blogname', 'Triami Triathlonvereniging');
+    echo 'update blogname: ' . var_export($r, true) . ' -> ' . get_option('blogname') . ' (db-prefix ' . $GLOBALS['wpdb']->prefix . ', db ' . DB_NAME . ")\n";
+    $GLOBALS['wpdb']->show_errors(); if ($GLOBALS['wpdb']->last_error) echo 'db-fout: ' . $GLOBALS['wpdb']->last_error . "\n";
     update_option('blogdescription', 'Dé triathlonvereniging van Deventer en omstreken');
     update_option('timezone_string', 'Europe/Amsterdam');
     update_option('date_format', 'j F Y');
