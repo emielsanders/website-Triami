@@ -76,6 +76,12 @@ dist/                bouwresultaat (niet in git)
 5. Site-icoon instellen (nu favicon uit thema); og-image; echte logo-SVG en bestuursfoto's in de mediabibliotheek.
 6. Bestuur laten testen op staging; DNS/SSL; livegang; Hestia/Elementor verwijderen.
 
+## Opruimen bij livegang
+- `update-thema.php` en `beheer-lader.php` van www.triami.nl verwijderen (eerst `&actie=weg`).
+- Plugin WP File Manager van de oude site verwijderen.
+- `privacystatement.pdf` van www.triami.nl verwijderen; de privacyverklaring staat nu op /privacy/ (vervangt de versie van juli 2018). Eventueel een redirect van de PDF naar /privacy/.
+- Password Protected uitzetten en zoekmachines toestaan op de nieuwe site.
+
 ## 5 november 2026 – menu-aanpassingen (akkoord Emiel, punten 1-4)
 - Lidmaatschap & tarieven is een submenu met Tarieven en Veelgestelde vragen.
 - Nieuws staat uit footer en import (`status: draft` in front matter) en is op staging concept, tot er berichten zijn.
