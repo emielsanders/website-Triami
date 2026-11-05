@@ -77,12 +77,9 @@ $img = get_template_directory_uri() . '/assets/img/';
 <!-- wp:paragraph -->
 <p>Trainingen, wedstrijden en het trainingsweekend: de laatste foto's van de club verschijnen hier automatisch.</p>
 <!-- /wp:paragraph -->
-<!-- wp:html -->
-<ul class="triami-feed" aria-label="Voorbeeld van de fotofeed (nog zonder foto's)">
-<li><span>Zwemmen</span></li><li><span>Fietsen</span></li><li><span>Hardlopen</span></li>
-<li><span>Teamcompetitie</span></li><li><span>Start2Tri</span></li><li><span>Weekend</span></li>
-</ul>
-<!-- /wp:html -->
+<!-- wp:shortcode -->
+[instagram-feed feed=1 num=6 cols=3 showheader=false showbutton=false showfollow=false imagepadding=3 imagepaddingunit=px]
+<!-- /wp:shortcode -->
 <!-- wp:buttons -->
 <div class="wp-block-buttons">
 <!-- wp:button {"className":"is-style-outline-zwart"} -->
