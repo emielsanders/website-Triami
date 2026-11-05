@@ -152,3 +152,9 @@ add_filter( 'xmlrpc_enabled', '__return_false' );
 add_filter( 'render_block_core/shortcode', function ( $content ) {
 	return do_shortcode( $content );
 } );
+
+// TIJDELIJK (diagnose Instagram-feed): alleen zichtbaar voor beheerders.
+add_action( 'wp_footer', function () {
+	if ( ! current_user_can( 'manage_options' ) ) { return; }
+	echo '<div id="triami-diag" style="position:fixed;bottom:0;left:0;z-index:99999;background:#ff0;color:#000;padding:4px 8px;font:12px monospace">diag: sc=' . ( shortcode_exists( 'instagram-feed' ) ? 'ja' : 'nee' ) . ' filter=' . ( has_filter( 'render_block_core/shortcode' ) ? 'ja' : 'nee' ) . ' len=' . strlen( do_shortcode( '[instagram-feed feed=1 num=1]' ) ) . '</div>';
+} );
