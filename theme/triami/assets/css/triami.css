@@ -180,6 +180,7 @@ a:focus-visible, button:focus-visible, .wp-block-button__link:focus-visible {
 
 /* Instagram-feed (Smash Balloon) in de kaart: 6 foto's, 3 kolommen, afgerond */
 .triami-kanaal-instagram #sb_instagram { padding-bottom: 0 !important; }
+.triami-kanaal-instagram #sb_instagram .sbi_follow_btn, .triami-kanaal-instagram #sb_instagram #sbi_load { display: none !important; }
 .triami-kanaal-instagram #sb_instagram #sbi_images { display: grid !important; grid-template-columns: repeat(3, 1fr); gap: .4rem; padding: 0 !important; }
 .triami-kanaal-instagram #sb_instagram .sbi_item { width: auto !important; padding: 0 !important; margin: 0 !important; }
 .triami-kanaal-instagram #sb_instagram .sbi_item:nth-child(n+7) { display: none !important; }

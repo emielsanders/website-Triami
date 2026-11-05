@@ -32,7 +32,7 @@ add_action( 'wp_enqueue_scripts', function () {
 	if ( triami_fonts_missing() ) {
 		wp_enqueue_style( 'triami-fonts', triami_google_fonts_url(), array(), null );
 	}
-	wp_enqueue_style( 'triami-style', get_template_directory_uri() . '/assets/css/triami.css', array(), TRIAMI_VERSION );
+	wp_enqueue_style( 'triami-style', get_template_directory_uri() . '/assets/css/triami.css', array(), TRIAMI_VERSION . '.' . filemtime( get_template_directory() . '/assets/css/triami.css' ) );
 } );
 
 add_action( 'enqueue_block_editor_assets', function () {
