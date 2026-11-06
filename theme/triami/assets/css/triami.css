@@ -218,3 +218,6 @@ header.wp-block-template-part { position: sticky; top: 0; z-index: 100; backgrou
 	.wp-block-table td, .wp-block-table th { hyphens: auto; -webkit-hyphens: auto; padding: .5rem .4rem; }
 	.wp-block-table td a { overflow-wrap: anywhere; }
 }
+
+/* Instagram: geen profielkop (bio met verouderde proeflidtekst), alleen de foto's */
+.triami-kanaal-instagram .sb_instagram_header, .triami-kanaal-instagram .sbi_header_text, .triami-kanaal-instagram #sbi_mod_error { display: none !important; }

@@ -35,9 +35,6 @@
 <!-- /wp:button -->
 </div>
 <!-- /wp:buttons -->
-<!-- wp:paragraph {"className":"triami-check"} -->
-<p class="triami-check">Check bestuur: Strava-club bevestigen. Ledental en laatste activiteiten tonen we pas zodra Strava de clubwidget weer werkend heeft (storing sinds januari 2026).</p>
-<!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
 
