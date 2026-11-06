@@ -16,7 +16,7 @@
 <h2 class="wp-block-heading is-style-hartslag">Vrienden van de triathlon</h2>
 <!-- /wp:heading -->
 <!-- wp:paragraph -->
-<p>Triami is opgericht in 2006 en is een actieve triathlonvereniging met ruim 100 leden uit Deventer en omgeving. Bij ons werk je onder deskundige begeleiding aan je zwem- en loopconditie, met op alle onderdelen aandacht voor techniek.</p>
+<p>Triami is opgericht in 2006 en is een actieve triathlonvereniging met circa 100 leden uit Deventer en omgeving. Bij ons werk je onder deskundige begeleiding aan je zwem- en loopconditie, met op alle onderdelen aandacht voor techniek.</p>
 <!-- /wp:paragraph -->
 <!-- wp:paragraph -->
 <p>Van je eerste sprinttriathlon tot de teamcompetitie: iedereen traint samen, op eigen niveau.</p>
