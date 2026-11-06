@@ -57,7 +57,7 @@ function triami_seo_plugin_active() {
 }
 function triami_meta_description() {
 	if ( is_front_page() ) {
-		return get_bloginfo( 'description' ) . '. Zwemmen, fietsen en hardlopen onder begeleiding van gediplomeerde trainers. Train vrijblijvend mee.';
+		return get_bloginfo( 'description' ) . '. Zwemmen, fietsen en hardlopen onder begeleiding van gediplomeerde trainers. Train gratis een keer mee.';
 	}
 	if ( is_singular() ) {
 		$post = get_queried_object();
@@ -69,6 +69,9 @@ function triami_meta_description() {
 			if ( 'core/paragraph' === $block['blockName'] ) {
 				$text = trim( wp_strip_all_tags( $block['innerHTML'] ) );
 				if ( strlen( $text ) > 40 ) {
+					// Geen e-mailadressen in de metadata (adresverzamelaars lezen die ook).
+					$text = trim( preg_replace( '/\s*(via\s+)?[\w.+-]+@[\w-]+(\.[\w-]+)+\.?/u', '.', $text ) );
+					$text = preg_replace( '/\s*\.\./', '.', $text );
 					return wp_html_excerpt( $text, 155, '…' );
 				}
 			}
