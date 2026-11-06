@@ -87,3 +87,10 @@ dist/                bouwresultaat (niet in git)
 - Nieuws staat uit footer en import (`status: draft` in front matter) en is op staging concept, tot er berichten zijn.
 - Nieuwe pagina Activiteiten (onder Vereniging, ook in footer en als kaart op Vereniging).
 - Privacyverklaring is een pagina (/privacy/) op basis van de PDF van juli 2018; footer, Contact en Bestuur linken ernaar. Check bestuur: kanalen (Facebook/WhatsApp vs Spond), Run2Day, datum.
+
+## 6 november 2026 – feedback reviewer verwerkt
+- Sticky menu, mobiele verfijning (kop op één regel, fotostrook als veegrij, tabellen met afbreking, minder witruimte).
+- E-mailadressen via antispambot() in alle blokken; geen e-mailadressen in de meta description.
+- FAQ: zwembad/baan-lidmaatschap niet nodig, handdoek, elke fiets volstaat; geen dubbele info (bedragen alleen bij #tarieven).
+- VCP alleen voornaam (besluit 6 nov). Start2Tri: geen zwemles/zekere basis, vol is vol, opmerkingenveld. Tarieven 2026: € 214,50.
+- Deploy-les: raw.githubusercontent negeert de querystring voor caching per CDN-knooppunt; de server kan tot ~5 min een oudere zip krijgen. Na een thema-deploy controleren en zo nodig na 5 minuten opnieuw `actie=thema`.
