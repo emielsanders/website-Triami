@@ -100,7 +100,7 @@ $fiets = '<svg class="triami-icoon" viewBox="0 0 24 24" fill="none" stroke="curr
 <!-- wp:buttons {"style":{"spacing":{"margin":{"top":"1.5rem"}}}} -->
 <div class="wp-block-buttons" style="margin-top:1.5rem">
 <!-- wp:button -->
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/lidmaatschap/#meetrainen">Train een keer mee</a></div>
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/lidmaatschap/#meetrainen">Kom kennismaken</a></div>
 <!-- /wp:button -->
 </div>
 <!-- /wp:buttons -->

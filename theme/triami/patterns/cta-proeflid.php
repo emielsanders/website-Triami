@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: Oproep: train een keer mee
+ * Title: Oproep: kom kennismaken
  * Slug: triami/cta-proeflid
  * Categories: triami
  * Description: Rode oproepbalk met knop naar de lidmaatschapspagina.
@@ -13,17 +13,17 @@
 <!-- wp:group {"layout":{"type":"constrained","contentSize":"640px","justifyContent":"left"}} -->
 <div class="wp-block-group">
 <!-- wp:heading {"textColor":"wit"} -->
-<h2 class="wp-block-heading has-wit-color has-text-color">Kom een keer meetrainen</h2>
+<h2 class="wp-block-heading has-wit-color has-text-color">Kom kennismaken</h2>
 <!-- /wp:heading -->
 <!-- wp:paragraph {"textColor":"wit"} -->
-<p class="has-wit-color has-text-color">Meetrainen is gratis. Proef de sfeer, maak kennis met de trainers en de groep. Bevalt het, dan word je lid en train je elke week mee.</p>
+<p class="has-wit-color has-text-color">Mail ons wie je bent en wat je zoekt. We nemen contact op en spreken samen een moment af om gratis mee te trainen. Bevalt het, dan word je lid.</p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
 <!-- wp:buttons -->
 <div class="wp-block-buttons">
 <!-- wp:button {"className":"is-style-outline-wit"} -->
-<div class="wp-block-button is-style-outline-wit"><a class="wp-block-button__link wp-element-button" href="/lidmaatschap/#meetrainen">Train een keer mee</a></div>
+<div class="wp-block-button is-style-outline-wit"><a class="wp-block-button__link wp-element-button" href="/lidmaatschap/#meetrainen">Kom kennismaken</a></div>
 <!-- /wp:button -->
 </div>
 <!-- /wp:buttons -->
