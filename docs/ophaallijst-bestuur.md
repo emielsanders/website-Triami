@@ -4,7 +4,7 @@ Per punt: wat we nodig hebben, waar het op de site komt, en wie het aanlevert. A
 
 | # | Nodig | Waar op de site | Wie | Klaar |
 |---|---|---|---|---|
-| 1 | Tarieven 2026 (vastgesteld op de ALV van januari 2026): basislidmaatschap, Triami-deel, NTB-deel, atletenlicentie, donateur. Let op: € 144 + € 51,50 is € 195,50, niet € 193 | Lidmaatschap | Penningmeester | ☐ |
+| 1 | Tarieven 2026: lidmaatschap € 214,50 (€ 160 Triami + € 54,50 NTB, factuur 2026) verwerkt. Nog: proeflid en donateur 2026 bevestigen | Lidmaatschap | Penningmeester | ☐ |
 | 2 | Start2Tri: prijs € 50 (Emiel, 6 nov). Nog: duur (10 weken of 3 maanden?). Proeflid krijgt op de site bewust weinig nadruk (besluit 5 nov) | Lidmaatschap, Start2Tri | Penningmeester | ☐ |
 | 3 | Teamcompetitie: twee herenteams en regelmatig een damesteam (Emiel, 6 nov) | Teamcompetitie | Secretaris / captains | ☑ |
 | 4 | Trainers: actuele lijst, namen van de trainers in opleiding, toestemming voor naam en eventueel foto | Trainers | Hoofdtrainer | ☐ |
