@@ -56,7 +56,7 @@
 <h3 class="wp-block-heading">Laagdrempelig</h3>
 <!-- /wp:heading -->
 <!-- wp:paragraph -->
-<p>Kom gratis een keer meetrainen. Bevalt het, dan word je lid.</p>
+<p>Kom kennismaken en train een keer gratis mee. Bevalt het, dan word je lid.</p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
