@@ -202,3 +202,19 @@ header.wp-block-template-part { position: sticky; top: 0; z-index: 100; backgrou
 @media (max-width: 782px) { .admin-bar header.wp-block-template-part { top: 46px; } }
 @media (max-width: 600px) { .admin-bar header.wp-block-template-part { top: 0; } }
 [id] { scroll-margin-top: 96px; }
+
+/* Mobiel (feedback 6 nov): compacte kop op één regel, minder witruimte, fotostrook als veegrij, leesbare tabellen */
+@media (max-width: 600px) {
+	.triami-header > .wp-block-group { flex-wrap: nowrap !important; gap: .75rem !important; }
+	.triami-header .wp-block-site-logo img, .triami-header img { height: 40px; width: auto; }
+	.triami-header-cta { order: 2; margin-left: auto; }
+	.triami-header .wp-block-navigation { order: 3; flex: 0 0 auto; }
+	.triami-header-cta .wp-block-button__link { padding: .45rem .75rem; font-size: .8125rem; white-space: nowrap; }
+	main [style*="padding-top:4rem"] { padding-top: 2.5rem !important; }
+	main [style*="padding-bottom:4rem"] { padding-bottom: 2.5rem !important; }
+	.triami-fotostrook > .wp-block-group { display: flex !important; overflow-x: auto; scroll-snap-type: x mandatory; gap: .75rem; padding-bottom: .5rem; }
+	.triami-fotostrook > .wp-block-group > figure { flex: 0 0 82%; scroll-snap-align: start; margin: 0; }
+	.wp-block-table table { table-layout: auto; }
+	.wp-block-table td, .wp-block-table th { hyphens: auto; -webkit-hyphens: auto; padding: .5rem .4rem; }
+	.wp-block-table td a { overflow-wrap: anywhere; }
+}
