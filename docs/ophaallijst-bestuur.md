@@ -24,3 +24,4 @@ Per punt: wat we nodig hebben, waar het op de site komt, en wie het aanlevert. A
 | 18 | Ledental: "circa 100 leden" (Emiel, 6 nov) | Vereniging, Home | Secretaris | ☑ |
 | 19 | Welkomstmail voor nieuwe leden met de Spond-uitnodiging (de link staat niet meer op de site). Advies: in Spond een nieuwe uitnodigingslink maken, de oude (WFYQG) stond openbaar | Buiten de site | Secretaris | ☐ |
 | 20 | Blok "Je eerste training" (veelgestelde vragen): minimumleeftijd 18 jaar en de lat "rondje op de baan, baan borstcrawl" bevestigen | Veelgestelde vragen | Bestuur / trainers | ☐ |
+| 21 | triathlondeventer.nl toont nog de datum van 2026 (3 mei); bijwerken voor de editie 2027 | Externe site (Start2Tri linkt ernaar) | Organisatie Sprint Triathlon | ☐ |

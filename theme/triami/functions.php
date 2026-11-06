@@ -152,3 +152,28 @@ add_filter( 'xmlrpc_enabled', '__return_false' );
 add_filter( 'render_block_core/shortcode', function ( $content ) {
 	return do_shortcode( $content );
 } );
+
+/**
+ * E-mailadressen beschermen tegen adresverzamelaars: mailto-links en zichtbare adressen
+ * worden met antispambot() als HTML-entiteiten uitgevoerd. Ze blijven klikbaar en leesbaar
+ * voor bezoekers en schermlezers.
+ */
+add_filter( 'render_block', function ( $content ) {
+	if ( false === strpos( $content, '@' ) ) {
+		return $content;
+	}
+	$content = preg_replace_callback(
+		'/href="mailto:([^"?]+)(\?[^"]*)?"/i',
+		function ( $m ) {
+			return 'href="' . antispambot( 'mailto:' ) . antispambot( $m[1] ) . ( $m[2] ?? '' ) . '"';
+		},
+		$content
+	);
+	return preg_replace_callback(
+		'/>([^<>\s]+@triami\.nl)</i',
+		function ( $m ) {
+			return '>' . antispambot( $m[1] ) . '<';
+		},
+		$content
+	);
+}, 20 );

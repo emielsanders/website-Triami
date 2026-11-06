@@ -32,5 +32,5 @@ Websitebeheer: algemeenbestuurslid@triami.nl.
 
 - Leden in verslagen, trainers en teamcaptains: **alleen voornaam**.
 - Bestuur: **voornaam + functie + functie-mailadres** (bijv. secretaris@triami.nl), geen persoonlijke adressen of telefoonnummers.
-- Vertrouwenscontactpersoon: **volledige naam + vcp@triami.nl**, geen telefoonnummer.
+- Vertrouwenscontactpersoon: **alleen voornaam + vcp@triami.nl**, geen telefoonnummer (consistent met de rest; besluit 6 november 2026).
 - Altijd alleen met toestemming van de persoon; herkenbare foto's van leden alleen met hun akkoord.

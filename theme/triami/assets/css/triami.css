@@ -195,3 +195,10 @@ a:focus-visible, button:focus-visible, .wp-block-button__link:focus-visible {
 .is-style-kaart > .triami-label { display: inline-block; margin: 0 0 .5rem !important; font-weight: 600; font-size: .8125rem; letter-spacing: .04em; text-transform: uppercase; padding: .15rem .6rem; border-radius: 999px; background: var(--wp--preset--color--triami-rood-tint); color: var(--wp--preset--color--triami-rood-donker); }
 .triami-privacy-lijst { list-style: none; padding-left: 0; display: grid; gap: .75rem; }
 .triami-privacy-lijst li { padding-left: 1rem; border-left: 3px solid var(--wp--preset--color--lijn); }
+
+/* Menu blijft bovenin staan bij scrollen */
+header.wp-block-template-part { position: sticky; top: 0; z-index: 100; background: var(--wp--preset--color--wit); }
+.admin-bar header.wp-block-template-part { top: 32px; }
+@media (max-width: 782px) { .admin-bar header.wp-block-template-part { top: 46px; } }
+@media (max-width: 600px) { .admin-bar header.wp-block-template-part { top: 0; } }
+[id] { scroll-margin-top: 96px; }
