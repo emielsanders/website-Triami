@@ -16,7 +16,7 @@ Per punt: wat we nodig hebben, waar het op de site komt, en wie het aanlevert. A
 | 10 | Clubkleding: voorraad bij KoffieDok, Bioracer twee keer per jaar (6 nov). Nog: Webshop-link, prijzen, foto van de kleding | Clubkleding | Secretaris | ☐ |
 | 11 | Social media: Instagram @triami_triathlon gekoppeld, Strava zonder ledental (5 nov). Nog: zijn er Facebook- of TikTok-accounts? | Home, Footer, Contact | Bestuur | ☐ |
 | 12 | Nieuws: pagina staat verborgen tot er berichten zijn (5 nov). Nog: wil het bestuur berichten op de site plaatsen (wie, hoe vaak)? | Nieuws | Bestuur | ☐ |
-| 13 | Foto's: 6 tot 10 recente foto's (trainingen, teams, evenementen) in hoge resolutie met toestemming van de afgebeelde leden | Home, Trainingen, Start2Tri | Leden | ☐ |
+| 13 | Foto's: 19 clubfoto's uit de Mailchimp-bibliotheek staan op de site (10 nov, keuze Emiel). Nog: bij voorkeur recente foto's van trainingen en Start2Tri; let op toestemming van herkenbare leden | Home, Trainingen, Start2Tri | Leden | ☐ |
 | 14 | Logo: officieel SVG-bestand en transparante PNG's bij de ontwerper opvragen (.afdesign-bron) | Overal | Bestuur | ☐ |
 | 15 | Privacyverklaring: staat als pagina op /privacy/ (bijgewerkt nov 2026: Spond, nieuwsbrief, WhatsApp, clubvoorraad KoffieDok) | Footer | Secretaris | ☑ |
 | 16 | Triami Sprint Triathlon: in mei, Start2Tri bereidt erop voor (5 nov) | Activiteiten, Start2Tri | Bestuur | ☑ |

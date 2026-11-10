@@ -94,3 +94,6 @@ dist/                bouwresultaat (niet in git)
 - FAQ: zwembad/baan-lidmaatschap niet nodig, handdoek, elke fiets volstaat; geen dubbele info (bedragen alleen bij #tarieven).
 - VCP alleen voornaam (besluit 6 nov). Start2Tri: geen zwemles/zekere basis, vol is vol, opmerkingenveld. Tarieven 2026: € 214,50.
 - Deploy-les: raw.githubusercontent negeert de querystring voor caching per CDN-knooppunt; de server kan tot ~5 min een oudere zip krijgen. Na een thema-deploy controleren en zo nodig na 5 minuten opnieuw `actie=thema`.
+
+## 10 november 2026 – echte foto's
+- 19 clubfoto's uit de Mailchimp-bibliotheek (keuze Emiel; wedstrijdfoto met herkenbare gezichten en foto's met fotografen-watermerk/stock bewust niet). Verwerkt met `tools/fotos_verwerken.py`: 16:10, max 1600 px, licht verbeterd, zonder EXIF/GPS. Map: `theme/triami/assets/img/foto/`. Demo-afbeeldingen verwijderd.
