@@ -12,12 +12,14 @@ DOEL.mkdir(parents=True, exist_ok=True)
 # bron-id -> (bestandsnaam, verticale focus 0..1)
 FOTOS = {
     "17": ("zwemmen-onder-water", .5), "242": ("fietsen-langs-het-water", .5), "0": ("looptraining-baan", .5),
-    "130": ("zwembad-van-boven", .5), "62": ("zwemtraining-buitenbad", .55), "169": ("fietsen-herfst", .6),
-    "1": ("groep-atletiekbaan", .55), "48": ("open-water-groep", .55), "342": ("open-water-avond", .5),
+    "62": ("zwemtraining-buitenbad", .55), "169": ("fietsen-herfst", .6),
+    "1": ("groep-atletiekbaan", .55), "48": ("open-water-groep", .55), 
     "25": ("open-water-zonsondergang", .6), "319": ("open-water-meer", .55), "50": ("trainingsweekend-heuvelland", .6),
     "35": ("trainingsweekend-groep", .5), "156": ("trainingsweekend-tunnel", .6), "76": ("trainingsweekend-mountainbike", .55),
     "6": ("hardlopen-heide", .62), "14": ("groep-crosstriathlon", .6), "63": ("groepsfoto-fietsen", .55),
-    "286": ("crossloop-heide", .6), "114": ("teamcompetitie-finish", .5), "185": ("teamcompetitie-gemengd", .5),
+    "286": ("crossloop-heide", .6), 
+    "w4": ("zwemmen-baan-van-boven", .5), "w10": ("teamcompetitie-groep", .55), "w9": ("open-water-uitstap", .55),
+    "w6": ("hardlopen-wedstrijd", .5), "w8": ("fietsen-bocht", .5), "w5": ("fietsen-beweging", .5),
 }
 
 for n, (naam, fy) in FOTOS.items():
