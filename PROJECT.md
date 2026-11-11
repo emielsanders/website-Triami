@@ -103,3 +103,4 @@ dist/                bouwresultaat (niet in git)
 - Wedstrijdnaam overal "Deventer Sprint Triathlon". Start2Tri: 10 weken, één keer per jaar, bij voldoende interesse, anders proeflid.
 - Statuten 2024 als schone PDF zonder persoonsgegevens (`theme/triami/assets/docs/statuten-triami-2024.pdf`, gemaakt uit de notariële akte); huishoudelijk reglement in dezelfde map (auteursnaam uit metadata gehaald). Opgericht: 15 mei 2006 (statuten).
 - Foto's: teamcompetitie (teamfoto, WhatsApp-bron), clubkleding (tunnel), activiteiten (trainingsweekend-groep).
+- Teamfoto (WhatsApp, team onder KTM-tent) op verzoek van een lid verwijderd en uit de git-geschiedenis gewist (git filter-repo + force push, 11 nov). Vervangen door herenteam bij de finish (`teamcompetitie-finish.jpg`). Let op: GitHub houdt de oude commit 711cf1a nog bereikbaar via de SHA tot GitHub Support de cache opruimt. Foto's van deze vier personen niet meer gebruiken.
