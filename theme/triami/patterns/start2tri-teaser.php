@@ -49,7 +49,7 @@
 <li>Kleine groep van 5 tot 10 deelnemers</li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
-<li>Afsluiten kan met de Deventer Sprint Triathlon begin mei</li>
+<li>Afsluiten kan met de Deventer Sprint Triathlon op 2 of 9 mei 2027</li>
 <!-- /wp:list-item -->
 </ul>
 <!-- /wp:list -->

@@ -228,3 +228,5 @@ header.wp-block-template-part { position: sticky; top: 0; z-index: 100; backgrou
 	background-size: cover; background-position: center 40%;
 }
 @media (max-width: 600px) { .triami-hero.is-style-donker { background-image: linear-gradient(rgba(17,17,17,.78), rgba(17,17,17,.78)), url(../img/foto/fietsen-langs-het-water.jpg); } }
+.triami-hero-agenda { margin-top: 1.25rem !important; display: inline-block; padding: .5rem .85rem; border-radius: 8px; background: rgba(0,0,0,.45); }
+.triami-hero-agenda a { white-space: nowrap; }

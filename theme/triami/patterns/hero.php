@@ -29,6 +29,9 @@
 <!-- /wp:button -->
 </div>
 <!-- /wp:buttons -->
+<!-- wp:paragraph {"className":"triami-hero-agenda","fontSize":"klein"} -->
+<p class="triami-hero-agenda has-klein-font-size"><strong>Deventer Sprint Triathlon:</strong> zondag 2 of 9 mei 2027, de definitieve datum volgt. <a href="https://www.triathlondeventer.nl/" target="_blank" rel="noopener">Naar de wedstrijdsite</a></p>
+<!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
 <!-- wp:spacer {"height":"2rem"} -->
