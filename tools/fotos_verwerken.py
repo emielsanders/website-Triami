@@ -1,4 +1,5 @@
-"""Verwerkt clubfoto's (uit de Mailchimp-bibliotheek) voor de website: rechtop zetten, 16:10 uitsnijden,
+"""(hero-fietsen.jpg is apart samengesteld uit w8: foto rechts, links een donkere vervaagde rand.)
+Verwerkt clubfoto's (uit de Mailchimp-bibliotheek) voor de website: rechtop zetten, 16:10 uitsnijden,
 maximaal 1600 px breed, licht verbeteren (contrast, kleur, verscherping) en alle metadata (EXIF/GPS) weglaten.
 Gebruik: python3 tools/fotos_verwerken.py <bronmap>"""
 import sys
