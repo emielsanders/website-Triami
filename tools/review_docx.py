@@ -16,6 +16,7 @@ ROOT = Path(__file__).resolve().parents[1]
 PAGES = ROOT / "content/pages"
 PATTERNS = ROOT / "theme/triami/patterns"
 OUT = ROOT / "docs/website-teksten-review.docx"
+SCHERMEN = ROOT / "docs/schermen"  # gemaakt met: node tools/schermafdrukken.js
 BASE = "https://nieuw.triami.nl"
 
 HOME = ["hero", "intro", "fotostrook", "trainingsschema", "cta-proeflid", "start2tri-teaser", "volg", "home-contact"]
@@ -85,20 +86,27 @@ def nieuwe_pagina_per_kop(pad):
     shutil.move(tmp, pad)
 
 
+def scherm(naam):
+    png = SCHERMEN / f"{naam}.jpg"
+    if not png.exists():
+        return ""
+    return f'<p><img src="{png}" alt="Schermafdruk van de pagina" style="width:16cm" /></p><p><em>Schermafdruk: eerste scherm op een laptop.</em></p>'
+
+
 def main():
     delen = [f"""<h1>Website Triami: teksten voor review</h1>
 <p>Versie van {date.today().strftime('%d-%m-%Y')}, stagingsite {BASE}.</p>
 <p><strong>Zo geef je feedback:</strong> zet in Word <em>Wijzigingen bijhouden</em> aan (tabblad Controleren)
 en pas de tekst direct aan, of plaats een opmerking. Tussen haken staat wat er op de site te zien is,
-zoals [Foto: ...] en [Knop: ...]. Elke pagina van de site begint op een nieuwe pagina.</p>
+zoals [Foto: ...] en [Knop: ...]. Elke pagina van de site begint op een nieuwe pagina, met een schermafdruk van hoe de pagina eruitziet.</p>
 <p>Huisregels voor de site: alleen voornamen, functie-e-mailadressen en geen telefoonnummers,
 adressen of trainingstijden.</p>"""]
     home = "".join(opschonen((PATTERNS / f"{p}.php").read_text()) for p in HOME)
-    delen.append(f"<h1>Home</h1><p><em>{BASE}/</em></p>{home}")
+    delen.append(f"<h1>Home</h1><p><em>{BASE}/</em></p>{scherm('home')}{home}")
     for slug in VOLGORDE:
         meta, body = front((PAGES / f"{slug}.html").read_text())
         titel = meta.get("title", slug).replace("&shy;", "")
-        delen.append(f"<h1>{titel}</h1><p><em>{BASE}/{slug}/</em></p>{opschonen(body)}")
+        delen.append(f"<h1>{titel}</h1><p><em>{BASE}/{slug}/</em></p>{scherm(slug)}{opschonen(body)}")
     html = "<html><head><meta charset='utf-8'></head><body>" + "".join(delen) + "</body></html>"
     OUT.parent.mkdir(exist_ok=True)
     subprocess.run(["pandoc", "-f", "html", "-t", "docx", "-o", str(OUT)], input=html.encode(), check=True)
