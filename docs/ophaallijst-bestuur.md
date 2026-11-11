@@ -27,4 +27,3 @@ Per punt: wat we nodig hebben, waar het op de site komt, en wie het aanlevert. A
 | 21 | triathlondeventer.nl toont nog de datum van 2026 (3 mei); bijwerken voor de editie 2027 | Externe site (Start2Tri linkt ernaar) | Organisatie Sprint Triathlon | ☐ |
 | 22 | Sponsorlogo's van 3SL Sports en KoffieDok opvragen bij de sponsors | Vereniging | Bestuur | ☐ |
 | 23 | Zodra de NTB materiaal heeft: "veilig samen lopen" en "veilig samen zwemmen" (binnen- en buitenwater) toevoegen naast de fietsvideo's (suggestie Heleen) | Trainingen | Bestuur | ☐ |
-| 24 | Sponsor op de trisuit: Autoafleveren.nl. Is dit een (kleding)sponsor die op de site hoort? | Vereniging | Bestuur | ☐ |
