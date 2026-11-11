@@ -16,7 +16,7 @@
 <h2 class="wp-block-heading has-wit-color has-text-color">Kom kennismaken</h2>
 <!-- /wp:heading -->
 <!-- wp:paragraph {"textColor":"wit"} -->
-<p class="has-wit-color has-text-color">Mail ons wie je bent en wat je zoekt. We nemen contact op en spreken samen een moment af om gratis mee te trainen. Bevalt het, dan word je lid.</p>
+<p class="has-wit-color has-text-color">Mail ons wie je bent en wat je zoekt. We nemen contact op en spreken samen een moment af om gratis mee te trainen. Bevalt het, dan kun je (proef)lid worden.</p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->

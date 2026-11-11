@@ -19,7 +19,7 @@
 <h2 class="wp-block-heading is-style-hartslag">Start2Tri: je eerste triathlon</h2>
 <!-- /wp:heading -->
 <!-- wp:paragraph -->
-<p>In vijf weken maak je kennis met zwemmen, fietsen, lopen én wisselen, zonder prestatiedruk. Daarna train je vijf weken mee als proeflid. Voor iedereen vanaf 18 jaar met een sportieve basis in minimaal één discipline.</p>
+<p>In vijf weken maak je kennis met zwemmen, fietsen, lopen én wisselen, zonder prestatiedruk. Daarna train je vijf weken mee als proeflid. Eén keer per jaar in het voorjaar, bij voldoende interesse. Voor iedereen vanaf 18 jaar met een sportieve basis in minimaal één discipline.</p>
 <!-- /wp:paragraph -->
 <!-- wp:buttons -->
 <div class="wp-block-buttons">
@@ -49,7 +49,7 @@
 <li>Kleine groep van 5 tot 10 deelnemers</li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
-<li>Afsluiten kan met de Triami Sprint Triathlon in Deventer</li>
+<li>Afsluiten kan met de Deventer Sprint Triathlon begin mei</li>
 <!-- /wp:list-item -->
 </ul>
 <!-- /wp:list -->

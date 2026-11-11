@@ -97,3 +97,9 @@ dist/                bouwresultaat (niet in git)
 
 ## 10 november 2026 – echte foto's
 - 19 clubfoto's uit de Mailchimp-bibliotheek (keuze Emiel; wedstrijdfoto met herkenbare gezichten en foto's met fotografen-watermerk/stock bewust niet). Verwerkt met `tools/fotos_verwerken.py`: 16:10, max 1600 px, licht verbeterd, zonder EXIF/GPS. Map: `theme/triami/assets/img/foto/`. Demo-afbeeldingen verwijderd.
+
+## 11 november 2026 – feedback voorzitter (Heleen) verwerkt
+- Nieuwe pagina Veilig sportklimaat (4 V's, gedragscode, 12 gedragsregels); VCP-pagina met tekst van Leoniek (alleen voornaam, conform naambeleid).
+- Wedstrijdnaam overal "Deventer Sprint Triathlon". Start2Tri: 10 weken, één keer per jaar, bij voldoende interesse, anders proeflid.
+- Statuten 2024 als schone PDF zonder persoonsgegevens (`theme/triami/assets/docs/statuten-triami-2024.pdf`, gemaakt uit de notariële akte); huishoudelijk reglement in dezelfde map (auteursnaam uit metadata gehaald). Opgericht: 15 mei 2006 (statuten).
+- Foto's: teamcompetitie (teamfoto, WhatsApp-bron), clubkleding (tunnel), activiteiten (trainingsweekend-groep).

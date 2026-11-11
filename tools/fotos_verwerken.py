@@ -17,7 +17,7 @@ FOTOS = {
     "25": ("open-water-zonsondergang", .6), "319": ("open-water-meer", .55), "50": ("trainingsweekend-heuvelland", .6),
     "35": ("trainingsweekend-groep", .5), "156": ("trainingsweekend-tunnel", .6), "76": ("trainingsweekend-mountainbike", .55),
     "6": ("hardlopen-heide", .62), "14": ("groep-crosstriathlon", .6), "63": ("groepsfoto-fietsen", .55),
-    "286": ("crossloop-heide", .6),
+    "286": ("crossloop-heide", .6), "71": ("teamcompetitie-team", .6),
 }
 
 for n, (naam, fy) in FOTOS.items():
