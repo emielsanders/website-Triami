@@ -104,3 +104,8 @@ dist/                bouwresultaat (niet in git)
 - Statuten 2024 als schone PDF zonder persoonsgegevens (`theme/triami/assets/docs/statuten-triami-2024.pdf`, gemaakt uit de notariële akte); huishoudelijk reglement in dezelfde map (auteursnaam uit metadata gehaald). Opgericht: 15 mei 2006 (statuten).
 - Foto's: teamcompetitie (teamfoto, WhatsApp-bron), clubkleding (tunnel), activiteiten (trainingsweekend-groep).
 - Teamfoto (WhatsApp, team onder KTM-tent) op verzoek van een lid verwijderd en uit de git-geschiedenis gewist (git filter-repo + force push, 11 nov). Vervangen door herenteam bij de finish (`teamcompetitie-finish.jpg`). Let op: GitHub houdt de oude commit 711cf1a nog bereikbaar via de SHA tot GitHub Support de cache opruimt. Foto's van deze vier personen niet meer gebruiken.
+
+## 11 november 2026 (avond) – foto's van een lid
+- Wedstrijdfoto's gemaakt door een lid (bevestigd door Emiel); geen naamsvermelding nodig. Gebruikt: openingsbalk (hero-fietsen.jpg uit W8), teamcompetitie-groep (W10), zwemmen-baan-van-boven (W4), fotoblok Activiteiten (W5, W6, W8, W9). Niet gebruikt: W2, W3, W7, W11 (herkenbare gezichten, publiek met kind).
+- Wedstrijddatum 2027: 2 of 9 mei (definitief volgt) op home, Activiteiten en Start2Tri.
+- Paginabeelden (lijnicoon + hartslaglijn) op pagina's zonder foto.
