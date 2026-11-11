@@ -230,3 +230,13 @@ header.wp-block-template-part { position: sticky; top: 0; z-index: 100; backgrou
 @media (max-width: 600px) { .triami-hero.is-style-donker { background-image: linear-gradient(rgba(17,17,17,.78), rgba(17,17,17,.78)), url(../img/foto/fietsen-langs-het-water.jpg); } }
 .triami-hero-agenda { margin-top: 1.25rem !important; display: inline-block; padding: .5rem .85rem; border-radius: 8px; background: rgba(0,0,0,.45); }
 .triami-hero-agenda a { white-space: nowrap; }
+
+/* Paginabeeld voor pagina's zonder foto: lijnicoon op een vlak met de hartslaglijn */
+.triami-paginabeeld { position: relative; aspect-ratio: 16 / 5; max-width: 100%; margin-block: 1.5rem; border-radius: 12px; overflow: hidden;
+	background: linear-gradient(120deg, var(--wp--preset--color--triami-rood-tint) 0%, var(--wp--preset--color--achtergrond-zacht) 100%); }
+.triami-paginabeeld-lijn { position: absolute; inset: 0; width: 100%; height: 100%; }
+.triami-paginabeeld-lijn path { fill: none; stroke: var(--wp--preset--color--triami-rood); stroke-width: 3; stroke-linejoin: round; stroke-linecap: round; vector-effect: non-scaling-stroke; }
+.triami-paginabeeld-icoon { position: absolute; left: 34%; top: 50%; transform: translate(-50%, -50%); width: clamp(72px, 12vw, 112px); aspect-ratio: 1; border-radius: 50%;
+	background: var(--wp--preset--color--wit); box-shadow: 0 6px 20px rgba(17,17,17,.12); display: grid; place-items: center; color: var(--wp--preset--color--triami-rood); }
+.triami-paginabeeld-icoon svg { width: 55%; height: 55%; fill: none; stroke: currentColor; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }
+@media (max-width: 600px) { .triami-paginabeeld { aspect-ratio: 16 / 7; } }
