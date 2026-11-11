@@ -3,11 +3,11 @@
  * Title: Hero (home)
  * Slug: triami/hero
  * Categories: triami
- * Description: Donkere openingssectie van de homepage met kop, intro, twee knoppen en de hartslaglijn.
+ * Description: Openingssectie met clubfoto op de achtergrond van de homepage met kop, intro, twee knoppen en de hartslaglijn.
  */
 ?>
-<!-- wp:group {"className":"is-style-donker","layout":{"type":"constrained","contentSize":"1200px"},"style":{"spacing":{"padding":{"top":"4rem","bottom":"0"}}}} -->
-<div class="wp-block-group is-style-donker" style="padding-top:4rem;padding-bottom:0">
+<!-- wp:group {"className":"is-style-donker triami-hero","layout":{"type":"constrained","contentSize":"1200px"},"style":{"spacing":{"padding":{"top":"4rem","bottom":"0"}}}} -->
+<div class="wp-block-group is-style-donker triami-hero" style="padding-top:4rem;padding-bottom:0">
 <!-- wp:group {"layout":{"type":"constrained","contentSize":"760px","justifyContent":"left"}} -->
 <div class="wp-block-group">
 <!-- wp:paragraph {"fontSize":"klein","style":{"typography":{"textTransform":"uppercase","letterSpacing":"0.08em","fontWeight":"700"},"color":{"text":"#F36B6F"}}} -->

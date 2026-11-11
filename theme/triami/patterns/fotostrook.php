@@ -15,7 +15,7 @@ $d = get_template_directory_uri() . '/assets/img/foto/';
 <figure class="wp-block-image size-large triami-demo"><img src="<?php echo esc_url( $d . 'zwemmen-onder-water.jpg' ); ?>" alt="Zwemmer van Triami onder water tijdens een zwemtraining" width="1600" height="1000"/></figure>
 <!-- /wp:image -->
 <!-- wp:image {"sizeSlug":"large","className":"triami-demo"} -->
-<figure class="wp-block-image size-large triami-demo"><img src="<?php echo esc_url( $d . 'fietsen-langs-het-water.jpg' ); ?>" alt="Triamisten fietsen samen in een rij langs het water" width="1052" height="658"/></figure>
+<figure class="wp-block-image size-large triami-demo"><img src="<?php echo esc_url( $d . 'fietsen-herfst.jpg' ); ?>" alt="Triamist fietst over een bospad in de herfst" width="1024" height="640"/></figure>
 <!-- /wp:image -->
 <!-- wp:image {"sizeSlug":"large","className":"triami-demo"} -->
 <figure class="wp-block-image size-large triami-demo"><img src="<?php echo esc_url( $d . 'looptraining-baan.jpg' ); ?>" alt="Looptraining van Triami op de atletiekbaan in de avond" width="1467" height="917"/></figure>

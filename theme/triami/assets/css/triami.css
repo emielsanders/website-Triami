@@ -221,3 +221,10 @@ header.wp-block-template-part { position: sticky; top: 0; z-index: 100; backgrou
 
 /* Instagram: geen profielkop (bio met verouderde proeflidtekst), alleen de foto's */
 .triami-kanaal-instagram .sb_instagram_header, .triami-kanaal-instagram .sbi_header_text, .triami-kanaal-instagram #sbi_mod_error { display: none !important; }
+
+/* Homepage: openingsbalk met clubfoto (feedback reviewer 11 nov) */
+.triami-hero.is-style-donker {
+	background-image: linear-gradient(90deg, rgba(17,17,17,.9) 0%, rgba(17,17,17,.7) 50%, rgba(17,17,17,.35) 100%), url(../img/foto/fietsen-langs-het-water.jpg);
+	background-size: cover; background-position: center 40%;
+}
+@media (max-width: 600px) { .triami-hero.is-style-donker { background-image: linear-gradient(rgba(17,17,17,.78), rgba(17,17,17,.78)), url(../img/foto/fietsen-langs-het-water.jpg); } }
