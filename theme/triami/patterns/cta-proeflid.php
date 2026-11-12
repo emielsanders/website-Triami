@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: Oproep: kom kennismaken
+ * Title: Oproep: wil je ons leren kennen?
  * Slug: triami/cta-proeflid
  * Categories: triami
  * Description: Rode oproepbalk met knop naar de lidmaatschapspagina.
@@ -13,7 +13,7 @@
 <!-- wp:group {"layout":{"type":"constrained","contentSize":"640px","justifyContent":"left"}} -->
 <div class="wp-block-group">
 <!-- wp:heading {"textColor":"wit"} -->
-<h2 class="wp-block-heading has-wit-color has-text-color">Kom kennismaken</h2>
+<h2 class="wp-block-heading has-wit-color has-text-color">Wil je ons leren kennen?</h2>
 <!-- /wp:heading -->
 <!-- wp:paragraph {"textColor":"wit"} -->
 <p class="has-wit-color has-text-color">Mail ons wie je bent en wat je zoekt. We nemen contact op en spreken samen een moment af om gratis mee te trainen. Bevalt het, dan kun je (proef)lid worden.</p>
