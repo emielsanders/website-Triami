@@ -15,7 +15,7 @@ $fiets = '<svg class="triami-icoon" viewBox="0 0 24 24" fill="none" stroke="curr
 <h2 class="wp-block-heading is-style-hartslag">Wekelijkse trainingen</h2>
 <!-- /wp:heading -->
 <!-- wp:paragraph -->
-<p>Drie trainingen per week onder leiding van gediplomeerde trainers, plus extra momenten waarop leden samen zwemmen en fietsen. Exacte tijden en locaties krijg je zodra je je aanmeldt om mee te trainen; leden vinden alles actueel in de app Spond.</p>
+<p>Drie trainingen per week onder leiding van gediplomeerde trainers, plus extra momenten waarop leden samen zwemmen en fietsen. De exacte tijden en locaties staan in de app Spond.</p>
 <!-- /wp:paragraph -->
 <!-- wp:group {"layout":{"type":"grid","minimumColumnWidth":"15rem"},"style":{"spacing":{"margin":{"top":"1.5rem"}}}} -->
 <div class="wp-block-group" style="margin-top:1.5rem">
@@ -31,7 +31,7 @@ $fiets = '<svg class="triami-icoon" viewBox="0 0 24 24" fill="none" stroke="curr
 <p class="triami-tijd">Dinsdag- en donderdagavond</p>
 <!-- /wp:paragraph -->
 <!-- wp:paragraph {"textColor":"tekst-gedempt","fontSize":"klein"} -->
-<p class="has-tekst-gedempt-color has-text-color has-klein-font-size">In een binnenbad in Deventer, met techniek en conditie.</p>
+<p class="has-tekst-gedempt-color has-text-color has-klein-font-size">In een binnenbad in Deventer, met aandacht voor techniek en conditie.</p>
 <!-- /wp:paragraph -->
 <!-- wp:paragraph {"className":"triami-label","fontSize":"klein"} -->
 <p class="triami-label has-klein-font-size">Met trainer</p>
@@ -69,7 +69,7 @@ $fiets = '<svg class="triami-icoon" viewBox="0 0 24 24" fill="none" stroke="curr
 <p class="triami-tijd">Extra zwemmomenten</p>
 <!-- /wp:paragraph -->
 <!-- wp:paragraph {"textColor":"tekst-gedempt","fontSize":"klein"} -->
-<p class="has-tekst-gedempt-color has-text-color has-klein-font-size">Vrijdag vroeg zwemmen, in de winter samen op zondag en in de zomer samen openwaterzwemmen, veelal op maandagavond.</p>
+<p class="has-tekst-gedempt-color has-text-color has-klein-font-size">Vrijdagochtend en in de winter op zondag in een binnenbad in Deventer. In de zomer samen openwaterzwemmen, veelal op maandagavond.</p>
 <!-- /wp:paragraph -->
 <!-- wp:paragraph {"className":"triami-label","fontSize":"klein"} -->
 <p class="triami-label has-klein-font-size">Onderling</p>
@@ -97,12 +97,5 @@ $fiets = '<svg class="triami-icoon" viewBox="0 0 24 24" fill="none" stroke="curr
 <!-- /wp:group -->
 </div>
 <!-- /wp:group -->
-<!-- wp:buttons {"style":{"spacing":{"margin":{"top":"1.5rem"}}}} -->
-<div class="wp-block-buttons" style="margin-top:1.5rem">
-<!-- wp:button -->
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/lidmaatschap/#meetrainen">Kom kennismaken</a></div>
-<!-- /wp:button -->
-</div>
-<!-- /wp:buttons -->
 </div>
 <!-- /wp:group -->

@@ -19,7 +19,7 @@ FOTOS = {
     "35": ("trainingsweekend-groep", .5), "156": ("trainingsweekend-tunnel", .6), "76": ("trainingsweekend-mountainbike", .55),
     "6": ("hardlopen-heide", .62), "14": ("groep-crosstriathlon", .6), "63": ("groepsfoto-fietsen", .55),
     "286": ("crossloop-heide", .6), 
-    "w4": ("zwemmen-baan-van-boven", .5), "w10": ("teamcompetitie-groep", .55), "w9": ("open-water-uitstap", .55),
+    "w4": ("zwemmen-baan-van-boven", .5), "w10": ("clubcompetitie-groep", .55), "w9": ("open-water-uitstap", .55),
     "w6": ("hardlopen-wedstrijd", .5), "w8": ("fietsen-bocht", .5), "w5": ("fietsen-beweging", .5),
 }
 

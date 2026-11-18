@@ -36,7 +36,7 @@
 <h3 class="wp-block-heading">Gediplomeerde trainers</h3>
 <!-- /wp:heading -->
 <!-- wp:paragraph -->
-<p>Zwem- en looptrainingen met aandacht voor techniek, afgestemd op je ambitie en niveau.</p>
+<p>Zwem- en looptrainingen met aandacht voor techniek, afgestemd op jouw ambitie en niveau.</p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -46,7 +46,7 @@
 <h3 class="wp-block-heading">Samen op pad</h3>
 <!-- /wp:heading -->
 <!-- wp:paragraph -->
-<p>Trainingsweekend, clubcompetitie, teamcompetitie en samen naar wedstrijden in de regio.</p>
+<p>Trainingsweekend, clubcompetitie, teamcompetitie en samen naar wedstrijden.</p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->

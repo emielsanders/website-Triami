@@ -12,7 +12,7 @@
 <h2 class="wp-block-heading is-style-hartslag">Volg Triami</h2>
 <!-- /wp:heading -->
 <!-- wp:paragraph {"fontSize":"groot"} -->
-<p class="has-groot-font-size">Trainingen delen we op Strava, afspraken regelen leden in Spond, en de mooiste momenten komen op Instagram.</p>
+<p class="has-groot-font-size">Trainingen delen we op Strava, de agenda met trainingen en activiteiten staat voor leden in Spond, afspraken om samen te lopen of te fietsen maken leden via WhatsApp, en de mooiste momenten komen op Instagram. Leden ontvangen daarnaast de Nieuwsbrief.</p>
 <!-- /wp:paragraph -->
 <!-- wp:group {"layout":{"type":"grid","minimumColumnWidth":"18rem"},"style":{"spacing":{"blockGap":"1.5rem","margin":{"top":"2rem"}}}} -->
 <div class="wp-block-group" style="margin-top:2rem">
@@ -26,7 +26,7 @@
 <h3 class="wp-block-heading">Train virtueel mee op Strava</h3>
 <!-- /wp:heading -->
 <!-- wp:paragraph -->
-<p>In de club zie je wie er getraind heeft, de wekelijkse klassementen en de gezamenlijke kilometers. Word lid en train virtueel mee.</p>
+<p>In de Strava-club zie je wie er getraind heeft, de wekelijkse klassementen en de gezamenlijke kilometers. Word lid van de Strava-club en train virtueel mee. Wat je deelt, bepaal je zelf in je privacyinstellingen van Strava.</p>
 <!-- /wp:paragraph -->
 <!-- wp:buttons -->
 <div class="wp-block-buttons">
@@ -47,7 +47,7 @@
 <h3 class="wp-block-heading">Trainingen en activiteiten in Spond</h3>
 <!-- /wp:heading -->
 <!-- wp:paragraph -->
-<p>Leden melden zich in Spond aan voor trainingen, het trainingsweekend en wedstrijden. Daar staan ook de exacte tijden en locaties. Nieuwe leden krijgen de uitnodiging in de welkomstmail.</p>
+<p>Leden melden zich in Spond aan voor trainingen, het trainingsweekend en wedstrijden. Daar staan ook de exacte tijden en locaties. Nieuwe (proef)leden krijgen de uitnodiging in de welkomstmail.</p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -61,7 +61,7 @@
 <h3 class="wp-block-heading">De club in beeld</h3>
 <!-- /wp:heading -->
 <!-- wp:paragraph -->
-<p>Trainingen, wedstrijden en het trainingsweekend: de laatste foto's van de club verschijnen hier automatisch.</p>
+<p>Trainingen, wedstrijden en het trainingsweekend: de meest recente foto's van de club verschijnen hier automatisch.</p>
 <!-- /wp:paragraph -->
 <!-- wp:shortcode -->
 [instagram-feed feed=1 num=6 cols=3 showheader=false showbutton=false showfollow=false imagepadding=3 imagepaddingunit=px]
